@@ -6,8 +6,7 @@ try {
   const page = await import("./page-DDq_2qKE.js");
   const React = runtime.r(framework.i(), 1);
   const ReactDOMClient = framework.t();
-  mount.replaceChildren();
-  ReactDOMClient.createRoot(mount).render(React.createElement(page.default));
+  ReactDOMClient.hydrateRoot(mount, React.createElement(page.default));
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
