@@ -10,7 +10,7 @@
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vite",
     "build": "bash scripts/build-verified.sh",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "python3 scripts/render-transition-evidence.py && npm run build && node --test tests/rendered-html.test.mjs tests/bosco-step6b.test.mjs tests/bosco-step7.test.mjs tests/bosco-step7b.test.mjs tests/bosco-transitions.test.mjs tests/bosco-v22-evidence.test.mjs tests/bosco-v22-responsive.test.mjs tests/marine-interface.test.mjs tests/bosco-carousel-story.test.mjs tests/manche-map.test.mjs && node --import tsx --test tests/bosco-intro.test.ts tests/bosco-dialogue-engine.test.ts tests/emile-advice.test.ts tests/bosco-v24.test.ts tests/bosco-v25.test.ts tests/bosco-v26.test.ts",
+    "test": "python3 scripts/render-transition-evidence.py && npm run build && node --test tests/rendered-html.test.mjs tests/bosco-step6b.test.mjs tests/bosco-step7.test.mjs tests/bosco-step7b.test.mjs tests/bosco-transitions.test.mjs tests/bosco-v22-evidence.test.mjs tests/bosco-v22-responsive.test.mjs tests/marine-interface.test.mjs tests/bosco-carousel-story.test.mjs tests/manche-map.test.mjs && node --import tsx --test tests/bosco-intro.test.ts tests/bosco-dialogue-engine.test.ts tests/emile-advice.test.ts tests/bosco-v24.test.ts tests/bosco-v25.test.ts tests/bosco-v26.test.ts tests/bosco-v27-mont-saint-michel.test.ts",
     "test:emile": "node --import tsx --test tests/emile-advice.test.ts",
     "test:dialogues": "node --import tsx --test tests/bosco-dialogue-engine.test.ts",
     "dialogue:corpus": "node --import tsx scripts/generate-dialogue-control.mts",
