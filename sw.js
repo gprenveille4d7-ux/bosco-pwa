@@ -1,7 +1,13 @@
-const CACHE_NAME = "bosco-pwa-v35-github-pages-1";
+const CACHE_NAME = "bosco-pwa-v27-mont-saint-michel-1";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
+  "/bosco-pwa/assets/index-CCACixLy.css",
+  "/bosco-pwa/assets/page-B7dK8B51.css",
+  "/bosco-pwa/assets/standalone-v27.js",
+  "/bosco-pwa/assets/framework-CXnKph_e.js",
+  "/bosco-pwa/assets/rolldown-runtime-S-ySWqyJ.js",
+  "/bosco-pwa/assets/page-DP0zD7P0.js",
   "/bosco-pwa/assets/bosco/master.webp",
   "/bosco-pwa/assets/bosco/compositing/masks/occlusion-canonical-step9-v4.png",
   "/bosco-pwa/assets/bosco/compositing/objects/polders-cup-step9-v4.png",
@@ -11,18 +17,6 @@ const CORE_ASSETS = [
   "/bosco-pwa/assets/bosco/compositing/poses/sea-step9-v4.png",
   "/bosco-pwa/assets/bosco/compositing/poses/barometer-step9-v4.png",
   "/bosco-pwa/assets/bosco/compositing/poses/chart-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/resting-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/listening-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/thinking-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/sea-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/barometer-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/hands-behind/chart-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/resting-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/listening-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/thinking-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/sea-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/barometer-step9-v4.png",
-  "/bosco-pwa/assets/bosco/compositing/fingers-front/chart-step9-v4.png",
   "/bosco-pwa/assets/bosco/decors/day/clear.webp"
 ];
 
@@ -30,9 +24,7 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) =>
       Promise.allSettled(
-        CORE_ASSETS.map((asset) =>
-          cache.add(new Request(asset, { cache: "reload" }))
-        )
+        CORE_ASSETS.map((asset) => cache.add(new Request(asset, { cache: "reload" })))
       )
     )
   );
@@ -41,11 +33,8 @@ self.addEventListener("install", (event) => {
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches
-      .keys()
-      .then((keys) =>
-        Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)))
-      )
+    caches.keys()
+      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });
@@ -60,10 +49,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(request)
         .then((response) => {
-          if (response.ok) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put("/bosco-pwa/", copy));
-          }
+          if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put("/bosco-pwa/", response.clone()));
           return response;
         })
         .catch(() => caches.match("/bosco-pwa/"))
@@ -71,23 +57,12 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (
-    url.pathname.startsWith("/bosco-pwa/assets/") ||
-    url.pathname.startsWith("/bosco-pwa/_next/") ||
-    url.pathname.endsWith(".webmanifest")
-  ) {
+  if (url.pathname.startsWith("/bosco-pwa/assets/") || url.pathname.endsWith(".webmanifest")) {
     event.respondWith(
-      caches.match(request).then(
-        (cached) =>
-          cached ??
-          fetch(request).then((response) => {
-            if (response.ok) {
-              const copy = response.clone();
-              caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-            }
-            return response;
-          })
-      )
+      caches.match(request).then((cached) => cached ?? fetch(request).then((response) => {
+        if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
+        return response;
+      }))
     );
   }
 });
