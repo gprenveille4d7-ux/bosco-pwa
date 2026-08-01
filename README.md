@@ -1,6 +1,6 @@
 # Bosco — Le Tourbillon
 
-Version **v27** de Bosco vivant, adaptée à GitHub Pages et consultable sur iPhone.
+Version **v35** de Bosco vivant, adaptée à GitHub Pages et consultable sur iPhone.
 
 Cette publication conserve l’application optimisée v26 et réintègre les ressources manquantes de l’archive source complète v22 : poses, calques de mains et de doigts, métadonnées, manifeste des 40 décors, références et livrables.
 
