@@ -25,7 +25,8 @@ type Props = {
   selectedPort: ManchePort;
   homePort: ManchePort;
   selectedData: MarineDashboardData | null;
-  onSelectPort: (port: ManchePort, data: MarineDashboardData | null) => void;
+  onChoosePort: (port: ManchePort, data: MarineDashboardData | null) => void;
+  onListenToBosco: (port: ManchePort, data: MarineDashboardData | null) => void;
 };
 
 type PortTone = "green" | "yellow" | "orange" | "red" | "gray";
@@ -63,7 +64,7 @@ function tideLabel(data: MarineDashboardData | null): string {
     : "Indisponible";
 }
 
-export function MancheMap({ selectedPort, homePort, selectedData, onSelectPort }: Props) {
+export function MancheMap({ selectedPort, homePort, selectedData, onChoosePort, onListenToBosco }: Props) {
   const [preview, setPreview] = useState<ManchePort>(selectedPort);
   const [datasets, setDatasets] = useState<Record<string, MarineDashboardData>>({});
   const [loadingPort, setLoadingPort] = useState<string | null>(null);
@@ -356,14 +357,26 @@ export function MancheMap({ selectedPort, homePort, selectedData, onSelectPort }
               <span>Vedette 20 nds · {formatTravelTime(previewNavigation.travelHours.motorboat)}</span>
             </div>
           ) : null}
-          <button
-            type="button"
-            className={styles.chooseButton}
-            disabled={loadingPort === preview.id}
-            onClick={() => onSelectPort(preview, previewData)}
-          >
-            {selectedIsPreview ? "Écouter Bosco sur ce port" : "Choisir ce port"}
-          </button>
+          <div className={styles.portActions}>
+            <button
+              type="button"
+              className={styles.chooseButton}
+              disabled={loadingPort === preview.id}
+              onClick={() => onChoosePort(preview, previewData)}
+            >
+              <strong>{selectedIsPreview ? "Voir l’avis de navigabilité" : "Choisir ce port"}</strong>
+              <span>Conditions et score de navigation</span>
+            </button>
+            <button
+              type="button"
+              className={`${styles.chooseButton} ${styles.storyButton}`}
+              disabled={loadingPort === preview.id}
+              onClick={() => onListenToBosco(preview, previewData)}
+            >
+              <strong>Écouter Bosco</strong>
+              <span>Découvrir une histoire de ce port</span>
+            </button>
+          </div>
           <p className={styles.indicative}>Distance géodésique et cap indicatif, sans calcul de route navigable.</p>
         </aside>
       </div>
