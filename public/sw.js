@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-official-manche-map";
+const CACHE_NAME = "bosco-pwa-v27-mont-saint-michel";
 const CORE_ASSETS = [
   "/",
   "/manifest.webmanifest",
@@ -26,16 +26,27 @@ const CORE_ASSETS = [
   "/assets/bosco/decors/day/clear.webp"
 ];
 
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) =>
-      Promise.allSettled(
-        CORE_ASSETS.map((asset) =>
-          cache.add(new Request(asset, { cache: "reload" }))
-        )
-      )
-    )
+async function precacheApplication(cache) {
+  await Promise.allSettled(
+    CORE_ASSETS.map((asset) => cache.add(new Request(asset, { cache: "reload" })))
   );
+
+  const shellResponse = await fetch(new Request("/", { cache: "reload" }));
+  if (!shellResponse.ok) return;
+  await cache.put("/", shellResponse.clone());
+  const html = await shellResponse.text();
+  const appAssets = [...html.matchAll(/(?:src|href)=["']([^"']+)["']/g)]
+    .map((match) => new URL(match[1], self.location.origin))
+    .filter((url) => url.origin === self.location.origin)
+    .filter((url) => url.pathname.startsWith("/assets/") || url.pathname.startsWith("/_next/"))
+    .map((url) => url.href);
+  await Promise.allSettled(
+    [...new Set(appAssets)].map((asset) => cache.add(new Request(asset, { cache: "reload" })))
+  );
+}
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(caches.open(CACHE_NAME).then(precacheApplication));
   self.skipWaiting();
 });
 
