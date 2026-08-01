@@ -12,6 +12,7 @@ import homeStyles from "@/components/BoscoHomeCarousel.module.css";
 import { MarineDashboard } from "@/components/MarineDashboard";
 import { NauticalMapScreen } from "@/components/NauticalMapScreen";
 import { SquareScreen } from "@/components/SquareScreen";
+import { AppIcon } from "@/components/AppIcon";
 import type { ManchePort } from "@/data/manche-ports";
 import { MANCHE_PORTS } from "@/data/manche-ports";
 import {
@@ -1310,7 +1311,7 @@ export default function Home() {
             aria-label="Activer ou couper l’ambiance du Tourbillon"
             aria-pressed={ambienceOn}
           >
-            {ambienceOn ? "Son" : "Sil."}
+            <AppIcon name={ambienceOn ? "sound" : "soundOff"} />
           </button>
           <button
             className="icon-button"
@@ -1320,7 +1321,7 @@ export default function Home() {
             }}
             aria-label="Modifier le profil"
           >
-            ⚙
+            <AppIcon name="settings" />
           </button>
         </div>
       </header>
@@ -1848,7 +1849,7 @@ export default function Home() {
           aria-current={
             marineScreen === null && !showProfile ? "page" : undefined
           }
-        ><span>⌂</span>Bosco</button>
+        ><span><AppIcon name="home" /></span>Bosco</button>
         <button
           className={
             marineScreen === "map" && !showProfile
@@ -1859,7 +1860,7 @@ export default function Home() {
           aria-current={
             marineScreen === "map" && !showProfile ? "page" : undefined
           }
-        ><span>⌖</span>Carte</button>
+        ><span><AppIcon name="map" /></span>Carte</button>
         <button
           className={
             marineScreen === "tides" && !showProfile
@@ -1870,17 +1871,17 @@ export default function Home() {
           aria-current={
             marineScreen === "tides" && !showProfile ? "page" : undefined
           }
-        ><span>≈</span>Marées</button>
+        ><span><AppIcon name="tides" /></span>Marées</button>
         <button
           className={marineScreen === "conditions" && !showProfile ? homeStyles.activeRoute : ""}
           onClick={() => selectPrimary("conditions")}
           aria-current={marineScreen === "conditions" && !showProfile ? "page" : undefined}
-        ><span>≋</span>Conditions</button>
+        ><span><AppIcon name="conditions" /></span>Conditions</button>
         <button
           className={marineScreen === "square" && !showProfile ? homeStyles.activeRoute : ""}
           onClick={() => selectPrimary("square")}
           aria-current={marineScreen === "square" && !showProfile ? "page" : undefined}
-        ><span>▤</span>Le Carré</button>
+        ><span><AppIcon name="square" /></span>Le Carré</button>
       </nav>
 
       {showHistory && (

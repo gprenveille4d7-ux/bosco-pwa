@@ -701,6 +701,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   cursor: pointer;
 }
 .bottom-nav span { display: block; margin-bottom: 2px; font-size: 18px; color: #9f8054; }
+.app-icon { display: inline-block; width: 1em; height: 1em; vertical-align: middle; }
 .bottom-nav .active { color: #edd6ac; }
 .bottom-nav .active span { color: #e4a94f; }
 
