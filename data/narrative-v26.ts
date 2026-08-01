@@ -1,4 +1,4 @@
-import { selectSquareContents, type SquareContent } from "@/data/square-content";
+import { selectNarrativeContents, type SquareContent } from "@/data/square-content";
 
 export const BOSCO_PORT_VISITS_KEY = "bosco:narrative-port-visits:v26";
 
@@ -9,7 +9,11 @@ export type V26PortVisit = {
   portId: string;
   portName: string;
   visitOrdinal: number;
+  storyIndex: number;
+  storyCount: number;
+  emileStoryIndex: number;
   story: SquareContent | null;
+  emileStory: SquareContent | null;
   invitation: string;
   closingLine: string;
 };
@@ -33,9 +37,11 @@ function stableIndex(portId: string, visitOrdinal: number, length: number): numb
 }
 
 export function boscoStoriesForPort(portId: string): SquareContent[] {
-  return selectSquareContents(portId, "bosco").filter(
-    (content) => content.authorType === "bosco" && content.publicationStatus === "published",
-  );
+  return selectNarrativeContents(portId, "fiction");
+}
+
+export function emileStoriesForPort(portId: string): SquareContent[] {
+  return selectNarrativeContents(portId, "real");
 }
 
 export function nextBoscoVisitOrdinal(portId: string): number {
@@ -59,12 +65,18 @@ export function createV26PortVisit(
   visitOrdinal: number,
 ): V26PortVisit {
   const stories = boscoStoriesForPort(portId);
+  const emileStories = emileStoriesForPort(portId);
+  const storyIndex = stories.length ? visitOrdinal % stories.length : 0;
   return {
     phase: "story",
     portId,
     portName,
     visitOrdinal,
-    story: stories.length ? stories[visitOrdinal % stories.length] : null,
+    storyIndex,
+    storyCount: stories.length,
+    emileStoryIndex: emileStories.length ? storyIndex % emileStories.length : 0,
+    story: stories.length ? stories[storyIndex] : null,
+    emileStory: emileStories.length ? emileStories[storyIndex % emileStories.length] : null,
     invitation: INVITATIONS[stableIndex(portId, visitOrdinal, INVITATIONS.length)],
     closingLine: CLOSING_LINES[stableIndex(portId, visitOrdinal + 1, CLOSING_LINES.length)],
   };
