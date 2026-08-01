@@ -66,6 +66,12 @@ test("les relevés sont chargés uniquement pour le port touché puis réutilis�
   assert.match(map, /datasets\[port\.id\]/);
   assert.match(map, /requestRef\.current\?\.abort/);
   assert.match(map, /Choisir ce port/);
+  assert.match(map, /Voir l’avis de navigabilité/);
+  assert.match(map, /Écouter Bosco/);
+  assert.match(map, /Découvrir une histoire de ce port/);
+  assert.match(map, /onChoosePort/);
+  assert.match(map, /onListenToBosco/);
+  assert.match(mapCss, /\.portActions[\s\S]*grid-template-columns:\s*repeat\(2/);
   assert.match(map, /État de la mer/);
   assert.match(map, /Houle/);
   assert.match(map, /Vent/);
