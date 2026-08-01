@@ -1,0 +1,35 @@
+name: Import Bosco Sites v35 source
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    env:
+      SITES_SOURCE_URL: https://git.chatgpt-team.site/521e2683-62c2-4e89-b19d-254bc43181c0/appgprj_6a65a90b2b948191bf0e00bdf40515a4.git
+      EXPECTED_COMMIT: 5f0691c9be2dc2e86e16ba7751f5aaacdb98b150
+      SITES_SOURCE_TOKEN: ${{ secrets.SITES_SOURCE_TOKEN }}
+    steps:
+      - name: Check out GitHub repository
+        uses: actions/checkout@v4
+
+      - name: Import the exact Sites v35 source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -c "http.extraHeader=Authorization: Bearer ${SITES_SOURCE_TOKEN}" clone --branch main --single-branch "${SITES_SOURCE_URL}" /tmp/bosco-sites-source
+          test "$(git -C /tmp/bosco-sites-source rev-parse HEAD)" = "${EXPECTED_COMMIT}"
+          rm -rf /tmp/bosco-sites-source/.git
+
+          git checkout --orphan sites-v35-source
+          git rm -rf .
+          cp -a /tmp/bosco-sites-source/. .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import Bosco Sites v35 source"
+          git push origin HEAD:refs/heads/sites-v35-source --force
