@@ -1,29 +1,29 @@
-const CACHE_NAME = "bosco-pwa-v28-official-manche-map";
+const CACHE_NAME = "bosco-pwa-v26-github-pages";
 const CORE_ASSETS = [
-  "/",
-  "/manifest.webmanifest",
-  "/assets/bosco/master.webp",
-  "/assets/bosco/compositing/masks/occlusion-canonical-step9-v4.png",
-  "/assets/bosco/compositing/objects/polders-cup-step9-v4.png",
-  "/assets/bosco/compositing/poses/resting-step9-v4.png",
-  "/assets/bosco/compositing/poses/listening-step9-v4.png",
-  "/assets/bosco/compositing/poses/thinking-step9-v4.png",
-  "/assets/bosco/compositing/poses/sea-step9-v4.png",
-  "/assets/bosco/compositing/poses/barometer-step9-v4.png",
-  "/assets/bosco/compositing/poses/chart-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/resting-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/listening-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/thinking-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/sea-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/barometer-step9-v4.png",
-  "/assets/bosco/compositing/hands-behind/chart-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/resting-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/listening-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/thinking-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/sea-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/barometer-step9-v4.png",
-  "/assets/bosco/compositing/fingers-front/chart-step9-v4.png",
-  "/assets/bosco/decors/day/clear.webp"
+  "/bosco-pwa/",
+  "/bosco-pwa/manifest.webmanifest",
+  "/bosco-pwa/assets/bosco/master.webp",
+  "/bosco-pwa/assets/bosco/compositing/masks/occlusion-canonical-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/objects/polders-cup-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/resting-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/listening-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/thinking-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/sea-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/barometer-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/poses/chart-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/resting-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/listening-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/thinking-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/sea-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/barometer-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/hands-behind/chart-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/resting-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/listening-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/thinking-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/sea-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/barometer-step9-v4.png",
+  "/bosco-pwa/assets/bosco/compositing/fingers-front/chart-step9-v4.png",
+  "/bosco-pwa/assets/bosco/decors/day/clear.webp"
 ];
 
 self.addEventListener("install", (event) => {
@@ -62,18 +62,18 @@ self.addEventListener("fetch", (event) => {
         .then((response) => {
           if (response.ok) {
             const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put("/", copy));
+            caches.open(CACHE_NAME).then((cache) => cache.put("/bosco-pwa/", copy));
           }
           return response;
         })
-        .catch(() => caches.match("/"))
+        .catch(() => caches.match("/bosco-pwa/"))
     );
     return;
   }
 
   if (
-    url.pathname.startsWith("/assets/") ||
-    url.pathname.startsWith("/_next/") ||
+    url.pathname.startsWith("/bosco-pwa/assets/") ||
+    url.pathname.startsWith("/bosco-pwa/_next/") ||
     url.pathname.endsWith(".webmanifest")
   ) {
     event.respondWith(
