@@ -1,0 +1,337 @@
+.mapCard {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  width: min(920px, 100%);
+  height: 100%;
+  min-height: 0;
+  margin-inline: auto;
+}
+
+.heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 2px clamp(7px, 1.4vh, 12px);
+}
+
+.heading span {
+  color: #b28b56;
+  font-size: 9px;
+  font-weight: 780;
+  letter-spacing: .18em;
+}
+
+.heading h1 {
+  margin: 2px 0 0;
+  color: #f6e2bd;
+  font: 800 clamp(18px, 4vw, 30px)/1 Georgia, serif;
+  letter-spacing: .05em;
+}
+
+.heading > div:last-child {
+  display: grid;
+  justify-items: end;
+  min-width: 0;
+}
+
+.heading > div:last-child small {
+  max-width: 100%;
+  overflow: hidden;
+  color: #93a1a5;
+  font-size: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.portPicker select {
+  max-width: 100%;
+  min-height: 38px;
+  padding: 6px 28px 6px 9px;
+  overflow: hidden;
+  border: 1px solid rgba(213, 164, 95, .36);
+  border-radius: 11px;
+  background: #13212a;
+  color: #e7ca93;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mapViewport {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid rgba(224, 197, 143, .32);
+  border-radius: 17px;
+  background: #496573;
+  box-shadow: inset 0 0 40px rgba(24, 31, 32, .58), 0 12px 30px rgba(0, 0, 0, .35);
+}
+
+.mapSvg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.engraving {
+  fill: none;
+  stroke: #765937;
+  stroke-dasharray: 8 11;
+  stroke-width: 2;
+  opacity: .42;
+}
+
+.cartographyLabels {
+  fill: #553f29;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: .03em;
+  opacity: .76;
+}
+
+.cartographyLabels .seaLabel {
+  fill: #e0d1a9;
+  font-size: 24px;
+  opacity: .72;
+  text-anchor: middle;
+  writing-mode: vertical-rl;
+}
+
+.compass {
+  fill: none;
+  stroke: #ddc995;
+  stroke-width: 2;
+  opacity: .74;
+}
+
+.compass path:first-of-type {
+  fill: #bd985a;
+}
+
+.compass text {
+  fill: #eadbb5;
+  font: 20px Georgia, serif;
+  stroke: none;
+  text-anchor: middle;
+}
+
+.sourceLabel {
+  fill: #ddcda6;
+  font: 7px/1 Georgia, serif;
+  letter-spacing: .07em;
+  opacity: .54;
+}
+
+.portMarker {
+  --port-color: #7d8588;
+  cursor: pointer;
+  outline: none;
+}
+
+.hitTarget {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.portHalo {
+  fill: rgba(13, 23, 28, .7);
+  stroke: transparent;
+  stroke-width: 2;
+}
+
+.portDot {
+  fill: var(--port-color);
+  stroke: rgba(255, 249, 224, .88);
+  stroke-width: 1.6;
+  vector-effect: non-scaling-stroke;
+}
+
+.portMarker:hover .portHalo,
+.portMarker:focus-visible .portHalo,
+.portMarker.previewed .portHalo {
+  fill: rgba(39, 45, 39, .9);
+  stroke: #f2cf88;
+}
+
+.portMarker.selected .portHalo {
+  fill: rgba(51, 51, 35, .94);
+  stroke: #fff0bd;
+  stroke-width: 3;
+}
+
+.green { --port-color: #6ca663; }
+.yellow { --port-color: #d4b34d; }
+.orange { --port-color: #d47b3d; }
+.red { --port-color: #b94332; }
+.gray { --port-color: #7d8588; }
+
+.portCard {
+  position: absolute;
+  z-index: 4;
+  right: clamp(7px, 2vw, 16px);
+  bottom: clamp(7px, 2vw, 16px);
+  width: min(278px, 46%);
+  padding: clamp(9px, 1.7vw, 14px);
+  border: 1px solid rgba(229, 201, 146, .4);
+  border-radius: 14px;
+  background: rgba(13, 23, 28, .94);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .45);
+  backdrop-filter: blur(10px);
+  max-height: calc(100% - 14px);
+  overflow-y: auto;
+}
+
+.portTitle,
+.portTitle > div {
+  display: flex;
+  align-items: center;
+}
+
+.portTitle {
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.portTitle > div {
+  min-width: 0;
+  gap: 7px;
+}
+
+.portTitle strong {
+  overflow: hidden;
+  color: #f3dfb7;
+  font: 700 clamp(12px, 2vw, 16px)/1.15 Georgia, serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.portTitle small {
+  flex: none;
+  color: #9baa9f;
+  font-size: 8px;
+}
+
+.statusDot {
+  width: 9px;
+  height: 9px;
+  flex: none;
+  border: 1px solid rgba(255, 255, 255, .55);
+  border-radius: 50%;
+  background: var(--port-color, #7d8588);
+  box-shadow: 0 0 7px color-mix(in srgb, var(--port-color) 72%, transparent);
+}
+
+.portCard dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 10px;
+  margin: 9px 0;
+}
+
+.portCard dl > div {
+  min-width: 0;
+}
+
+.portCard dt {
+  color: #8f9b9e;
+  font-size: 8px;
+}
+
+.portCard dd {
+  margin: 2px 0 0;
+  overflow: hidden;
+  color: #e8d7b8;
+  font-size: 10px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chooseButton {
+  width: 100%;
+  min-height: 34px;
+  padding: 5px 8px;
+  border: 1px solid rgba(225, 177, 100, .45);
+  border-radius: 9px;
+  background: linear-gradient(180deg, #a9672d, #74421f);
+  color: #fff0cd;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 780;
+}
+
+.chooseButton:disabled {
+  border-color: rgba(255, 255, 255, .1);
+  background: rgba(28, 41, 47, .9);
+  color: #889397;
+  cursor: default;
+}
+
+.travelTimes {
+  display: grid;
+  gap: 2px;
+  margin: 7px 0;
+  color: #aeb8b8;
+  font-size: 8px;
+}
+
+.indicative {
+  margin: 6px 0 0;
+  color: #88979b;
+  font-size: 7px;
+  line-height: 1.3;
+}
+
+@media (max-width: 620px) {
+  .portCard {
+    width: min(250px, 59%);
+  }
+
+  .portCard dl {
+    gap: 5px 7px;
+  }
+}
+
+@media (max-height: 700px) {
+  .heading {
+    padding-bottom: 5px;
+  }
+
+  .heading h1 {
+    font-size: 17px;
+  }
+
+  .portCard {
+    width: min(250px, 52%);
+    padding: 8px;
+  }
+
+  .portCard dl {
+    margin: 6px 0;
+  }
+
+  .chooseButton {
+    min-height: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .portCard {
+    right: 5px;
+    bottom: 5px;
+    width: 62%;
+  }
+}
+
+@media (max-height: 620px) {
+  .cartographyLabels,
+  .compass {
+    opacity: .48;
+  }
+}

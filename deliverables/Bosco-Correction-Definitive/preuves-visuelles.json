@@ -1,0 +1,256 @@
+{
+  "sourceVersion": "e6d8e848bfc50756c9ffe259f7adccca65c411d1",
+  "assetVersion": "bosco-step8-v3",
+  "cacheVersion": "bosco-pwa-v12-sea-pose-fail-closed",
+  "anchor": [
+    768,
+    1252
+  ],
+  "maxAnchorDeltaPx": 0,
+  "assets": [
+    {
+      "path": "deliverables/Bosco-Correction-Definitive/original-assets/poses/sea-step7b-v2.png",
+      "role": "Pose mer avant",
+      "format": "PNG",
+      "sourceMode": "RGBA",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaBoundingBox": [
+        215,
+        105,
+        1436,
+        1431
+      ],
+      "opaquePixels": 811774,
+      "semiTransparentPixels": 7243,
+      "transparentRgbPixels": 0,
+      "componentsOverAlpha8": [
+        {
+          "pixels": 782408,
+          "bbox": [
+            215,
+            105,
+            1414,
+            1373
+          ]
+        },
+        {
+          "pixels": 28051,
+          "bbox": [
+            1104,
+            1251,
+            1436,
+            1431
+          ]
+        },
+        {
+          "pixels": 6146,
+          "bbox": [
+            1335,
+            1120,
+            1395,
+            1253
+          ]
+        },
+        {
+          "pixels": 676,
+          "bbox": [
+            1218,
+            1254,
+            1244,
+            1297
+          ]
+        },
+        {
+          "pixels": 668,
+          "bbox": [
+            1161,
+            1248,
+            1187,
+            1292
+          ]
+        },
+        {
+          "pixels": 529,
+          "bbox": [
+            1135,
+            1240,
+            1157,
+            1285
+          ]
+        },
+        {
+          "pixels": 376,
+          "bbox": [
+            1193,
+            1252,
+            1212,
+            1296
+          ]
+        },
+        {
+          "pixels": 128,
+          "bbox": [
+            1137,
+            1168,
+            1170,
+            1180
+          ]
+        }
+      ]
+    },
+    {
+      "path": "public/assets/bosco/compositing/poses/sea-step8-v3.png",
+      "role": "Pose mer nettoyée mais désactivée : anatomie manquante sous la tasse source",
+      "format": "PNG",
+      "sourceMode": "RGBA",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaBoundingBox": [
+        215,
+        105,
+        1419,
+        1373
+      ],
+      "opaquePixels": 809333,
+      "semiTransparentPixels": 6510,
+      "transparentRgbPixels": 0,
+      "componentsOverAlpha8": [
+        {
+          "pixels": 815843,
+          "bbox": [
+            215,
+            105,
+            1419,
+            1373
+          ]
+        }
+      ]
+    },
+    {
+      "path": "public/assets/bosco/compositing/masks/occlusion-canonical-step8-v3.png",
+      "role": "Masque alpha d’occlusion",
+      "format": "PNG",
+      "sourceMode": "RGBA",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaBoundingBox": [
+        0,
+        1157,
+        1536,
+        1536
+      ],
+      "opaquePixels": 445116,
+      "semiTransparentPixels": 5277,
+      "transparentRgbPixels": 0,
+      "componentsOverAlpha8": [
+        {
+          "pixels": 448748,
+          "bbox": [
+            0,
+            1159,
+            1536,
+            1536
+          ]
+        }
+      ]
+    },
+    {
+      "path": "public/assets/bosco/compositing/objects/polders-cup-step8-v3.png",
+      "role": "Tasse POLDERS fixe",
+      "format": "PNG",
+      "sourceMode": "RGBA",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaBoundingBox": [
+        981,
+        1074,
+        1292,
+        1385
+      ],
+      "opaquePixels": 75636,
+      "semiTransparentPixels": 2546,
+      "transparentRgbPixels": 0,
+      "componentsOverAlpha8": [
+        {
+          "pixels": 77732,
+          "bbox": [
+            981,
+            1074,
+            1292,
+            1385
+          ]
+        }
+      ]
+    }
+  ],
+  "difference": {
+    "differenceBoundingBox": [
+      141,
+      105,
+      1437,
+      1256
+    ],
+    "region": [
+      850,
+      850,
+      1536,
+      1536
+    ],
+    "regionDifferenceBoundingBox": [
+      0,
+      0,
+      587,
+      405
+    ]
+  },
+  "fixedDecorDifferencesBetweenAnimationSteps": {
+    "0->1": {
+      "changedChannels": 0,
+      "maxChannelDifference": 0
+    },
+    "1->2": {
+      "changedChannels": 0,
+      "maxChannelDifference": 0
+    },
+    "2->3": {
+      "changedChannels": 0,
+      "maxChannelDifference": 0
+    },
+    "3->4": {
+      "changedChannels": 0,
+      "maxChannelDifference": 0
+    },
+    "4->5": {
+      "changedChannels": 0,
+      "maxChannelDifference": 0
+    }
+  },
+  "decorsChecked": 40,
+  "responsiveSimulations": [
+    "320×568",
+    "375×667",
+    "390×844",
+    "393×852",
+    "402×874",
+    "430×932",
+    "768×1024",
+    "1024×1366",
+    "1440×900"
+  ],
+  "seaPoseProductionAllowed": false,
+  "seaAnimationStatus": "disabled-fail-closed",
+  "realIPhoneTested": false
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "4.0.0",
+  "emotions": {
+    "calme": {
+      "pose": "resting",
+      "expression": "neutre-attentive",
+      "animation": "breathing-slow",
+      "tone": "posé",
+      "decisionAffinity": [
+        "decision-pleasant"
+      ]
+    },
+    "satisfait": {
+      "pose": "satisfied",
+      "expression": "sourire-discret",
+      "animation": "nod-once",
+      "tone": "chaleureux",
+      "decisionAffinity": [
+        "decision-pleasant"
+      ]
+    },
+    "enthousiaste": {
+      "pose": "satisfied",
+      "expression": "sourire-franc",
+      "animation": "thumbs-up-settle",
+      "tone": "énergique",
+      "decisionAffinity": [
+        "decision-ideal"
+      ]
+    },
+    "amuse": {
+      "pose": "satisfied",
+      "expression": "sourcil-amusé",
+      "animation": "beard-chuckle",
+      "tone": "taquin",
+      "decisionAffinity": [
+        "decision-low-sport"
+      ]
+    },
+    "concentre": {
+      "pose": "thinking",
+      "expression": "regard-fixe",
+      "animation": "eyes-to-chart",
+      "tone": "précis",
+      "decisionAffinity": [
+        "decision-cautious"
+      ]
+    },
+    "protecteur": {
+      "pose": "protective",
+      "expression": "ferme-sans-agressivité",
+      "animation": "protective-settle",
+      "tone": "ferme",
+      "decisionAffinity": [
+        "decision-discouraged"
+      ]
+    },
+    "mefiant": {
+      "pose": "sea",
+      "expression": "sourcils-serrés",
+      "animation": "look-sea",
+      "tone": "vigilant",
+      "decisionAffinity": [
+        "decision-cautious"
+      ]
+    },
+    "inquiet": {
+      "pose": "worried",
+      "expression": "regard-soucieux",
+      "animation": "barometer-check",
+      "tone": "grave",
+      "decisionAffinity": [
+        "decision-discouraged"
+      ]
+    },
+    "contrarie": {
+      "pose": "annoyed",
+      "expression": "mâchoire-serrée",
+      "animation": "radio-tap",
+      "tone": "bourru",
+      "decisionAffinity": [
+        "decision-unavailable",
+        "decision-discouraged"
+      ]
+    },
+    "perplexe": {
+      "pose": "chart",
+      "expression": "sourcil-levé",
+      "animation": "empty-chart-check",
+      "tone": "honnête",
+      "decisionAffinity": [
+        "decision-unavailable"
+      ]
+    }
+  },
+  "transitions": {
+    "minimumMs": 1000,
+    "maximumMs": 3000,
+    "defaultMs": 2100,
+    "settleEmotion": "calme"
+  }
+}

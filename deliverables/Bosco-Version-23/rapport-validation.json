@@ -1,0 +1,134 @@
+{
+  "version": 23,
+  "architecture": "complete-local-replies",
+  "totalReplies": 2000,
+  "totalCombinations": 250,
+  "variantsPerCombination": 8,
+  "weatherFamilies": 10,
+  "windBands": 5,
+  "scoreBands": 5,
+  "exactDuplicateIds": 0,
+  "exactDuplicateTexts": 0,
+  "quasiDuplicateThreshold": 0.86,
+  "quasiDuplicatePairs": [],
+  "quasiDuplicatesCorrected": 0,
+  "missingKeys": [],
+  "remainingCoherenceErrors": 0,
+  "wordCount": {
+    "minimum": 24,
+    "maximum": 46,
+    "average": 35.1
+  },
+  "safetyReplies": 560,
+  "rareMarineExclamations": 9,
+  "offline": true,
+  "runtimeFragments": 0,
+  "protectedHashes": {
+    ".openai/hosting.json": "4d5b1a4de6924656a30d39f41af11a0ef40049a7a6f411a8e7b29b835ea7b1c0",
+    "app/globals.css": "bef32680decba9d3eea9cd5134cfe498d983973833661c1a15605d37ac91c400",
+    "components/BoscoCompositor.tsx": "f65fdb4a2d67b590f7c487ec1d9807bdde61c0776329bca1bc1c39db634022da",
+    "components/BoscoHomeCarousel.tsx": "62e48bfe25f6decad08e2fb961165f4e47b1fc6c7d4f804e679ee157518b7dc5",
+    "components/BoscoHomeCarousel.module.css": "463cd3b84b1124a01af960dac523e41f7dfce6f0874213dca4372b48671943fc",
+    "lib/bosco-visual-context.ts": "9d4539c2df89b4ee03a05219c8c8f19bb7992713fd11e2be39dd1d84ba04ccee",
+    "lib/marine-data.ts": "994ef119d7d0380546d1e7e6502af366961e3cf9448c0b6b5fefccf6bf308d9b",
+    "lib/marine-navigation.ts": "fc52dcc6470bc2a0658c4d05d885604599353a1bf421fe9b2ff0650a2378f351",
+    "data/bosco/bosco-rules.json": "9ef92ae935a3efc507d839bb5191cf7d602c5cadcb85f87eb7a9b8af31cebf0e",
+    "data/bosco/bosco-navigation-score.json": "8475ee970aeacd8adc319957e0fef849fdb0e4c0905c3998ca975e776706ef94",
+    "data/bosco/bosco-weather-engine.json": "b79c7ffa95aac3358032c2ab97c50a89897787b9f9e5fde7b1052d917395dac1",
+    "public/manifest.webmanifest": "19627a24f072e3197f727f2a03ccbdddc471cdf3317624a3b4bf5bf741852d5e",
+    "public/sw.js": "fcce723bad1a72866f90190f3b6d7b42cc2416536cbffaa399e29bd98afb4fbf"
+  },
+  "representativeReplies": [
+    {
+      "id": "clear:favorable:excellent:01",
+      "weatherFamily": "clear",
+      "windBand": "favorable",
+      "scoreBand": "excellent",
+      "text": "L’horizon s’ouvre net derrière la vitre. Les voiles auront de quoi porter sans te demander les gros bras. Mets à l’eau avec confiance, matelot, cette occasion est franchement remarquable.",
+      "decision": "excellent",
+      "safetyPriority": false
+    },
+    {
+      "id": "partly-cloudy:favorable:good:02",
+      "weatherFamily": "partly-cloudy",
+      "windBand": "favorable",
+      "scoreBand": "good",
+      "text": "La lumière et les nuages jouent à se voler l’horizon, tandis que la toile devrait chanter sans transformer la barre en combat. Tu peux pousser la porte, matelot, le large t’accueille correctement.",
+      "decision": "favorable",
+      "safetyPriority": false
+    },
+    {
+      "id": "overcast:light:mixed:03",
+      "weatherFamily": "overcast",
+      "windBand": "light",
+      "scoreBand": "mixed",
+      "text": "La toile recevra un souffle régulier mais sans grand coffre ; au large, la côte manque de lumière sous un plafond bien bas. Si tu pars, matelot, fais court et surveille ce qui change autour de toi.",
+      "decision": "cautious",
+      "safetyPriority": false
+    },
+    {
+      "id": "rain:light:poor:04",
+      "weatherFamily": "rain",
+      "windBand": "light",
+      "scoreBand": "poor",
+      "text": "Avant de toucher aux amarres, écoute, la pluie donne à la côte une couleur sombre et luisante. Le vent pousse gentiment, mais la glisse restera tranquille. Reste près du Tourbillon, bonhomme, la sortie serait bien peu récompensée.",
+      "decision": "discouraged",
+      "safetyPriority": false
+    },
+    {
+      "id": "heavy-rain:sporty:poor:05",
+      "weatherFamily": "heavy-rain",
+      "windBand": "sporty",
+      "scoreBand": "poor",
+      "text": "La Manche disparaît par pans derrière une pluie puissante. Côté vent, les coques peuvent filer vite, mais le souffle impose de la maîtrise. Les amarres peuvent rester tranquilles, bonhomme, le large n’offre pas assez.",
+      "decision": "discouraged",
+      "safetyPriority": false
+    },
+    {
+      "id": "fog:favorable:critical:06",
+      "weatherFamily": "fog",
+      "windBand": "favorable",
+      "scoreBand": "critical",
+      "text": "Depuis le Tourbillon, la fenêtre montre un brouillard blanc où les repères s’effacent. Le souffle est établi et devrait faire filer les coques proprement. Garde les coques loin du bord, matelot, le refus est net.",
+      "decision": "refuse",
+      "safetyPriority": false
+    },
+    {
+      "id": "storm:dangerous:good:07",
+      "weatherFamily": "storm",
+      "windBand": "dangerous",
+      "scoreBand": "good",
+      "text": "Un grain noir avance avec des lueurs d’éclair ; pour les voiles, le vent frappe trop fort pour confier les coques au large. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+      "decision": "refuse",
+      "safetyPriority": true
+    },
+    {
+      "id": "clear:dangerous:good:08",
+      "weatherFamily": "clear",
+      "windBand": "dangerous",
+      "scoreBand": "good",
+      "text": "Pas si vite, moussaillon : la fenêtre donne sur un ciel lavé et une vue dégagée. Les voiles prendraient des claques que personne ne doit minimiser. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+      "decision": "refuse",
+      "safetyPriority": true
+    },
+    {
+      "id": "clear:calm:mixed:01",
+      "weatherFamily": "clear",
+      "windBand": "calm",
+      "scoreBand": "mixed",
+      "text": "Derrière la vitre, l’horizon file droit sous une lumière bien propre. L’air somnole encore au-dessus de l’eau. Ça peut se tenter avec réserve, matelot, mais garde le retour facile.",
+      "decision": "cautious",
+      "safetyPriority": false
+    },
+    {
+      "id": "drizzle:light:mixed:02",
+      "weatherFamily": "drizzle",
+      "windBand": "light",
+      "scoreBand": "mixed",
+      "text": "La bruine s’installe doucement sur un horizon encore visible, tandis que le vent reste léger et demandera de soigner chaque réglage. La sortie reste possible, bonhomme, à condition de garder une vraie marge.",
+      "decision": "cautious",
+      "safetyPriority": false
+    }
+  ],
+  "result": "PASS"
+}

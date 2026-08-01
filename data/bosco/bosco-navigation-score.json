@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "4.0.0",
+  "scale": {
+    "min": 0,
+    "max": 10,
+    "precision": 0.1
+  },
+  "dimensions": {
+    "safety": {
+      "weight": 0.42,
+      "priority": 1
+    },
+    "sportingInterest": {
+      "weight": 0.18,
+      "priority": 4
+    },
+    "comfort": {
+      "weight": 0.12,
+      "priority": 5
+    },
+    "windStability": {
+      "weight": 0.1,
+      "priority": 2
+    },
+    "seaRegularity": {
+      "weight": 0.08,
+      "priority": 3
+    },
+    "weather": {
+      "weight": 0.06,
+      "priority": 6
+    },
+    "tide": {
+      "weight": 0.04,
+      "priority": 7
+    }
+  },
+  "hardCaps": [
+    {
+      "id": "storm",
+      "when": "storm",
+      "cap": 2
+    },
+    {
+      "id": "violent-wind",
+      "when": "meanWind>=25 or gust>=32",
+      "cap": 2.5
+    },
+    {
+      "id": "very-rough-sea",
+      "when": "waves>=2 or swell>=1.8",
+      "cap": 2.5
+    },
+    {
+      "id": "dense-fog",
+      "when": "visibility<800",
+      "cap": 2
+    },
+    {
+      "id": "unavailable",
+      "when": "dataConfidence=0",
+      "cap": 0
+    }
+  ],
+  "bands": [
+    {
+      "min": 0,
+      "max": 0,
+      "decision": "decision-unavailable",
+      "label": "Impossible de conclure"
+    },
+    {
+      "min": 0.1,
+      "max": 3.9,
+      "decision": "decision-discouraged",
+      "label": "Sortie déconseillée"
+    },
+    {
+      "min": 4,
+      "max": 5.9,
+      "decision": "decision-cautious",
+      "label": "Sortie prudente"
+    },
+    {
+      "min": 6,
+      "max": 7.2,
+      "decision": "decision-low-sport",
+      "label": "Favorable, peu sportive",
+      "conditional": "meanWind<7"
+    },
+    {
+      "min": 6,
+      "max": 7.9,
+      "decision": "decision-pleasant",
+      "label": "Sortie favorable"
+    },
+    {
+      "min": 8,
+      "max": 10,
+      "decision": "decision-ideal",
+      "label": "Sortie idéale"
+    }
+  ],
+  "explainability": {
+    "includeTopPositive": 2,
+    "includeTopNegative": 3,
+    "sentencePattern": "{score}/10 — {summary}",
+    "alwaysMentionSafetyGate": true
+  }
+}

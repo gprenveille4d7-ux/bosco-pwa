@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "4.0.0",
+  "storage": {
+    "type": "localStorage",
+    "profileKey": "bosco:user-profile:v4",
+    "memoryKey": "bosco:memory:v4",
+    "dialogueHistoryKey": "bosco:dialogue-history:v4",
+    "maximumDialogueHistory": 12
+  },
+  "allowedFacts": [
+    "firstName",
+    "craftType",
+    "level",
+    "favoriteSpot",
+    "units",
+    "lastSelectedSpot",
+    "lastBriefingAt",
+    "lastDecision",
+    "lastScore"
+  ],
+  "forbiddenInferences": [
+    "niveau déduit sans choix explicite",
+    "spot supposé depuis une ancienne géolocalisation",
+    "sortie réellement effectuée depuis un briefing",
+    "préférence déduite d'une seule consultation",
+    "souvenir social ou familial non saisi"
+  ],
+  "rules": [
+    "N'utiliser que les clés présentes dans allowedFacts.",
+    "Ne jamais transformer une prévision en souvenir de sortie.",
+    "Afficher l'origine locale de la mémoire.",
+    "Permettre l'effacement complet depuis les réglages.",
+    "Si le consentement local est désactivé, conserver seulement l'état de session."
+  ],
+  "emptyState": "Je ne connais encore que ce que tu viens de me dire."
+}

@@ -1,0 +1,231 @@
+{
+  "version": "bosco-step7b-v2",
+  "sourceVersion": 8,
+  "anchor": [
+    768,
+    1252
+  ],
+  "maxAnchorDeltaPx": 0,
+  "seaAnimationMs": {
+    "preparation": 450,
+    "rotation": 1650,
+    "observation": 2000,
+    "return": 1650,
+    "total": 5750
+  },
+  "responsiveFormats": [
+    "320x568",
+    "375x667",
+    "390x844",
+    "393x852",
+    "402x874",
+    "430x932",
+    "768x1024",
+    "1024x1366",
+    "1440x900"
+  ],
+  "beforeAfter": {
+    "satisfied:day:clear": {
+      "differenceBoundingBox": [
+        964,
+        1011,
+        1435,
+        1306
+      ],
+      "anchorDeltaPx": 0
+    },
+    "protective:day:clear": {
+      "differenceBoundingBox": [
+        970,
+        1041,
+        1495,
+        1306
+      ],
+      "anchorDeltaPx": 0
+    },
+    "preparing:night:clear": {
+      "differenceBoundingBox": [
+        972,
+        1038,
+        1362,
+        1306
+      ],
+      "anchorDeltaPx": 0
+    },
+    "chart:night:storm": {
+      "differenceBoundingBox": [
+        972,
+        992,
+        1476,
+        1306
+      ],
+      "anchorDeltaPx": 0
+    }
+  },
+  "contextAlignment": {
+    "checked": 40,
+    "allAligned": true,
+    "contexts": [
+      {
+        "context": "morning:clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:mainly-clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:partly-cloudy",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:overcast",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:fog",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:drizzle",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:heavy-rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:snow",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "morning:storm",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:mainly-clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:partly-cloudy",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:overcast",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:fog",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:drizzle",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:heavy-rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:snow",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "day:storm",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:mainly-clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:partly-cloudy",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:overcast",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:fog",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:drizzle",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:heavy-rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:snow",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "evening:storm",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:mainly-clear",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:partly-cloudy",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:overcast",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:fog",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:drizzle",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:heavy-rain",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:snow",
+        "sameContextualSourcePixels": true
+      },
+      {
+        "context": "night:storm",
+        "sameContextualSourcePixels": true
+      }
+    ]
+  }
+}

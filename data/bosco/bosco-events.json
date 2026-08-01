@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "4.0.0",
+  "events": {
+    "app:opened": {
+      "reaction": [
+        "listening",
+        "resting"
+      ],
+      "durationMs": 1800,
+      "dialogue": "accueil"
+    },
+    "weather:requested": {
+      "reaction": [
+        "barometer",
+        "thinking"
+      ],
+      "durationMs": 2100,
+      "dialogue": "calcul"
+    },
+    "weather:received": {
+      "reaction": [
+        "preparing",
+        "decision"
+      ],
+      "durationMs": 2400,
+      "evaluate": true
+    },
+    "marine:updated": {
+      "reaction": [
+        "sea",
+        "preparing",
+        "decision"
+      ],
+      "durationMs": 2600,
+      "evaluate": true
+    },
+    "geolocation:changed": {
+      "reaction": [
+        "chart",
+        "thinking"
+      ],
+      "durationMs": 1900,
+      "dialogue": "gps",
+      "evaluate": true
+    },
+    "spot:changed": {
+      "reaction": [
+        "chart",
+        "sea",
+        "decision"
+      ],
+      "durationMs": 2200,
+      "dialogue": "gps",
+      "evaluate": true
+    },
+    "alert:created": {
+      "reaction": [
+        "worried",
+        "protective"
+      ],
+      "durationMs": 1500,
+      "dialogue": "notifications",
+      "evaluate": true
+    },
+    "connection:lost": {
+      "reaction": [
+        "annoyed",
+        "protective"
+      ],
+      "durationMs": 1500,
+      "dialogue": "connexion-perdue",
+      "evaluate": true
+    },
+    "connection:restored": {
+      "reaction": [
+        "listening",
+        "barometer"
+      ],
+      "durationMs": 1700,
+      "dialogue": "notifications",
+      "evaluate": true
+    },
+    "gps:unavailable": {
+      "reaction": [
+        "chart",
+        "perplexe"
+      ],
+      "durationMs": 1700,
+      "dialogue": "gps"
+    },
+    "data:invalid": {
+      "reaction": [
+        "worried",
+        "protective"
+      ],
+      "durationMs": 1600,
+      "dialogue": "erreur",
+      "evaluate": true
+    },
+    "briefing:spoken": {
+      "reaction": [
+        "speaking",
+        "decision"
+      ],
+      "durationMs": 2300
+    }
+  },
+  "constraints": {
+    "minDurationMs": 1000,
+    "maxDurationMs": 3000,
+    "cancelPreviousOnCritical": true,
+    "suppressDecorativeWhenHidden": true
+  }
+}

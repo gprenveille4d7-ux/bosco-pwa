@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "4.0.0",
+  "acceptedUnits": {
+    "wind": [
+      "kt",
+      "kmh",
+      "ms"
+    ],
+    "temperature": [
+      "c",
+      "f"
+    ],
+    "distance": [
+      "m",
+      "km",
+      "nm"
+    ],
+    "pressure": [
+      "hPa"
+    ],
+    "precipitation": [
+      "mmh"
+    ]
+  },
+  "canonicalUnits": {
+    "wind": "kt",
+    "temperature": "c",
+    "waveHeight": "m",
+    "wavePeriod": "s",
+    "visibility": "m",
+    "pressure": "hPa"
+  },
+  "requiredFields": [
+    "wind.meanKt",
+    "wind.gustKt",
+    "weather.visibilityM",
+    "sea.waveHeightM",
+    "data.observedAt"
+  ],
+  "optionalFields": [
+    "wind.directionDeg",
+    "weather.temperatureC",
+    "weather.precipitationMmH",
+    "weather.pressureHPa",
+    "weather.pressureTrendHPa3h",
+    "sea.waveDirectionDeg",
+    "sea.wavePeriodS",
+    "sea.swellHeightM",
+    "sea.swellDirectionDeg",
+    "tide.heightM",
+    "tide.trend",
+    "tide.highWaterAt",
+    "tide.lowWaterAt"
+  ],
+  "categories": {
+    "windKt": [
+      {
+        "id": "calm",
+        "max": 3
+      },
+      {
+        "id": "light",
+        "min": 3,
+        "max": 7
+      },
+      {
+        "id": "ideal",
+        "min": 7,
+        "max": 18
+      },
+      {
+        "id": "fresh",
+        "min": 18,
+        "max": 22
+      },
+      {
+        "id": "strong",
+        "min": 22,
+        "max": 25
+      },
+      {
+        "id": "dangerous",
+        "min": 25
+      }
+    ],
+    "waveM": [
+      {
+        "id": "flat",
+        "max": 0.3
+      },
+      {
+        "id": "slight",
+        "min": 0.3,
+        "max": 0.8
+      },
+      {
+        "id": "moderate",
+        "min": 0.8,
+        "max": 1.2
+      },
+      {
+        "id": "rough",
+        "min": 1.2,
+        "max": 2
+      },
+      {
+        "id": "very-rough",
+        "min": 2
+      }
+    ],
+    "visibilityM": [
+      {
+        "id": "dense-fog",
+        "max": 800
+      },
+      {
+        "id": "poor",
+        "min": 800,
+        "max": 3000
+      },
+      {
+        "id": "moderate",
+        "min": 3000,
+        "max": 8000
+      },
+      {
+        "id": "good",
+        "min": 8000
+      }
+    ]
+  },
+  "derived": {
+    "gustFactor": "gustKt / max(meanKt, 1)",
+    "crossSeaAngleDeg": "smallestAngle(waveDirectionDeg, swellDirectionDeg)",
+    "windRelation": "relativeToShoreline(windDirectionDeg, spot.shorelineDeg)",
+    "trendQuality": "combine(windTrend, pressureTrend, precipitationTrend)"
+  },
+  "staleAfterMinutes": 90,
+  "invalidAfterMinutes": 360,
+  "missingDataPolicy": "Conserver les dimensions calculables, réduire la confiance et ne jamais imputer une valeur météo."
+}

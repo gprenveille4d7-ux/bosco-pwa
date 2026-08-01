@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "5.0.0",
+  "mode": "discrete-low-amplitude",
+  "assetPolicy": "Reuse the validated speaking pose; do not generate a new face or mouth asset.",
+  "sourcePriority": [
+    "provider-viseme-events",
+    "speech-synthesis-boundary-events",
+    "timed-envelope-fallback"
+  ],
+  "mouth": {
+    "states": [
+      "closed",
+      "small",
+      "medium",
+      "rest"
+    ],
+    "maximumScaleY": 1.035,
+    "attackMs": 55,
+    "releaseMs": 95,
+    "minimumHoldMs": 55,
+    "maximumHoldMs": 140,
+    "avoidFramePerfectPhonemeMatching": true
+  },
+  "faceCompanionMotion": {
+    "blinkIntervalMs": {
+      "min": 9000,
+      "max": 18000
+    },
+    "headNodPerSentenceMax": 1,
+    "headRotationDegMax": 0.35,
+    "beardScaleMax": 1.006,
+    "shoulderScaleMax": 1.009
+  },
+  "punctuation": {
+    "comma": {
+      "mouth": "closed",
+      "holdMs": 150
+    },
+    "period": {
+      "mouth": "closed",
+      "holdMs": 310,
+      "allowHeadNod": true
+    },
+    "warning": {
+      "mouth": "closed",
+      "holdBeforeMs": 220
+    }
+  },
+  "qualityGates": {
+    "noVisibleImageSeam": true,
+    "noIdentityChange": true,
+    "noMotionOverTwoPixelsAt375CssPx": true,
+    "stopWithinMsAfterAudio": 120,
+    "reducedMotion": "Disable mouth deformation and keep speaking pose only."
+  }
+}

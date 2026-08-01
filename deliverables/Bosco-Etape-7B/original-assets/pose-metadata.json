@@ -1,0 +1,496 @@
+{
+  "version": "bosco-step7-v1",
+  "canvasWidth": 1536,
+  "canvasHeight": 1536,
+  "anchorX": 768,
+  "anchorY": 1252,
+  "pivotX": 768,
+  "pivotY": 1252,
+  "maxAnchorDeltaPx": 0,
+  "foregroundMask": "/assets/bosco/compositing/masks/occlusion-canonical.png",
+  "fixedObjects": {
+    "poldersCup": "/assets/bosco/compositing/objects/polders-cup.png"
+  },
+  "poses": [
+    {
+      "poseId": "resting",
+      "label": "Repos",
+      "sourceAsset": "/assets/bosco/cutouts/pose-00.webp",
+      "assetPath": "/assets/bosco/compositing/poses/resting.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        0,
+        0
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        141,
+        105,
+        1368,
+        1328
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 0,
+      "loop": true,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "listening",
+      "label": "Main tendue",
+      "sourceAsset": "/assets/bosco/cutouts/decision-low-sport.webp",
+      "assetPath": "/assets/bosco/compositing/poses/listening.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -10,
+        -15
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        192,
+        147,
+        1321,
+        1319
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "thinking",
+      "label": "Réfléchit",
+      "sourceAsset": "/assets/bosco/cutouts/pose-02.webp",
+      "assetPath": "/assets/bosco/compositing/poses/thinking.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -5,
+        0
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        194,
+        105,
+        1395,
+        1460
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "sea",
+      "label": "Observe",
+      "sourceAsset": "/assets/bosco/cutouts/pose-03.webp",
+      "assetPath": "/assets/bosco/compositing/poses/sea.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        25,
+        -50
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        215,
+        105,
+        1362,
+        1428
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "barometer",
+      "label": "Explique",
+      "sourceAsset": "/assets/bosco/cutouts/pose-04.webp",
+      "assetPath": "/assets/bosco/compositing/poses/barometer.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        0,
+        -2
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        163,
+        105,
+        1316,
+        1428
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "chart",
+      "label": "Main tasse",
+      "sourceAsset": "/assets/bosco/cutouts/pose-06.webp",
+      "assetPath": "/assets/bosco/compositing/poses/chart.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -7,
+        5
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        105,
+        105,
+        1408,
+        1463
+      ],
+      "occlusionProfile": "cup-approach-only",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "preparing",
+      "label": "Bras croisés",
+      "sourceAsset": "/assets/bosco/cutouts/pose-10.webp",
+      "assetPath": "/assets/bosco/compositing/poses/preparing.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -7,
+        1
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        239,
+        105,
+        1326,
+        1486
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "speaking",
+      "label": "Parle",
+      "sourceAsset": "/assets/bosco/cutouts/pose-07.webp",
+      "assetPath": "/assets/bosco/compositing/poses/speaking.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -32,
+        -42
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        38,
+        105,
+        1371,
+        1415
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "satisfied",
+      "label": "Satisfait",
+      "sourceAsset": "/assets/bosco/cutouts/pose-08.webp",
+      "assetPath": "/assets/bosco/compositing/poses/satisfied.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -15,
+        -6
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        124,
+        105,
+        1390,
+        1400
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "worried",
+      "label": "Inquiet",
+      "sourceAsset": "/assets/bosco/cutouts/pose-09.webp",
+      "assetPath": "/assets/bosco/compositing/poses/worried.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -30,
+        24
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        87,
+        105,
+        1406,
+        1462
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "annoyed",
+      "label": "Contrarié",
+      "sourceAsset": "/assets/bosco/cutouts/pose-10.webp",
+      "assetPath": "/assets/bosco/compositing/poses/annoyed.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -7,
+        1
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        239,
+        105,
+        1326,
+        1486
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    },
+    {
+      "poseId": "protective",
+      "label": "Protecteur",
+      "sourceAsset": "/assets/bosco/cutouts/pose-11.webp",
+      "assetPath": "/assets/bosco/compositing/poses/protective.png",
+      "canvasWidth": 1536,
+      "canvasHeight": 1536,
+      "anchorX": 768,
+      "anchorY": 1252,
+      "pivotX": 768,
+      "pivotY": 1252,
+      "normalizationTranslation": [
+        -9,
+        44
+      ],
+      "scale": 1,
+      "visibleBounds": [
+        66,
+        105,
+        1440,
+        1536
+      ],
+      "occlusionProfile": "counter-cup-fixed",
+      "duration": 2100,
+      "loop": false,
+      "nextPose": [
+        "resting",
+        "listening",
+        "thinking",
+        "sea",
+        "barometer",
+        "chart",
+        "preparing",
+        "speaking",
+        "satisfied",
+        "worried",
+        "annoyed",
+        "protective"
+      ]
+    }
+  ]
+}

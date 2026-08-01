@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "4.0.0",
+  "storageKey": "bosco:user-profile:v4",
+  "requiredOnFirstUse": [
+    "firstName",
+    "craftType",
+    "level",
+    "favoriteSpot",
+    "units"
+  ],
+  "defaults": {
+    "firstName": "",
+    "craftType": "catamaran",
+    "level": "intermediaire",
+    "favoriteSpot": "Jullouville",
+    "units": "marine",
+    "consentToLocalMemory": true
+  },
+  "enums": {
+    "craftType": [
+      "catamaran",
+      "deriveur",
+      "planche-a-voile",
+      "wingfoil",
+      "kayak",
+      "paddle",
+      "voilier",
+      "autre"
+    ],
+    "level": [
+      "debutant",
+      "intermediaire",
+      "confirme",
+      "expert"
+    ],
+    "units": [
+      "marine",
+      "metric"
+    ]
+  },
+  "validation": {
+    "firstName": {
+      "minLength": 2,
+      "maxLength": 40,
+      "pattern": "^[A-Za-zÀ-ÖØ-öø-ÿ' -]+$"
+    },
+    "favoriteSpot": {
+      "minLength": 2,
+      "maxLength": 80
+    }
+  },
+  "personalizationRules": [
+    "Utiliser le prénom au maximum une fois par réponse.",
+    "Ne jamais afficher de formule générique à la place du prénom.",
+    "Le niveau réduit ou maintient la marge mais ne relève jamais un seuil de sécurité.",
+    "Le type d'embarcation adapte le vocabulaire sans inventer de performance."
+  ]
+}

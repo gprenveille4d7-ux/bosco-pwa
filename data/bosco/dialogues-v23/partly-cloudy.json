@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "partly-cloudy:calm:critical:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, les nuages et la lumière se partagent l’horizon. Les voiles risquent de pendre sans trouver de quoi travailler. Range la voile, moussaillon, cette sortie n’a pas assez de marge.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le ciel alterne éclaircies franches et passages plus gris, tandis que le vent ne pousse presque rien, pas même l’impatience. Pas question de prendre le large, bonhomme, la prudence a tranché.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le vent reste dans sa bannette et laisse les voiles molles ; au large, des ombres courent sur le large entre deux trouées claires. La sortie est refusée, moussaillon, va plutôt surveiller l’horizon du comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le vieux Bosco a regardé dehors, la Manche change de couleur au passage des nuages. Le vent paresse et la toile ne trouvera guère de coffre. Pas de mise à l’eau, matelot, Bosco préfère te revoir entier.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le bleu apparaît puis se range derrière de gros nuages. Côté vent, le vent se fait oublier et la navigation sera bien molle. Tu reportes la sortie, moussaillon, même si l’envie te démange.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la fenêtre montre un ciel partagé, jamais tout à fait sombre. L’air bouge à peine, juste assez pour faire frémir une écoute. Aucun départ, matelot, le large attendra un jour plus honnête.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "La lumière revient par plaques sur la ligne du large ; pour les voiles, l’air somnole encore au-dessus de l’eau. Tu ne largues rien, bonhomme, et tu gardes tout l’équipage à terre.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:critical:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Viens voir l’horizon avec moi : les nuages avancent en laissant encore de belles ouvertures. Le peu d’air promet surtout une glisse très lente. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la Manche change de couleur au passage des nuages. L’air somnole encore au-dessus de l’eau. Je garderais la voile pliée, moussaillon, sans regret et sans bravade.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Le bleu apparaît puis se range derrière de gros nuages, tandis que le peu d’air promet surtout une glisse très lente. La sortie peut attendre, matelot, tu trouveras une fenêtre plus généreuse.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Le souffle est si discret qu’il faudra savourer chaque risée ; au large, la fenêtre montre un ciel partagé, jamais tout à fait sombre. Reste près du Tourbillon, bonhomme, la sortie serait bien peu récompensée.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Je garde un œil sur la fenêtre, bonhomme, la lumière revient par plaques sur la ligne du large. Les voiles auront davantage envie de dormir que de porter. Mieux vaut reporter, matelot, car le large ne propose rien d’assez propre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Les nuages avancent en laissant encore de belles ouvertures. Côté vent, le vent reste couché et les voiles auront du mal à prendre forme. Bosco vote pour le comptoir, bonhomme, et rarement sans une bonne raison.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, l’horizon passe du clair au gris sans disparaître. Le souffle manque et les coques avanceront avec patience. Laisse passer ce créneau, moussaillon, il ne mérite pas de mouiller le ciré.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Le ciel hésite entre sa veste bleue et son manteau gris ; pour les voiles, les voiles chercheront longtemps le moindre souffle utile. Tu pourrais insister, bonhomme, mais Bosco te conseille franchement le quai.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:poor:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Pose ton ciré une seconde, moussaillon : dehors, les éclaircies se faufilent entre des nuages bien présents. Les coques auront peu de force à tirer de l’air. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, la lumière revient par plaques sur la ligne du large. Les voiles chercheront longtemps le moindre souffle utile. Bosco te laisse essayer, moussaillon, mais la prudence tient la barre.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Les nuages avancent en laissant encore de belles ouvertures, tandis que les coques auront peu de force à tirer de l’air. Je n’interdis pas la sortie, matelot, mais je veux te savoir raisonnable.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "L’air manque de volonté pour faire vraiment chanter les voiles ; au large, l’horizon passe du clair au gris sans disparaître. Avance avec mesure, bonhomme, et garde toujours une solution simple pour rentrer.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Avant de toucher aux amarres, écoute, le ciel hésite entre sa veste bleue et son manteau gris. Le souffle reste trop mince pour réveiller franchement les coques. Si tu pars, matelot, fais court et surveille ce qui change autour de toi.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents. Côté vent, les voiles risquent de pendre sans trouver de quoi travailler. Tu peux sortir, bonhomme, en gardant assez de marge pour rentrer tôt.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la côte reçoit tour à tour lumière vive et ombre douce. Le vent ne pousse presque rien, pas même l’impatience. La sortie mérite un oui prudent, moussaillon, pas un départ les yeux fermés.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine ; pour les voiles, le vent reste dans sa bannette et laisse les voiles molles. La sortie reste possible, bonhomme, à condition de garder une vraie marge.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:mixed:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Écoute-moi bien, matelot : des pans de bleu découpent encore la couverture nuageuse. Le vent paresse et la toile ne trouvera guère de coffre. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, le ciel hésite entre sa veste bleue et son manteau gris. Le vent reste dans sa bannette et laisse les voiles molles. Prépare la voile, moussaillon, la Manche devrait être de bonne compagnie.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents, tandis que le vent paresse et la toile ne trouvera guère de coffre. Bosco ne te retient pas au quai, matelot, alors grée sans traîner.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le vent se fait oublier et la navigation sera bien molle ; au large, la côte reçoit tour à tour lumière vive et ombre douce. Va faire chanter les voiles, bonhomme, le moment s’y prête joliment.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Regarde dehors, moussaillon, le large reste lisible sous un ciel qui change souvent de mine. L’air bouge à peine, juste assez pour faire frémir une écoute. Tu peux prendre le large, matelot, avec le sourire et l’œil ouvert.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Des pans de bleu découpent encore la couverture nuageuse. Côté vent, l’air somnole encore au-dessus de l’eau. Les coques peuvent sortir, bonhomme, avec une belle promenade en perspective.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, la lumière et les nuages jouent à se voler l’horizon. Le peu d’air promet surtout une glisse très lente. Le quai peut te laisser filer, moussaillon, cette fenêtre est favorable.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche ; pour les voiles, le souffle est si discret qu’il faudra savourer chaque risée. Bosco te donne son feu vert, bonhomme, pour une navigation bien menée.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:good:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Jette donc un œil vers le large : les nuages et la lumière se partagent l’horizon. Les voiles auront davantage envie de dormir que de porter. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, le large reste lisible sous un ciel qui change souvent de mine. Le souffle est si discret qu’il faudra savourer chaque risée. Prépare tout, moussaillon, la navigation promet un vrai beau moment.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Des pans de bleu découpent encore la couverture nuageuse, tandis que les voiles auront davantage envie de dormir que de porter. Tu peux partir le cœur léger, matelot, tout se prête à une belle sortie.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le vent reste couché et les voiles auront du mal à prendre forme ; au large, la lumière et les nuages jouent à se voler l’horizon. Prends la barre avec le sourire, bonhomme, la Manche te fait un beau cadeau.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche, le ciel garde assez d’ouvertures pour éclairer la Manche. Le souffle manque et les coques avanceront avec patience. Va profiter de la Manche, matelot, une fenêtre pareille ne se refuse pas.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Les nuages et la lumière se partagent l’horizon. Côté vent, les voiles chercheront longtemps le moindre souffle utile. File gréer les coques, bonhomme, la Manche t’offre l’un de ses beaux jours.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, le ciel alterne éclaircies franches et passages plus gris. Les coques auront peu de force à tirer de l’air. Les voiles peuvent chanter, moussaillon, car le moment est vraiment excellent.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Des ombres courent sur le large entre deux trouées claires ; pour les voiles, l’air manque de volonté pour faire vraiment chanter les voiles. Les coques ont rendez-vous avec le large, bonhomme, et Bosco approuve sans réserve.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:calm:excellent:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Je te le dis sans détour, bonhomme : la Manche change de couleur au passage des nuages. Le souffle reste trop mince pour réveiller franchement les coques. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, des ombres courent sur le large entre deux trouées claires. L’air suffit pour avancer doucement sans réveiller toute l’écume. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "La Manche change de couleur au passage des nuages, tandis que le vent accompagne les coques sans chercher à les lancer. Tu restes au sec, bonhomme, car une mauvaise marge ne se négocie pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Le petit air offre une navigation douce et peu physique ; au large, le bleu apparaît puis se range derrière de gros nuages. Reste au quai, moussaillon, car le large ne mérite aucun pari aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Je garde un œil sur la fenêtre, bonhomme, la fenêtre montre un ciel partagé, jamais tout à fait sombre. L’air donne juste assez de vie aux voiles pour une sortie calme. Les amarres restent tournées, bonhomme, sans discussion de comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "La lumière revient par plaques sur la ligne du large. Côté vent, le petit vent promet davantage de finesse que de spectacle. Le quai gagne aujourd’hui, moussaillon, laisse ton orgueil au vestiaire.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, les nuages avancent en laissant encore de belles ouvertures. Le vent pousse gentiment, mais la glisse restera tranquille. Les coques restent au sec, matelot, et cette décision ne se discute pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "L’horizon passe du clair au gris sans disparaître ; pour les voiles, le souffle est propre mais encore un peu maigre. Aujourd’hui, tu restes à terre et tu laisses la Manche tranquille.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:critical:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Pose ton ciré une seconde, moussaillon : le ciel hésite entre sa veste bleue et son manteau gris. Les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. La voile ne sort pas de son sac, matelot, et c’est très bien ainsi.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la fenêtre montre un ciel partagé, jamais tout à fait sombre. Le souffle est propre mais encore un peu maigre. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "La lumière revient par plaques sur la ligne du large, tandis que les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. Je ne t’enverrais pas dehors, matelot, même avec un café dans le ventre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Les coques avanceront proprement dans un souffle modeste ; au large, les nuages avancent en laissant encore de belles ouvertures. Laisse les coques au repos, moussaillon, ce créneau ne vaut pas l’effort.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Avant de toucher aux amarres, écoute, l’horizon passe du clair au gris sans disparaître. La toile recevra un souffle régulier mais sans grand coffre. Le quai reste le choix raisonnable, matelot, malgré ton envie de naviguer.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Le ciel hésite entre sa veste bleue et son manteau gris. Côté vent, un petit souffle remplit la toile sans lui donner beaucoup de nerf. Les amarres peuvent rester tranquilles, bonhomme, le large n’offre pas assez.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, les éclaircies se faufilent entre des nuages bien présents. Les voiles prendront forme, sans promettre une grande cavalcade. Je te déconseille la mise à l’eau, matelot, le plaisir serait trop maigre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "La côte reçoit tour à tour lumière vive et ombre douce ; pour les voiles, la toile travaillera doucement dans un air plutôt sage. Reste au sec, bonhomme, cette sortie promet davantage d’ennuis que de sourires.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:poor:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Écoute-moi bien, matelot : le large reste lisible sous un ciel qui change souvent de mine. Le vent se montre poli, presque trop pour les amateurs de vitesse. Garde ton énergie pour un meilleur jour, moussaillon, celui-ci manque d’intérêt.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, l’horizon passe du clair au gris sans disparaître. La toile travaillera doucement dans un air plutôt sage. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Le ciel hésite entre sa veste bleue et son manteau gris, tandis que le vent se montre poli, presque trop pour les amateurs de vitesse. Tu peux tenter le large proche, matelot, sans chercher à prolonger le plaisir.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Le vent reste léger et demandera de soigner chaque réglage ; au large, les éclaircies se faufilent entre des nuages bien présents. Tu peux mettre à l’eau prudemment, moussaillon, sans t’éloigner ni fanfaronner.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Regarde dehors, moussaillon, la côte reçoit tour à tour lumière vive et ombre douce. Les voiles respireront doucement sans tirer fort sur les écoutes. La porte n’est pas fermée, matelot, mais ne quitte pas la côte des yeux.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine. Côté vent, l’air suffit pour avancer doucement sans réveiller toute l’écume. La navigation est envisageable, bonhomme, pour qui sait renoncer au moindre doute.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, des pans de bleu découpent encore la couverture nuageuse. Le vent accompagne les coques sans chercher à les lancer. Ça peut se tenter avec réserve, matelot, mais garde le retour facile.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "La lumière et les nuages jouent à se voler l’horizon ; pour les voiles, le petit air offre une navigation douce et peu physique. Tu peux naviguer doucement, bonhomme, sans transformer l’essai en expédition.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:mixed:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Jette donc un œil vers le large : le ciel garde assez d’ouvertures pour éclairer la Manche. L’air donne juste assez de vie aux voiles pour une sortie calme. Mets à l’eau seulement si tu te sens prêt, moussaillon, et reste modeste.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la côte reçoit tour à tour lumière vive et ombre douce. Le petit air offre une navigation douce et peu physique. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine, tandis que l’air donne juste assez de vie aux voiles pour une sortie calme. Tu as de bonnes raisons de partir, matelot, garde seulement tes habitudes prudentes.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le petit vent promet davantage de finesse que de spectacle ; au large, des pans de bleu découpent encore la couverture nuageuse. Mets les coques à l’eau, moussaillon, et profite sans oublier ta marge.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche, la lumière et les nuages jouent à se voler l’horizon. Le vent pousse gentiment, mais la glisse restera tranquille. Va saluer le large, matelot, tout en restant le marin attentif que j’attends.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche. Côté vent, le souffle est propre mais encore un peu maigre. La navigation s’annonce plaisante, bonhomme, profite de ce que le large offre.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, les nuages et la lumière se partagent l’horizon. Les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. Tu peux larguer les amarres, matelot, cette sortie se présente bien.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le ciel alterne éclaircies franches et passages plus gris ; pour les voiles, les coques avanceront proprement dans un souffle modeste. La sortie est favorable, bonhomme, alors navigue proprement et profite.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:good:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Je te le dis sans détour, bonhomme : des ombres courent sur le large entre deux trouées claires. La toile recevra un souffle régulier mais sans grand coffre. Mets à l’eau sereinement, moussaillon, sans confondre confiance et négligence.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, la lumière et les nuages jouent à se voler l’horizon. Les coques avanceront proprement dans un souffle modeste. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche, tandis que la toile recevra un souffle régulier mais sans grand coffre. Cette sortie promet du plaisir, matelot, va donc réveiller proprement les coques.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Un petit souffle remplit la toile sans lui donner beaucoup de nerf ; au large, les nuages et la lumière se partagent l’horizon. Largue les amarres, moussaillon, ce jour mérite de faire chanter les voiles.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Voyons ce que raconte la Manche, le ciel alterne éclaircies franches et passages plus gris. Les voiles prendront forme, sans promettre une grande cavalcade. Mets à l’eau avec confiance, matelot, cette occasion est franchement remarquable.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Des ombres courent sur le large entre deux trouées claires. Côté vent, la toile travaillera doucement dans un air plutôt sage. Bosco n’a aucune raison de te garder ici, bonhomme, profite pleinement.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la Manche change de couleur au passage des nuages. Le vent se montre poli, presque trop pour les amateurs de vitesse. C’est une très belle occasion de naviguer, matelot, alors ne traîne pas au quai.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Le bleu apparaît puis se range derrière de gros nuages ; pour les voiles, le vent reste léger et demandera de soigner chaque réglage. Bosco ouvre grand la porte, bonhomme, car le large est généreux aujourd’hui.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:light:excellent:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Je connais cette mine-là, matelot : la fenêtre montre un ciel partagé, jamais tout à fait sombre. Les voiles respireront doucement sans tirer fort sur les écoutes. Le large te tend les bras, moussaillon, alors navigue et savoure chaque bord.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, le bleu apparaît puis se range derrière de gros nuages. Les voiles seront bien nourries sans arracher la barre. La voile ne sort pas de son sac, matelot, et c’est très bien ainsi.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "La fenêtre montre un ciel partagé, jamais tout à fait sombre, tandis que la toile trouvera une poussée franche et encore maîtrisable. Garde les amarres en place, bonhomme, Bosco ne joue pas avec ce tableau.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Les voiles auront de quoi porter sans te demander les gros bras ; au large, la lumière revient par plaques sur la ligne du large. Range la voile, moussaillon, cette sortie n’a pas assez de marge.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Avant de toucher aux amarres, écoute, les nuages avancent en laissant encore de belles ouvertures. La toile devrait chanter sans transformer la barre en combat. Pas question de prendre le large, bonhomme, la prudence a tranché.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "L’horizon passe du clair au gris sans disparaître. Côté vent, l’air est assez présent pour réveiller l’écume sans brutalité. La sortie est refusée, moussaillon, va plutôt surveiller l’horizon du comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, le ciel hésite entre sa veste bleue et son manteau gris. L’air a juste assez de coffre pour faire chanter la toile. Pas de mise à l’eau, matelot, Bosco préfère te revoir entier.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents ; pour les voiles, le vent travaille avec régularité sans chercher la bagarre. Tu reportes la sortie, moussaillon, même si l’envie te démange.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:critical:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Écoute-moi bien, matelot : la côte reçoit tour à tour lumière vive et ombre douce. Le vent donne du répondant tout en gardant de bonnes manières. Aucun départ, matelot, le large attendra un jour plus honnête.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, les nuages avancent en laissant encore de belles ouvertures. Le vent travaille avec régularité sans chercher la bagarre. Garde ton énergie pour un meilleur jour, moussaillon, celui-ci manque d’intérêt.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "L’horizon passe du clair au gris sans disparaître, tandis que le vent donne du répondant tout en gardant de bonnes manières. Mieux vaut regarder la Manche d’ici, matelot, puis revenir quand elle sera plus aimable.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Le vent paraît taillé pour une glisse vive mais propre ; au large, le ciel hésite entre sa veste bleue et son manteau gris. Je garderais la voile pliée, moussaillon, sans regret et sans bravade.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Regarde dehors, moussaillon, dehors, les éclaircies se faufilent entre des nuages bien présents. Le vent offre de la puissance sans prendre le commandement. La sortie peut attendre, matelot, tu trouveras une fenêtre plus généreuse.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "La côte reçoit tour à tour lumière vive et ombre douce. Côté vent, le vent tient sa ligne et remplit les voiles comme il faut. Reste près du Tourbillon, bonhomme, la sortie serait bien peu récompensée.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, le large reste lisible sous un ciel qui change souvent de mine. Le souffle est établi et devrait faire filer les coques proprement. Mieux vaut reporter, matelot, car le large ne propose rien d’assez propre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Des pans de bleu découpent encore la couverture nuageuse ; pour les voiles, les coques devraient accélérer sans mauvaise surprise dans les écoutes. Bosco vote pour le comptoir, bonhomme, et rarement sans une bonne raison.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:poor:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Jette donc un œil vers le large : la lumière et les nuages jouent à se voler l’horizon. L’air pousse franchement et laisse encore une belle marge. Laisse passer ce créneau, moussaillon, il ne mérite pas de mouiller le ciré.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, dehors, les éclaircies se faufilent entre des nuages bien présents. Les coques devraient accélérer sans mauvaise surprise dans les écoutes. Mets à l’eau seulement si tu te sens prêt, moussaillon, et reste modeste.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "La côte reçoit tour à tour lumière vive et ombre douce, tandis que l’air pousse franchement et laisse encore une belle marge. Bosco accorde un départ prudent, matelot, tant que tu respectes tes limites.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Les coques recevront un souffle utile, régulier et agréable ; au large, le large reste lisible sous un ciel qui change souvent de mine. Bosco te laisse essayer, moussaillon, mais la prudence tient la barre.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche, des pans de bleu découpent encore la couverture nuageuse. Les voiles trouveront un équilibre plaisant entre force et contrôle. Je n’interdis pas la sortie, matelot, mais je veux te savoir raisonnable.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "La lumière et les nuages jouent à se voler l’horizon. Côté vent, les voiles seront bien nourries sans arracher la barre. Avance avec mesure, bonhomme, et garde toujours une solution simple pour rentrer.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, le ciel garde assez d’ouvertures pour éclairer la Manche. La toile trouvera une poussée franche et encore maîtrisable. Si tu pars, matelot, fais court et surveille ce qui change autour de toi.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Les nuages et la lumière se partagent l’horizon ; pour les voiles, les voiles auront de quoi porter sans te demander les gros bras. Tu peux sortir, bonhomme, en gardant assez de marge pour rentrer tôt.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:mixed:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Je te le dis sans détour, bonhomme : le ciel alterne éclaircies franches et passages plus gris. La toile devrait chanter sans transformer la barre en combat. La sortie mérite un oui prudent, moussaillon, pas un départ les yeux fermés.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, des pans de bleu découpent encore la couverture nuageuse. Les voiles auront de quoi porter sans te demander les gros bras. Mets à l’eau sereinement, moussaillon, sans confondre confiance et négligence.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La lumière et les nuages jouent à se voler l’horizon, tandis que la toile devrait chanter sans transformer la barre en combat. Tu peux pousser la porte, matelot, le large t’accueille correctement.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "L’air est assez présent pour réveiller l’écume sans brutalité ; au large, le ciel garde assez d’ouvertures pour éclairer la Manche. Prépare la voile, moussaillon, la Manche devrait être de bonne compagnie.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Voyons ce que raconte la Manche, les nuages et la lumière se partagent l’horizon. L’air a juste assez de coffre pour faire chanter la toile. Bosco ne te retient pas au quai, matelot, alors grée sans traîner.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Le ciel alterne éclaircies franches et passages plus gris. Côté vent, le vent travaille avec régularité sans chercher la bagarre. Va faire chanter les voiles, bonhomme, le moment s’y prête joliment.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, des ombres courent sur le large entre deux trouées claires. Le vent donne du répondant tout en gardant de bonnes manières. Tu peux prendre le large, matelot, avec le sourire et l’œil ouvert.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La Manche change de couleur au passage des nuages ; pour les voiles, le vent paraît taillé pour une glisse vive mais propre. Les coques peuvent sortir, bonhomme, avec une belle promenade en perspective.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:good:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Je connais cette mine-là, matelot : le bleu apparaît puis se range derrière de gros nuages. Le vent offre de la puissance sans prendre le commandement. Le quai peut te laisser filer, moussaillon, cette fenêtre est favorable.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, les nuages et la lumière se partagent l’horizon. Le vent paraît taillé pour une glisse vive mais propre. Le large te tend les bras, moussaillon, alors navigue et savoure chaque bord.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le ciel alterne éclaircies franches et passages plus gris, tandis que le vent offre de la puissance sans prendre le commandement. Au large, matelot, cette occasion mérite mieux qu’une hésitation au comptoir.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le vent tient sa ligne et remplit les voiles comme il faut ; au large, des ombres courent sur le large entre deux trouées claires. Prépare tout, moussaillon, la navigation promet un vrai beau moment.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Laisse parler le vieux marin une seconde, la Manche change de couleur au passage des nuages. Le souffle est établi et devrait faire filer les coques proprement. Tu peux partir le cœur léger, matelot, tout se prête à une belle sortie.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le bleu apparaît puis se range derrière de gros nuages. Côté vent, les coques devraient accélérer sans mauvaise surprise dans les écoutes. Prends la barre avec le sourire, bonhomme, la Manche te fait un beau cadeau.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la fenêtre montre un ciel partagé, jamais tout à fait sombre. L’air pousse franchement et laisse encore une belle marge. Va profiter de la Manche, matelot, une fenêtre pareille ne se refuse pas.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "La lumière revient par plaques sur la ligne du large ; pour les voiles, les coques recevront un souffle utile, régulier et agréable. File gréer les coques, bonhomme, la Manche t’offre l’un de ses beaux jours.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:favorable:excellent:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Approche un peu, matelot : les nuages avancent en laissant encore de belles ouvertures. Les voiles trouveront un équilibre plaisant entre force et contrôle. Les voiles peuvent chanter, moussaillon, car le moment est vraiment excellent.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, la lumière revient par plaques sur la ligne du large. L’air a du coffre et la barre ne tolérera pas la distraction. Aucun départ, matelot, le large attendra un jour plus honnête.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Les nuages avancent en laissant encore de belles ouvertures, tandis que les coques peuvent filer vite, mais le souffle impose de la maîtrise. Tu ne largues rien, bonhomme, et tu gardes tout l’équipage à terre.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Les voiles auront du travail et le barreur davantage encore ; au large, l’horizon passe du clair au gris sans disparaître. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Regarde dehors, moussaillon, le ciel hésite entre sa veste bleue et son manteau gris. La toile va charger et chaque virement devra rester propre. Tu restes au sec, bonhomme, car une mauvaise marge ne se négocie pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents. Côté vent, l’air pousse avec caractère et réclame une marge généreuse. Reste au quai, moussaillon, car le large ne mérite aucun pari aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la côte reçoit tour à tour lumière vive et ombre douce. Les voiles vont tirer fort, avec des reprises qui demandent du métier. Les amarres restent tournées, bonhomme, sans discussion de comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine ; pour les voiles, la toile sera puissante et chaque manœuvre demandera de l’anticipation. Le quai gagne aujourd’hui, moussaillon, laisse ton orgueil au vestiaire.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:critical:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Jette donc un œil vers le large : des pans de bleu découpent encore la couverture nuageuse. La puissance est là, avec des coups de rein à surveiller. Les coques restent au sec, matelot, et cette décision ne se discute pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, le ciel hésite entre sa veste bleue et son manteau gris. La toile sera puissante et chaque manœuvre demandera de l’anticipation. Laisse passer ce créneau, moussaillon, il ne mérite pas de mouiller le ciré.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents, tandis que la puissance est là, avec des coups de rein à surveiller. Tu pourrais insister, bonhomme, mais Bosco te conseille franchement le quai.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le vent donne une vraie navigation sportive sans offrir beaucoup de repos ; au large, la côte reçoit tour à tour lumière vive et ombre douce. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche, le large reste lisible sous un ciel qui change souvent de mine. Le vent commence à hausser le ton autour des voiles. Je ne t’enverrais pas dehors, matelot, même avec un café dans le ventre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Des pans de bleu découpent encore la couverture nuageuse. Côté vent, le vent bombe le torse et réclamera des mains bien réveillées. Laisse les coques au repos, moussaillon, ce créneau ne vaut pas l’effort.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, la lumière et les nuages jouent à se voler l’horizon. Le vent pousse franchement, alors les écoutes devront rester vivantes. Le quai reste le choix raisonnable, matelot, malgré ton envie de naviguer.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche ; pour les voiles, le vent se fait physique et ne pardonnera pas une écoute oubliée. Les amarres peuvent rester tranquilles, bonhomme, le large n’offre pas assez.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:poor:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Je te le dis sans détour, bonhomme : les nuages et la lumière se partagent l’horizon. Le souffle devient musclé, assez pour fatiguer un équipage distrait. Je te déconseille la mise à l’eau, matelot, le plaisir serait trop maigre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, le large reste lisible sous un ciel qui change souvent de mine. Le vent se fait physique et ne pardonnera pas une écoute oubliée. La sortie mérite un oui prudent, moussaillon, pas un départ les yeux fermés.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Des pans de bleu découpent encore la couverture nuageuse, tandis que le souffle devient musclé, assez pour fatiguer un équipage distrait. La sortie reste possible, bonhomme, à condition de garder une vraie marge.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Les coques trouveront de la vitesse, au prix d’une vigilance constante ; au large, la lumière et les nuages jouent à se voler l’horizon. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Voyons ce que raconte la Manche, le ciel garde assez d’ouvertures pour éclairer la Manche. Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. Tu peux tenter le large proche, matelot, sans chercher à prolonger le plaisir.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Les nuages et la lumière se partagent l’horizon. Côté vent, l’air a du coffre et la barre ne tolérera pas la distraction. Tu peux mettre à l’eau prudemment, moussaillon, sans t’éloigner ni fanfaronner.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, le ciel alterne éclaircies franches et passages plus gris. Les coques peuvent filer vite, mais le souffle impose de la maîtrise. La porte n’est pas fermée, matelot, mais ne quitte pas la côte des yeux.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Des ombres courent sur le large entre deux trouées claires ; pour les voiles, les voiles auront du travail et le barreur davantage encore. La navigation est envisageable, bonhomme, pour qui sait renoncer au moindre doute.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:mixed:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Je connais cette mine-là, matelot : la Manche change de couleur au passage des nuages. La toile va charger et chaque virement devra rester propre. Ça peut se tenter avec réserve, matelot, mais garde le retour facile.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, le ciel garde assez d’ouvertures pour éclairer la Manche. Les voiles auront du travail et le barreur davantage encore. Le quai peut te laisser filer, moussaillon, cette fenêtre est favorable.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Les nuages et la lumière se partagent l’horizon, tandis que la toile va charger et chaque virement devra rester propre. Bosco te donne son feu vert, bonhomme, pour une navigation bien menée.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "L’air pousse avec caractère et réclame une marge généreuse ; au large, le ciel alterne éclaircies franches et passages plus gris. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Laisse parler le vieux marin une seconde, des ombres courent sur le large entre deux trouées claires. Les voiles vont tirer fort, avec des reprises qui demandent du métier. Tu as de bonnes raisons de partir, matelot, garde seulement tes habitudes prudentes.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "La Manche change de couleur au passage des nuages. Côté vent, la toile sera puissante et chaque manœuvre demandera de l’anticipation. Mets les coques à l’eau, moussaillon, et profite sans oublier ta marge.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, le bleu apparaît puis se range derrière de gros nuages. La puissance est là, avec des coups de rein à surveiller. Va saluer le large, matelot, tout en restant le marin attentif que j’attends.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "La fenêtre montre un ciel partagé, jamais tout à fait sombre ; pour les voiles, le vent donne une vraie navigation sportive sans offrir beaucoup de repos. La navigation s’annonce plaisante, bonhomme, profite de ce que le large offre.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:good:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Approche un peu, matelot : la lumière revient par plaques sur la ligne du large. Le vent commence à hausser le ton autour des voiles. Tu peux larguer les amarres, matelot, cette sortie se présente bien.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, des ombres courent sur le large entre deux trouées claires. Le vent donne une vraie navigation sportive sans offrir beaucoup de repos. Les voiles peuvent chanter, moussaillon, car le moment est vraiment excellent.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "La Manche change de couleur au passage des nuages, tandis que le vent commence à hausser le ton autour des voiles. Les coques ont rendez-vous avec le large, bonhomme, et Bosco approuve sans réserve.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Le vent bombe le torse et réclamera des mains bien réveillées ; au large, le bleu apparaît puis se range derrière de gros nuages. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Garde une main sur ton enthousiasme, la fenêtre montre un ciel partagé, jamais tout à fait sombre. Le vent pousse franchement, alors les écoutes devront rester vivantes. Cette sortie promet du plaisir, matelot, va donc réveiller proprement les coques.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "La lumière revient par plaques sur la ligne du large. Côté vent, le vent se fait physique et ne pardonnera pas une écoute oubliée. Largue les amarres, moussaillon, ce jour mérite de faire chanter les voiles.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, les nuages avancent en laissant encore de belles ouvertures. Le souffle devient musclé, assez pour fatiguer un équipage distrait. Mets à l’eau avec confiance, matelot, cette occasion est franchement remarquable.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "L’horizon passe du clair au gris sans disparaître ; pour les voiles, les coques trouveront de la vitesse, au prix d’une vigilance constante. Bosco n’a aucune raison de te garder ici, bonhomme, profite pleinement.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:sporty:excellent:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Pas si vite, moussaillon : le ciel hésite entre sa veste bleue et son manteau gris. Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. C’est une très belle occasion de naviguer, matelot, alors ne traîne pas au quai.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, l’horizon passe du clair au gris sans disparaître. Les voiles recevraient une puissance brutale et difficile à contenir. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le ciel hésite entre sa veste bleue et son manteau gris, tandis que la toile serait chargée au point de rendre chaque manœuvre risquée. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le vent a franchi la limite où l’expérience remplace la prudence ; au large, les éclaircies se faufilent entre des nuages bien présents. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche, la côte reçoit tour à tour lumière vive et ombre douce. Les voiles prendraient des claques que personne ne doit minimiser. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine. Côté vent, le vent mettrait l’équipage en lutte dès la mise à l’eau. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, des pans de bleu découpent encore la couverture nuageuse. Le vent frappe trop fort pour confier les coques au large. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "La lumière et les nuages jouent à se voler l’horizon ; pour les voiles, le vent cherche la bagarre et la barre n’a rien à y gagner. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:critical:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Je te le dis sans détour, bonhomme : le ciel garde assez d’ouvertures pour éclairer la Manche. Les coques seraient livrées à un souffle bien trop violent. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la côte reçoit tour à tour lumière vive et ombre douce. Le vent cherche la bagarre et la barre n’a rien à y gagner. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Le large reste lisible sous un ciel qui change souvent de mine, tandis que les coques seraient livrées à un souffle bien trop violent. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "La puissance du vent ne laisse plus la marge nécessaire ; au large, des pans de bleu découpent encore la couverture nuageuse. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Voyons ce que raconte la Manche, la lumière et les nuages jouent à se voler l’horizon. Les rafales commandent désormais plus fort que le barreur. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche. Côté vent, les rafales veulent arracher la barre et vider toute marge de sécurité. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, les nuages et la lumière se partagent l’horizon. Les rafales dépassent ce qu’une sortie prudente peut accepter. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Le ciel alterne éclaircies franches et passages plus gris ; pour les voiles, les coups de vent arrivent avec trop de force pour sortir proprement. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:poor:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Je connais cette mine-là, matelot : des ombres courent sur le large entre deux trouées claires. Les rafales peuvent coucher la toile avant même de laisser réagir. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, la lumière et les nuages jouent à se voler l’horizon. Les coups de vent arrivent avec trop de force pour sortir proprement. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Le ciel garde assez d’ouvertures pour éclairer la Manche, tandis que les rafales peuvent coucher la toile avant même de laisser réagir. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Le souffle est devenu assez violent pour imposer le quai ; au large, les nuages et la lumière se partagent l’horizon. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Laisse parler le vieux marin une seconde, le ciel alterne éclaircies franches et passages plus gris. La toile serait ingérable au moindre coup de travers. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Des ombres courent sur le large entre deux trouées claires. Côté vent, les voiles recevraient une puissance brutale et difficile à contenir. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la Manche change de couleur au passage des nuages. La toile serait chargée au point de rendre chaque manœuvre risquée. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Le bleu apparaît puis se range derrière de gros nuages ; pour les voiles, le vent a franchi la limite où l’expérience remplace la prudence. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:mixed:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Mille sabords : la fenêtre montre un ciel partagé, jamais tout à fait sombre. Les voiles prendraient des claques que personne ne doit minimiser. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, le ciel alterne éclaircies franches et passages plus gris. Le vent a franchi la limite où l’expérience remplace la prudence. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Des ombres courent sur le large entre deux trouées claires, tandis que les voiles prendraient des claques que personne ne doit minimiser. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Le vent mettrait l’équipage en lutte dès la mise à l’eau ; au large, la Manche change de couleur au passage des nuages. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Garde une main sur ton enthousiasme, le bleu apparaît puis se range derrière de gros nuages. Le vent frappe trop fort pour confier les coques au large. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "La fenêtre montre un ciel partagé, jamais tout à fait sombre. Côté vent, le vent cherche la bagarre et la barre n’a rien à y gagner. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, la lumière revient par plaques sur la ligne du large. Les coques seraient livrées à un souffle bien trop violent. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Les nuages avancent en laissant encore de belles ouvertures ; pour les voiles, la puissance du vent ne laisse plus la marge nécessaire. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:good:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Pas si vite, moussaillon : l’horizon passe du clair au gris sans disparaître. Les rafales commandent désormais plus fort que le barreur. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:01",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, le bleu apparaît puis se range derrière de gros nuages. La puissance du vent ne laisse plus la marge nécessaire. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:02",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "La fenêtre montre un ciel partagé, jamais tout à fait sombre, tandis que les rafales commandent désormais plus fort que le barreur. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:03",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Les rafales veulent arracher la barre et vider toute marge de sécurité ; au large, la lumière revient par plaques sur la ligne du large. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:04",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Viens voir l’horizon avec moi, les nuages avancent en laissant encore de belles ouvertures. Les rafales dépassent ce qu’une sortie prudente peut accepter. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:05",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "L’horizon passe du clair au gris sans disparaître. Côté vent, les coups de vent arrivent avec trop de force pour sortir proprement. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:06",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, le ciel hésite entre sa veste bleue et son manteau gris. Les rafales peuvent coucher la toile avant même de laisser réagir. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:07",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Dehors, les éclaircies se faufilent entre des nuages bien présents ; pour les voiles, le souffle est devenu assez violent pour imposer le quai. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "partly-cloudy:dangerous:excellent:08",
+    "weatherFamily": "partly-cloudy",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Le vieux Bosco a regardé dehors : la côte reçoit tour à tour lumière vive et ombre douce. La toile serait ingérable au moindre coup de travers. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  }
+]

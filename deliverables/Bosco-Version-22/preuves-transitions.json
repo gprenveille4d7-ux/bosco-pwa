@@ -1,0 +1,959 @@
+{
+  "animationsControlled": 8,
+  "poseChangesControlled": 30,
+  "framesControlled": 150,
+  "emptyFramesDetected": 0,
+  "mixedFramesDetected": 0,
+  "transitionDurationMs": 0,
+  "visiblePoseStatesPerFrame": 1,
+  "minimumMeasuredOpacity": 1,
+  "minimumMovingLayerOpaquePixels": 779858,
+  "anchor": [
+    768,
+    1252
+  ],
+  "maximumAnchorVariationPx": 0,
+  "productionAssetFrames": {
+    "/assets/bosco/compositing/fingers-front/annoyed-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/barometer-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/chart-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/listening-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/preparing-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/protective-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/resting-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/satisfied-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/sea-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/speaking-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/thinking-step9-v4.png": 1,
+    "/assets/bosco/compositing/fingers-front/worried-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/annoyed-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/barometer-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/chart-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/listening-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/preparing-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/protective-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/resting-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/satisfied-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/sea-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/speaking-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/thinking-step9-v4.png": 1,
+    "/assets/bosco/compositing/hands-behind/worried-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/annoyed-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/barometer-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/chart-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/listening-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/preparing-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/protective-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/resting-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/satisfied-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/sea-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/speaking-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/thinking-step9-v4.png": 1,
+    "/assets/bosco/compositing/poses/worried-step9-v4.png": 1
+  },
+  "transitions": [
+    {
+      "animation": "introduction",
+      "transition": 1,
+      "from": "resting",
+      "to": "sea",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        880751,
+        880751,
+        880751
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "introduction",
+      "transition": 2,
+      "from": "sea",
+      "to": "satisfied",
+      "opaquePixelsByFrame": [
+        880751,
+        880751,
+        836733,
+        836733,
+        836733
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "introduction",
+      "transition": 3,
+      "from": "sea",
+      "to": "protective",
+      "opaquePixelsByFrame": [
+        880751,
+        880751,
+        1113669,
+        1113669,
+        1113669
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "introduction",
+      "transition": 4,
+      "from": "sea",
+      "to": "worried",
+      "opaquePixelsByFrame": [
+        880751,
+        880751,
+        995210,
+        995210,
+        995210
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "look-sea",
+      "transition": 1,
+      "from": "resting",
+      "to": "listening",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        779858,
+        779858,
+        779858
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "look-sea",
+      "transition": 2,
+      "from": "listening",
+      "to": "thinking",
+      "opaquePixelsByFrame": [
+        779858,
+        779858,
+        877365,
+        877365,
+        877365
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "look-sea",
+      "transition": 3,
+      "from": "thinking",
+      "to": "sea",
+      "opaquePixelsByFrame": [
+        877365,
+        877365,
+        880751,
+        880751,
+        880751
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "look-sea",
+      "transition": 4,
+      "from": "sea",
+      "to": "thinking",
+      "opaquePixelsByFrame": [
+        880751,
+        880751,
+        877365,
+        877365,
+        877365
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "look-sea",
+      "transition": 5,
+      "from": "thinking",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        877365,
+        877365,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "listen",
+      "transition": 1,
+      "from": "resting",
+      "to": "listening",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        779858,
+        779858,
+        779858
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "listen",
+      "transition": 2,
+      "from": "listening",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        779858,
+        779858,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "think",
+      "transition": 1,
+      "from": "resting",
+      "to": "thinking",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        877365,
+        877365,
+        877365
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "think",
+      "transition": 2,
+      "from": "thinking",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        877365,
+        877365,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "check-barometer",
+      "transition": 1,
+      "from": "resting",
+      "to": "barometer",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        934889,
+        934889,
+        934889
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "check-barometer",
+      "transition": 2,
+      "from": "barometer",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        934889,
+        934889,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "check-chart",
+      "transition": 1,
+      "from": "resting",
+      "to": "chart",
+      "opaquePixelsByFrame": [
+        854969,
+        854969,
+        1006735,
+        1006735,
+        1006735
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "check-chart",
+      "transition": 2,
+      "from": "chart",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        1006735,
+        1006735,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 1,
+      "from": "satisfied",
+      "to": "listening",
+      "opaquePixelsByFrame": [
+        836733,
+        836733,
+        779858,
+        779858,
+        779858
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 2,
+      "from": "listening",
+      "to": "satisfied",
+      "opaquePixelsByFrame": [
+        779858,
+        779858,
+        836733,
+        836733,
+        836733
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 3,
+      "from": "protective",
+      "to": "thinking",
+      "opaquePixelsByFrame": [
+        1113669,
+        1113669,
+        877365,
+        877365,
+        877365
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 4,
+      "from": "thinking",
+      "to": "protective",
+      "opaquePixelsByFrame": [
+        877365,
+        877365,
+        1113669,
+        1113669,
+        1113669
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 5,
+      "from": "worried",
+      "to": "barometer",
+      "opaquePixelsByFrame": [
+        995210,
+        995210,
+        934889,
+        934889,
+        934889
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "decision-to-wait",
+      "transition": 6,
+      "from": "barometer",
+      "to": "worried",
+      "opaquePixelsByFrame": [
+        934889,
+        934889,
+        995210,
+        995210,
+        995210
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 1,
+      "from": "satisfied",
+      "to": "protective",
+      "opaquePixelsByFrame": [
+        836733,
+        836733,
+        1113669,
+        1113669,
+        1113669
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 2,
+      "from": "protective",
+      "to": "annoyed",
+      "opaquePixelsByFrame": [
+        1113669,
+        1113669,
+        844709,
+        844709,
+        844709
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 3,
+      "from": "annoyed",
+      "to": "chart",
+      "opaquePixelsByFrame": [
+        844709,
+        844709,
+        1006735,
+        1006735,
+        1006735
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 4,
+      "from": "chart",
+      "to": "preparing",
+      "opaquePixelsByFrame": [
+        1006735,
+        1006735,
+        844709,
+        844709,
+        844709
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 5,
+      "from": "preparing",
+      "to": "speaking",
+      "opaquePixelsByFrame": [
+        844709,
+        844709,
+        943889,
+        943889,
+        943889
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 6,
+      "from": "chart",
+      "to": "speaking",
+      "opaquePixelsByFrame": [
+        1006735,
+        1006735,
+        943889,
+        943889,
+        943889
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    },
+    {
+      "animation": "expressions",
+      "transition": 7,
+      "from": "speaking",
+      "to": "resting",
+      "opaquePixelsByFrame": [
+        943889,
+        943889,
+        854969,
+        854969,
+        854969
+      ],
+      "emptyFrameDetected": false,
+      "opacityByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "visiblePoseStatesByFrame": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixedFrameDetected": false,
+      "transitionDurationMs": 0
+    }
+  ],
+  "browserPreviewAvailable": false,
+  "realIPhoneTested": false,
+  "installedPwaTested": false
+}

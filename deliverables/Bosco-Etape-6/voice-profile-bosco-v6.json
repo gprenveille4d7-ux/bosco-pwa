@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "6.0.0",
+  "profileId": "bosco-commandant-normand-v6",
+  "language": "fr-FR",
+  "identity": {
+    "agePerception": "65-75",
+    "genderPresentation": "masculine",
+    "character": [
+      "grave",
+      "chaleureuse",
+      "légèrement rocailleuse",
+      "lente",
+      "rassurante",
+      "protectrice"
+    ],
+    "accent": "Français naturel avec une couleur maritime et normande très légère, jamais caricaturale.",
+    "exclusions": [
+      "Aucune imitation d'une personne ou d'un personnage existant",
+      "Aucun accent de pirate",
+      "Aucun jeu théâtral burlesque",
+      "Aucune voix publicitaire ou radiophonique brillante"
+    ]
+  },
+  "prosody": {
+    "wordsPerMinuteTarget": 116,
+    "browserSpeechRate": 0.74,
+    "browserPitch": 0.62,
+    "browserVolume": 0.94,
+    "sentenceFinalFallSemitones": -2.6,
+    "breathEverySentences": 2,
+    "pauseMs": {
+      "comma": 220,
+      "period": 480,
+      "safetyWarningBefore": 320,
+      "safetyWarningAfter": 580,
+      "scoreBefore": 260
+    }
+  },
+  "emotionPresets": {
+    "calme": {
+      "rateMultiplier": 0.96,
+      "pitchSemitones": 0,
+      "intensity": 0.42
+    },
+    "satisfait": {
+      "rateMultiplier": 1,
+      "pitchSemitones": 0.4,
+      "intensity": 0.52
+    },
+    "enthousiaste": {
+      "rateMultiplier": 1.03,
+      "pitchSemitones": 0.7,
+      "intensity": 0.65
+    },
+    "protecteur": {
+      "rateMultiplier": 0.9,
+      "pitchSemitones": -0.6,
+      "intensity": 0.72
+    },
+    "inquiet": {
+      "rateMultiplier": 0.88,
+      "pitchSemitones": -0.3,
+      "intensity": 0.66
+    },
+    "contrarié": {
+      "rateMultiplier": 0.92,
+      "pitchSemitones": -0.8,
+      "intensity": 0.62
+    }
+  },
+  "providerAdapters": {
+    "browserSpeechSynthesis": {
+      "status": "implemented",
+      "voiceSelection": "Priorité à Thomas et aux voix masculines françaises naturelles ou améliorées.",
+      "boundaryEvents": "Animer discrètement la bouche sur les limites de mots, avec repli temporisé de faible amplitude."
+    },
+    "openai": {
+      "status": "adapter-ready",
+      "instructions": "Parle en français avec une voix masculine grave, chaude et posée. Rythme lent d’environ 116 mots par minute, articulation très nette, léger souffle naturel avant les phrases importantes et fins de phrases descendantes. Bosco est un vieux marin normand protecteur : rassurant quand les conditions sont bonnes, ferme sans théâtralité quand la sécurité est en jeu. Ne prends ni accent pirate, ni voix publicitaire, ni imitation d’une personne réelle.",
+      "responseFormat": "opus"
+    },
+    "elevenlabs": {
+      "status": "adapter-ready",
+      "stability": 0.74,
+      "similarityBoost": 0.58,
+      "style": 0.18,
+      "speakerBoost": true
+    },
+    "azureSpeech": {
+      "status": "adapter-ready",
+      "locale": "fr-FR",
+      "rate": "-18%",
+      "pitch": "-11%",
+      "styleDegree": 0.65
+    }
+  },
+  "textPreparation": {
+    "expandUnits": {
+      "nds": "nœuds",
+      "m": "mètres",
+      "h": "heures"
+    },
+    "safetyRule": "Lire les avertissements de sécurité comme une phrase séparée et plus lente.",
+    "maximumContinuousSeconds": 28
+  }
+}

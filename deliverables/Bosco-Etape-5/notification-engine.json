@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "5.0.0",
+  "status": "implemented-while-app-active",
+  "deliveryPolicy": {
+    "optInRequired": true,
+    "defaultEnabled": false,
+    "globalCooldownMinutes": 90,
+    "maximumPerDay": 3,
+    "quietHoursLocal": {
+      "start": "21:30",
+      "end": "07:30"
+    },
+    "dedupeWindowMinutes": 240,
+    "onlyNotifyOnMaterialChange": true
+  },
+  "priority": [
+    "safety",
+    "connection",
+    "tide",
+    "weather-window",
+    "comfort"
+  ],
+  "rules": [
+    {
+      "id": "gust-danger",
+      "priority": "safety",
+      "when": {
+        "gustKtGte": 28
+      },
+      "title": "Bosco lève le doigt",
+      "body": "{{firstName}}, attention : les rafales montent à {{gustKt}} nœuds.",
+      "cooldownMinutes": 180
+    },
+    {
+      "id": "storm-risk",
+      "priority": "safety",
+      "when": {
+        "thunderstormRiskGte": 0.35
+      },
+      "title": "Bosco déconseille la sortie",
+      "body": "{{firstName}}, risque orageux détecté. Reste au port pour le moment.",
+      "cooldownMinutes": 360
+    },
+    {
+      "id": "connection-restored",
+      "priority": "connection",
+      "when": {
+        "event": "online-restored"
+      },
+      "title": "Les relevés reviennent",
+      "body": "Bosco a retrouvé les données et reprend le calcul.",
+      "cooldownMinutes": 60
+    },
+    {
+      "id": "tide-turn",
+      "priority": "tide",
+      "when": {
+        "minutesBeforeTurnLte": 30
+      },
+      "title": "La marée va basculer",
+      "body": "{{firstName}}, la marée change bientôt de sens à {{spot}}.",
+      "cooldownMinutes": 240
+    },
+    {
+      "id": "weather-window",
+      "priority": "weather-window",
+      "when": {
+        "scoreIncreaseGte": 1.5,
+        "scoreGte": 7
+      },
+      "title": "Une fenêtre se dessine",
+      "body": "Bosco pense qu’un beau créneau arrive pour {{craftType}}.",
+      "cooldownMinutes": 240
+    }
+  ],
+  "backgroundRequirement": "True background alerts require a service-worker push feed or periodic server-side weather checks. No background claim is made without that feed.",
+  "privacy": {
+    "storedLocally": [
+      "permission preference",
+      "last notification timestamps",
+      "dedupe identifiers"
+    ],
+    "remoteProfileTransmission": false
+  }
+}

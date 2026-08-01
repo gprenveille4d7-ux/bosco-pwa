@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "storm:calm:critical:01",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Des éclairs déchirent le ciel derrière la vitre. Les coques auront peu de force à tirer de l’air. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:02",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "L’orage ferme l’horizon et montre déjà les dents, tandis que l’air manque de volonté pour faire vraiment chanter les voiles. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:03",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le souffle reste trop mince pour réveiller franchement les coques ; au large, un ciel noir lance des éclairs au-dessus du large. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:04",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Viens voir l’horizon avec moi, le grain orageux avale la lumière sur la Manche. Les voiles risquent de pendre sans trouver de quoi travailler. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:05",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Dehors, l’orage roule sous un horizon menaçant. Côté vent, le vent ne pousse presque rien, pas même l’impatience. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:06",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, les éclairs éclairent par coups un large devenu sombre. Le vent reste dans sa bannette et laisse les voiles molles. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:07",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le ciel orageux se referme brutalement sur la côte ; pour les voiles, le vent paresse et la toile ne trouvera guère de coffre. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:critical:08",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le vieux Bosco a regardé dehors : un grain noir avance avec des lueurs d’éclair. Le vent se fait oublier et la navigation sera bien molle. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:01",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, le grain orageux avale la lumière sur la Manche. Le vent paresse et la toile ne trouvera guère de coffre. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:02",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Dehors, l’orage roule sous un horizon menaçant, tandis que le vent se fait oublier et la navigation sera bien molle. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:03",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "L’air bouge à peine, juste assez pour faire frémir une écoute ; au large, les éclairs éclairent par coups un large devenu sombre. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:04",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Pose ton ciré une seconde, moussaillon, le ciel orageux se referme brutalement sur la côte. L’air somnole encore au-dessus de l’eau. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:05",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Un grain noir avance avec des lueurs d’éclair. Côté vent, le peu d’air promet surtout une glisse très lente. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:06",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, la fenêtre cadre un horizon chargé d’orage. Le souffle est si discret qu’il faudra savourer chaque risée. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:07",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Les éclairs griffent un ciel devenu presque noir ; pour les voiles, les voiles auront davantage envie de dormir que de porter. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:poor:08",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Je garde un œil sur la fenêtre, bonhomme : la Manche disparaît sous la masse sombre de l’orage. Le vent reste couché et les voiles auront du mal à prendre forme. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:01",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, le ciel orageux se referme brutalement sur la côte. Les voiles auront davantage envie de dormir que de porter. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:02",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Un grain noir avance avec des lueurs d’éclair, tandis que le vent reste couché et les voiles auront du mal à prendre forme. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:03",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Le souffle manque et les coques avanceront avec patience ; au large, la fenêtre cadre un horizon chargé d’orage. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:04",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Écoute-moi bien, matelot, les éclairs griffent un ciel devenu presque noir. Les voiles chercheront longtemps le moindre souffle utile. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:05",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "La Manche disparaît sous la masse sombre de l’orage. Côté vent, les coques auront peu de force à tirer de l’air. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:06",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, le grain orageux occupe tout le paysage du large. L’air manque de volonté pour faire vraiment chanter les voiles. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:07",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Dehors, le ciel menace et les éclairs répondent ; pour les voiles, le souffle reste trop mince pour réveiller franchement les coques. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:mixed:08",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Avant de toucher aux amarres, écoute : l’horizon se contracte sous un orage bien installé. Les voiles risquent de pendre sans trouver de quoi travailler. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:01",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, les éclairs griffent un ciel devenu presque noir. Le souffle reste trop mince pour réveiller franchement les coques. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:02",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "La Manche disparaît sous la masse sombre de l’orage, tandis que les voiles risquent de pendre sans trouver de quoi travailler. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:03",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le vent ne pousse presque rien, pas même l’impatience ; au large, le grain orageux occupe tout le paysage du large. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:04",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Jette donc un œil vers le large, dehors, le ciel menace et les éclairs répondent. Le vent reste dans sa bannette et laisse les voiles molles. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:05",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "L’horizon se contracte sous un orage bien installé. Côté vent, le vent paresse et la toile ne trouvera guère de coffre. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:06",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, un front noir traverse la vue avec des éclairs nets. Le vent se fait oublier et la navigation sera bien molle. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:07",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large ; pour les voiles, l’air bouge à peine, juste assez pour faire frémir une écoute. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:good:08",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Regarde dehors, moussaillon : des éclairs déchirent le ciel derrière la vitre. L’air somnole encore au-dessus de l’eau. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:01",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, dehors, le ciel menace et les éclairs répondent. L’air bouge à peine, juste assez pour faire frémir une écoute. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:02",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "L’horizon se contracte sous un orage bien installé, tandis que l’air somnole encore au-dessus de l’eau. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:03",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le peu d’air promet surtout une glisse très lente ; au large, un front noir traverse la vue avec des éclairs nets. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:04",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Je te le dis sans détour, bonhomme, le ciel orageux montre sa colère jusque sur la ligne du large. Le souffle est si discret qu’il faudra savourer chaque risée. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:05",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Des éclairs déchirent le ciel derrière la vitre. Côté vent, les voiles auront davantage envie de dormir que de porter. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:06",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, l’orage ferme l’horizon et montre déjà les dents. Le vent reste couché et les voiles auront du mal à prendre forme. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:07",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Un ciel noir lance des éclairs au-dessus du large ; pour les voiles, le souffle manque et les coques avanceront avec patience. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:calm:excellent:08",
+    "weatherFamily": "storm",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : le grain orageux avale la lumière sur la Manche. Les voiles chercheront longtemps le moindre souffle utile. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:01",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, un ciel noir lance des éclairs au-dessus du large. Le vent se montre poli, presque trop pour les amateurs de vitesse. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:02",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Le grain orageux avale la lumière sur la Manche, tandis que le vent reste léger et demandera de soigner chaque réglage. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:03",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Les voiles respireront doucement sans tirer fort sur les écoutes ; au large, l’orage roule sous un horizon menaçant. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:04",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Pose ton ciré une seconde, moussaillon, les éclairs éclairent par coups un large devenu sombre. L’air suffit pour avancer doucement sans réveiller toute l’écume. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:05",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Le ciel orageux se referme brutalement sur la côte. Côté vent, le vent accompagne les coques sans chercher à les lancer. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:06",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, un grain noir avance avec des lueurs d’éclair. Le petit air offre une navigation douce et peu physique. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:07",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "La fenêtre cadre un horizon chargé d’orage ; pour les voiles, l’air donne juste assez de vie aux voiles pour une sortie calme. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:critical:08",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Je garde un œil sur la fenêtre, bonhomme : les éclairs griffent un ciel devenu presque noir. Le petit vent promet davantage de finesse que de spectacle. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:01",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, les éclairs éclairent par coups un large devenu sombre. L’air donne juste assez de vie aux voiles pour une sortie calme. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:02",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Le ciel orageux se referme brutalement sur la côte, tandis que le petit vent promet davantage de finesse que de spectacle. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:03",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Le vent pousse gentiment, mais la glisse restera tranquille ; au large, un grain noir avance avec des lueurs d’éclair. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:04",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Écoute-moi bien, matelot, la fenêtre cadre un horizon chargé d’orage. Le souffle est propre mais encore un peu maigre. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:05",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Les éclairs griffent un ciel devenu presque noir. Côté vent, les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:06",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, la Manche disparaît sous la masse sombre de l’orage. Les coques avanceront proprement dans un souffle modeste. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:07",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Le grain orageux occupe tout le paysage du large ; pour les voiles, la toile recevra un souffle régulier mais sans grand coffre. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:poor:08",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Tonnerre de Brest : dehors, le ciel menace et les éclairs répondent. Un petit souffle remplit la toile sans lui donner beaucoup de nerf. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:01",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, la fenêtre cadre un horizon chargé d’orage. La toile recevra un souffle régulier mais sans grand coffre. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:02",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Les éclairs griffent un ciel devenu presque noir, tandis que un petit souffle remplit la toile sans lui donner beaucoup de nerf. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:03",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Les voiles prendront forme, sans promettre une grande cavalcade ; au large, la Manche disparaît sous la masse sombre de l’orage. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:04",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Jette donc un œil vers le large, le grain orageux occupe tout le paysage du large. La toile travaillera doucement dans un air plutôt sage. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:05",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Dehors, le ciel menace et les éclairs répondent. Côté vent, le vent se montre poli, presque trop pour les amateurs de vitesse. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:06",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, l’horizon se contracte sous un orage bien installé. Le vent reste léger et demandera de soigner chaque réglage. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:07",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Un front noir traverse la vue avec des éclairs nets ; pour les voiles, les voiles respireront doucement sans tirer fort sur les écoutes. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:mixed:08",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Regarde dehors, moussaillon : le ciel orageux montre sa colère jusque sur la ligne du large. L’air suffit pour avancer doucement sans réveiller toute l’écume. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:01",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, le grain orageux occupe tout le paysage du large. Les voiles respireront doucement sans tirer fort sur les écoutes. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:02",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Dehors, le ciel menace et les éclairs répondent, tandis que l’air suffit pour avancer doucement sans réveiller toute l’écume. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:03",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le vent accompagne les coques sans chercher à les lancer ; au large, l’horizon se contracte sous un orage bien installé. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:04",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Je te le dis sans détour, bonhomme, un front noir traverse la vue avec des éclairs nets. Le petit air offre une navigation douce et peu physique. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:05",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large. Côté vent, l’air donne juste assez de vie aux voiles pour une sortie calme. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:06",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, des éclairs déchirent le ciel derrière la vitre. Le petit vent promet davantage de finesse que de spectacle. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:07",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "L’orage ferme l’horizon et montre déjà les dents ; pour les voiles, le vent pousse gentiment, mais la glisse restera tranquille. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:good:08",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : un ciel noir lance des éclairs au-dessus du large. Le souffle est propre mais encore un peu maigre. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:01",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, un front noir traverse la vue avec des éclairs nets. Le vent pousse gentiment, mais la glisse restera tranquille. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:02",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large, tandis que le souffle est propre mais encore un peu maigre. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:03",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Les voiles trouveront de quoi porter, mais pas de quoi fanfaronner ; au large, des éclairs déchirent le ciel derrière la vitre. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:04",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Je connais cette mine-là, matelot, l’orage ferme l’horizon et montre déjà les dents. Les coques avanceront proprement dans un souffle modeste. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:05",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Un ciel noir lance des éclairs au-dessus du large. Côté vent, la toile recevra un souffle régulier mais sans grand coffre. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:06",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, le grain orageux avale la lumière sur la Manche. Un petit souffle remplit la toile sans lui donner beaucoup de nerf. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:07",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Dehors, l’orage roule sous un horizon menaçant ; pour les voiles, les voiles prendront forme, sans promettre une grande cavalcade. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:light:excellent:08",
+    "weatherFamily": "storm",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Voyons ce que raconte la Manche : les éclairs éclairent par coups un large devenu sombre. La toile travaillera doucement dans un air plutôt sage. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:01",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, dehors, l’orage roule sous un horizon menaçant. L’air pousse franchement et laisse encore une belle marge. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:02",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Les éclairs éclairent par coups un large devenu sombre, tandis que les coques recevront un souffle utile, régulier et agréable. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:03",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Les voiles trouveront un équilibre plaisant entre force et contrôle ; au large, le ciel orageux se referme brutalement sur la côte. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:04",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Écoute-moi bien, matelot, un grain noir avance avec des lueurs d’éclair. Les voiles seront bien nourries sans arracher la barre. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:05",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "La fenêtre cadre un horizon chargé d’orage. Côté vent, la toile trouvera une poussée franche et encore maîtrisable. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:06",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, les éclairs griffent un ciel devenu presque noir. Les voiles auront de quoi porter sans te demander les gros bras. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:07",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "La Manche disparaît sous la masse sombre de l’orage ; pour les voiles, la toile devrait chanter sans transformer la barre en combat. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:critical:08",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Avant de toucher aux amarres, écoute : le grain orageux occupe tout le paysage du large. L’air est assez présent pour réveiller l’écume sans brutalité. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:01",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, un grain noir avance avec des lueurs d’éclair. La toile devrait chanter sans transformer la barre en combat. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:02",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "La fenêtre cadre un horizon chargé d’orage, tandis que l’air est assez présent pour réveiller l’écume sans brutalité. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:03",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "L’air a juste assez de coffre pour faire chanter la toile ; au large, les éclairs griffent un ciel devenu presque noir. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:04",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Jette donc un œil vers le large, la Manche disparaît sous la masse sombre de l’orage. Le vent travaille avec régularité sans chercher la bagarre. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:05",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Le grain orageux occupe tout le paysage du large. Côté vent, le vent donne du répondant tout en gardant de bonnes manières. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:06",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, le ciel menace et les éclairs répondent. Le vent paraît taillé pour une glisse vive mais propre. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:07",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "L’horizon se contracte sous un orage bien installé ; pour les voiles, le vent offre de la puissance sans prendre le commandement. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:poor:08",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Regarde dehors, moussaillon : un front noir traverse la vue avec des éclairs nets. Le vent tient sa ligne et remplit les voiles comme il faut. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:01",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, la Manche disparaît sous la masse sombre de l’orage. Le vent offre de la puissance sans prendre le commandement. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:02",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Le grain orageux occupe tout le paysage du large, tandis que le vent tient sa ligne et remplit les voiles comme il faut. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:03",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Le souffle est établi et devrait faire filer les coques proprement ; au large, le ciel menace et les éclairs répondent. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:04",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Je te le dis sans détour, bonhomme, l’horizon se contracte sous un orage bien installé. Les coques devraient accélérer sans mauvaise surprise dans les écoutes. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:05",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Un front noir traverse la vue avec des éclairs nets. Côté vent, l’air pousse franchement et laisse encore une belle marge. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:06",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, le ciel orageux montre sa colère jusque sur la ligne du large. Les coques recevront un souffle utile, régulier et agréable. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:07",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Des éclairs déchirent le ciel derrière la vitre ; pour les voiles, les voiles trouveront un équilibre plaisant entre force et contrôle. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:mixed:08",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : l’orage ferme l’horizon et montre déjà les dents. Les voiles seront bien nourries sans arracher la barre. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:01",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, l’horizon se contracte sous un orage bien installé. Les voiles trouveront un équilibre plaisant entre force et contrôle. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:02",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Un front noir traverse la vue avec des éclairs nets, tandis que les voiles seront bien nourries sans arracher la barre. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:03",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La toile trouvera une poussée franche et encore maîtrisable ; au large, le ciel orageux montre sa colère jusque sur la ligne du large. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:04",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Je connais cette mine-là, matelot, des éclairs déchirent le ciel derrière la vitre. Les voiles auront de quoi porter sans te demander les gros bras. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:05",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "L’orage ferme l’horizon et montre déjà les dents. Côté vent, la toile devrait chanter sans transformer la barre en combat. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:06",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, un ciel noir lance des éclairs au-dessus du large. L’air est assez présent pour réveiller l’écume sans brutalité. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:07",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Le grain orageux avale la lumière sur la Manche ; pour les voiles, l’air a juste assez de coffre pour faire chanter la toile. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:good:08",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Voyons ce que raconte la Manche : dehors, l’orage roule sous un horizon menaçant. Le vent travaille avec régularité sans chercher la bagarre. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:01",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Des éclairs déchirent le ciel derrière la vitre. L’air a juste assez de coffre pour faire chanter la toile. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:02",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "L’orage ferme l’horizon et montre déjà les dents, tandis que le vent travaille avec régularité sans chercher la bagarre. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:03",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le vent donne du répondant tout en gardant de bonnes manières ; au large, un ciel noir lance des éclairs au-dessus du large. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:04",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Approche un peu, matelot, le grain orageux avale la lumière sur la Manche. Le vent paraît taillé pour une glisse vive mais propre. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:05",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Dehors, l’orage roule sous un horizon menaçant. Côté vent, le vent offre de la puissance sans prendre le commandement. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:06",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, les éclairs éclairent par coups un large devenu sombre. Le vent tient sa ligne et remplit les voiles comme il faut. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:07",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le ciel orageux se referme brutalement sur la côte ; pour les voiles, le souffle est établi et devrait faire filer les coques proprement. Range la voile, matelot, le refus est ferme et parfaitement sérieux.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:favorable:excellent:08",
+    "weatherFamily": "storm",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Laisse parler le vieux marin une seconde : un grain noir avance avec des lueurs d’éclair. Les coques devraient accélérer sans mauvaise surprise dans les écoutes. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:01",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, le ciel orageux se referme brutalement sur la côte. Le souffle devient musclé, assez pour fatiguer un équipage distrait. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:02",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Un grain noir avance avec des lueurs d’éclair, tandis que les coques trouveront de la vitesse, au prix d’une vigilance constante. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:03",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes ; au large, la fenêtre cadre un horizon chargé d’orage. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:04",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Jette donc un œil vers le large, les éclairs griffent un ciel devenu presque noir. L’air a du coffre et la barre ne tolérera pas la distraction. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:05",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "La Manche disparaît sous la masse sombre de l’orage. Côté vent, les coques peuvent filer vite, mais le souffle impose de la maîtrise. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:06",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, le grain orageux occupe tout le paysage du large. Les voiles auront du travail et le barreur davantage encore. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:07",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Dehors, le ciel menace et les éclairs répondent ; pour les voiles, la toile va charger et chaque virement devra rester propre. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:critical:08",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Regarde dehors, moussaillon : l’horizon se contracte sous un orage bien installé. L’air pousse avec caractère et réclame une marge généreuse. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:01",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, les éclairs griffent un ciel devenu presque noir. La toile va charger et chaque virement devra rester propre. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:02",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "La Manche disparaît sous la masse sombre de l’orage, tandis que l’air pousse avec caractère et réclame une marge généreuse. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:03",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Les voiles vont tirer fort, avec des reprises qui demandent du métier ; au large, le grain orageux occupe tout le paysage du large. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:04",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Je te le dis sans détour, bonhomme, dehors, le ciel menace et les éclairs répondent. La toile sera puissante et chaque manœuvre demandera de l’anticipation. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:05",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "L’horizon se contracte sous un orage bien installé. Côté vent, la puissance est là, avec des coups de rein à surveiller. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:06",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, un front noir traverse la vue avec des éclairs nets. Le vent donne une vraie navigation sportive sans offrir beaucoup de repos. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:07",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large ; pour les voiles, le vent commence à hausser le ton autour des voiles. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:poor:08",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : des éclairs déchirent le ciel derrière la vitre. Le vent bombe le torse et réclamera des mains bien réveillées. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:01",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, dehors, le ciel menace et les éclairs répondent. Le vent commence à hausser le ton autour des voiles. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:02",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "L’horizon se contracte sous un orage bien installé, tandis que le vent bombe le torse et réclamera des mains bien réveillées. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:03",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Le vent pousse franchement, alors les écoutes devront rester vivantes ; au large, un front noir traverse la vue avec des éclairs nets. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:04",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Je connais cette mine-là, matelot, le ciel orageux montre sa colère jusque sur la ligne du large. Le vent se fait physique et ne pardonnera pas une écoute oubliée. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:05",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Des éclairs déchirent le ciel derrière la vitre. Côté vent, le souffle devient musclé, assez pour fatiguer un équipage distrait. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:06",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, l’orage ferme l’horizon et montre déjà les dents. Les coques trouveront de la vitesse, au prix d’une vigilance constante. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:07",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Un ciel noir lance des éclairs au-dessus du large ; pour les voiles, les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:mixed:08",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Voyons ce que raconte la Manche : le grain orageux avale la lumière sur la Manche. L’air a du coffre et la barre ne tolérera pas la distraction. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:01",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, le ciel orageux montre sa colère jusque sur la ligne du large. Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:02",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Des éclairs déchirent le ciel derrière la vitre, tandis que l’air a du coffre et la barre ne tolérera pas la distraction. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:03",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Les coques peuvent filer vite, mais le souffle impose de la maîtrise ; au large, l’orage ferme l’horizon et montre déjà les dents. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:04",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Approche un peu, matelot, un ciel noir lance des éclairs au-dessus du large. Les voiles auront du travail et le barreur davantage encore. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:05",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Le grain orageux avale la lumière sur la Manche. Côté vent, la toile va charger et chaque virement devra rester propre. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:06",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, l’orage roule sous un horizon menaçant. L’air pousse avec caractère et réclame une marge généreuse. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:07",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Les éclairs éclairent par coups un large devenu sombre ; pour les voiles, les voiles vont tirer fort, avec des reprises qui demandent du métier. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:good:08",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Laisse parler le vieux marin une seconde : le ciel orageux se referme brutalement sur la côte. La toile sera puissante et chaque manœuvre demandera de l’anticipation. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:01",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, un ciel noir lance des éclairs au-dessus du large. Les voiles vont tirer fort, avec des reprises qui demandent du métier. Le quai gagne sans appel, bonhomme, car le large dépasse la limite acceptable.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:02",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Le grain orageux avale la lumière sur la Manche, tandis que la toile sera puissante et chaque manœuvre demandera de l’anticipation. Les coques restent au sec, matelot, et Bosco ne négocie pas avec le danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:03",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "La puissance est là, avec des coups de rein à surveiller ; au large, l’orage roule sous un horizon menaçant. Tu ne pars pas, bonhomme, car une belle envie ne vaut pas une mauvaise marge.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:04",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Pas si vite, moussaillon, les éclairs éclairent par coups un large devenu sombre. Le vent donne une vraie navigation sportive sans offrir beaucoup de repos. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:05",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Le ciel orageux se referme brutalement sur la côte. Côté vent, le vent commence à hausser le ton autour des voiles. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:06",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, un grain noir avance avec des lueurs d’éclair. Le vent bombe le torse et réclamera des mains bien réveillées. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:07",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "La fenêtre cadre un horizon chargé d’orage ; pour les voiles, le vent pousse franchement, alors les écoutes devront rester vivantes. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:sporty:excellent:08",
+    "weatherFamily": "storm",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Garde une main sur ton enthousiasme : les éclairs griffent un ciel devenu presque noir. Le vent se fait physique et ne pardonnera pas une écoute oubliée. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:01",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, la fenêtre cadre un horizon chargé d’orage. Les rafales peuvent coucher la toile avant même de laisser réagir. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:02",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Les éclairs griffent un ciel devenu presque noir, tandis que le souffle est devenu assez violent pour imposer le quai. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:03",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "La toile serait ingérable au moindre coup de travers ; au large, la Manche disparaît sous la masse sombre de l’orage. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:04",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Je te le dis sans détour, bonhomme, le grain orageux occupe tout le paysage du large. Les voiles recevraient une puissance brutale et difficile à contenir. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:05",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Dehors, le ciel menace et les éclairs répondent. Côté vent, la toile serait chargée au point de rendre chaque manœuvre risquée. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:06",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, l’horizon se contracte sous un orage bien installé. Le vent a franchi la limite où l’expérience remplace la prudence. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:07",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Un front noir traverse la vue avec des éclairs nets ; pour les voiles, les voiles prendraient des claques que personne ne doit minimiser. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:critical:08",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : le ciel orageux montre sa colère jusque sur la ligne du large. Le vent mettrait l’équipage en lutte dès la mise à l’eau. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:01",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, le grain orageux occupe tout le paysage du large. Les voiles prendraient des claques que personne ne doit minimiser. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:02",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Dehors, le ciel menace et les éclairs répondent, tandis que le vent mettrait l’équipage en lutte dès la mise à l’eau. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:03",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Le vent frappe trop fort pour confier les coques au large ; au large, l’horizon se contracte sous un orage bien installé. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:04",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Je connais cette mine-là, matelot, un front noir traverse la vue avec des éclairs nets. Le vent cherche la bagarre et la barre n’a rien à y gagner. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:05",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large. Côté vent, les coques seraient livrées à un souffle bien trop violent. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:06",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, des éclairs déchirent le ciel derrière la vitre. La puissance du vent ne laisse plus la marge nécessaire. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:07",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "L’orage ferme l’horizon et montre déjà les dents ; pour les voiles, les rafales commandent désormais plus fort que le barreur. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:poor:08",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Voyons ce que raconte la Manche : un ciel noir lance des éclairs au-dessus du large. Les rafales veulent arracher la barre et vider toute marge de sécurité. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:01",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, un front noir traverse la vue avec des éclairs nets. Les rafales commandent désormais plus fort que le barreur. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:02",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Le ciel orageux montre sa colère jusque sur la ligne du large, tandis que les rafales veulent arracher la barre et vider toute marge de sécurité. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:03",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Les rafales dépassent ce qu’une sortie prudente peut accepter ; au large, des éclairs déchirent le ciel derrière la vitre. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:04",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Approche un peu, matelot, l’orage ferme l’horizon et montre déjà les dents. Les coups de vent arrivent avec trop de force pour sortir proprement. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:05",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Un ciel noir lance des éclairs au-dessus du large. Côté vent, les rafales peuvent coucher la toile avant même de laisser réagir. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:06",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, le grain orageux avale la lumière sur la Manche. Le souffle est devenu assez violent pour imposer le quai. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:07",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Dehors, l’orage roule sous un horizon menaçant ; pour les voiles, la toile serait ingérable au moindre coup de travers. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:mixed:08",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Laisse parler le vieux marin une seconde : les éclairs éclairent par coups un large devenu sombre. Les voiles recevraient une puissance brutale et difficile à contenir. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:01",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, l’orage ferme l’horizon et montre déjà les dents. La toile serait ingérable au moindre coup de travers. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:02",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Un ciel noir lance des éclairs au-dessus du large, tandis que les voiles recevraient une puissance brutale et difficile à contenir. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:03",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "La toile serait chargée au point de rendre chaque manœuvre risquée ; au large, le grain orageux avale la lumière sur la Manche. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:04",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Pas si vite, moussaillon, dehors, l’orage roule sous un horizon menaçant. Le vent a franchi la limite où l’expérience remplace la prudence. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:05",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Les éclairs éclairent par coups un large devenu sombre. Côté vent, les voiles prendraient des claques que personne ne doit minimiser. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:06",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, le ciel orageux se referme brutalement sur la côte. Le vent mettrait l’équipage en lutte dès la mise à l’eau. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:07",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Un grain noir avance avec des lueurs d’éclair ; pour les voiles, le vent frappe trop fort pour confier les coques au large. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:good:08",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Garde une main sur ton enthousiasme : la fenêtre cadre un horizon chargé d’orage. Le vent cherche la bagarre et la barre n’a rien à y gagner. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:01",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, dehors, l’orage roule sous un horizon menaçant. Le vent frappe trop fort pour confier les coques au large. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:02",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Les éclairs éclairent par coups un large devenu sombre, tandis que le vent cherche la bagarre et la barre n’a rien à y gagner. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:03",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Les coques seraient livrées à un souffle bien trop violent ; au large, le ciel orageux se referme brutalement sur la côte. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:04",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Le vieux Bosco a regardé dehors, un grain noir avance avec des lueurs d’éclair. La puissance du vent ne laisse plus la marge nécessaire. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:05",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "La fenêtre cadre un horizon chargé d’orage. Côté vent, les rafales commandent désormais plus fort que le barreur. Tu gardes tout le monde à terre, bonhomme, sans discuter davantage.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:06",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, les éclairs griffent un ciel devenu presque noir. Les rafales veulent arracher la barre et vider toute marge de sécurité. La Manche attendra, moussaillon, tandis que toi tu restes bien au sec.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:07",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "La Manche disparaît sous la masse sombre de l’orage ; pour les voiles, les rafales dépassent ce qu’une sortie prudente peut accepter. Tu laisses les coques tranquilles, matelot, aucune envie ne corrige ce danger.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "storm:dangerous:excellent:08",
+    "weatherFamily": "storm",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Viens voir l’horizon avec moi : le grain orageux occupe tout le paysage du large. Les coups de vent arrivent avec trop de force pour sortir proprement. Aucun départ, moussaillon, car l’humour s’arrête exactement ici.",
+    "decision": "refuse",
+    "safetyPriority": true
+  }
+]

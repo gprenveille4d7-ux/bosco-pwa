@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "5.0.0",
+  "name": "Bosco — Le Tourbillon",
+  "principles": [
+    "Une hiérarchie lisible en moins de trois secondes",
+    "La décision de sécurité reste l'information dominante",
+    "Bosco demeure le point focal sans masquer les données",
+    "Toutes les commandes tactiles mesurent au moins 44 par 44 px",
+    "Aucun changement de l'identité visuelle verrouillée"
+  ],
+  "color": {
+    "ink": "#0B1118",
+    "navy": "#101720",
+    "navySoft": "#18232D",
+    "wood": "#4A260E",
+    "woodLight": "#7A461F",
+    "brass": "#9B7448",
+    "gold": "#F0B14B",
+    "boscoRed": "#8A2410",
+    "boscoRedShadow": "#4F1008",
+    "cream": "#F3E2C1",
+    "muted": "#AEB3B0",
+    "sea": "#4C6468",
+    "success": "#78A66D",
+    "warning": "#C88B46",
+    "danger": "#BF5E4C",
+    "focus": "#F0B14B"
+  },
+  "spacingPx": {
+    "0": 0,
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "8": 32,
+    "10": 40,
+    "12": 48
+  },
+  "radiusPx": {
+    "control": 12,
+    "card": 18,
+    "panel": 22,
+    "hero": 26,
+    "pill": 999
+  },
+  "typography": {
+    "uiFamily": "Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif",
+    "displayFamily": "Georgia, 'Times New Roman', serif",
+    "scalePx": {
+      "caption": 11,
+      "label": 12,
+      "bodySmall": 14,
+      "body": 16,
+      "titleSmall": 24,
+      "title": 32,
+      "display": 42
+    },
+    "minimumMobilePx": 12,
+    "bodyLineHeight": 1.5,
+    "displayLineHeight": 1.08
+  },
+  "motion": {
+    "fastMs": 160,
+    "standardMs": 240,
+    "deliberateMs": 420,
+    "stateReactionMs": {
+      "min": 1000,
+      "max": 3000
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "springSoft": "cubic-bezier(0.2, 0.9, 0.2, 1)"
+    },
+    "reducedMotion": "Freeze decorative loops and keep only instantaneous state changes."
+  },
+  "component": {
+    "touchTargetPx": 44,
+    "iconButtonPx": 44,
+    "cardMinHeightPx": 88,
+    "controlHeightPx": 44,
+    "focusRing": "0 0 0 3px rgba(240,177,75,0.28)",
+    "border": "1px solid rgba(255,255,255,0.09)",
+    "bottomNavMaxWidthPx": 520
+  },
+  "breakpointsPx": {
+    "compact": 390,
+    "mobile": 640,
+    "tablet": 980,
+    "wide": 1280
+  },
+  "safeArea": {
+    "top": "env(safe-area-inset-top)",
+    "right": "env(safe-area-inset-right)",
+    "bottom": "env(safe-area-inset-bottom)",
+    "left": "env(safe-area-inset-left)"
+  },
+  "assetPolicy": {
+    "master": "/assets/bosco/master.webp",
+    "poses": "/assets/bosco/poses/pose-00.webp … pose-11.webp",
+    "decisions": "/assets/bosco/decisions/*.webp",
+    "newPrincipalArtworkAllowed": false,
+    "immutableTexts": [
+      "BOSCO",
+      "LE TOURBILLON",
+      "POLDERS"
+    ]
+  }
+}

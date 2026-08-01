@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "heavy-rain:calm:critical:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, un rideau de forte pluie mange une partie de l’horizon. Le peu d’air promet surtout une glisse très lente. La sortie est refusée, moussaillon, va plutôt surveiller l’horizon du comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "La pluie battante brouille sérieusement la vue du large, tandis que le souffle est si discret qu’il faudra savourer chaque risée. Pas de mise à l’eau, matelot, Bosco préfère te revoir entier.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Les voiles auront davantage envie de dormir que de porter ; au large, des nappes de pluie ferment presque la fenêtre. Tu reportes la sortie, moussaillon, même si l’envie te démange.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Viens voir l’horizon avec moi, la côte disparaît par moments sous une pluie très serrée. Le vent reste couché et les voiles auront du mal à prendre forme. Aucun départ, matelot, le large attendra un jour plus honnête.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Dehors, l’eau tombe dru et raccourcit la visibilité. Côté vent, le souffle manque et les coques avanceront avec patience. Tu ne largues rien, bonhomme, et tu gardes tout l’équipage à terre.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la vitre ruisselle sous une pluie qui ne fait pas semblant. Les voiles chercheront longtemps le moindre souffle utile. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le large se devine à peine derrière les paquets de pluie ; pour les voiles, les coques auront peu de force à tirer de l’air. Tu restes au sec, bonhomme, car une mauvaise marge ne se négocie pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:critical:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "critical",
+    "text": "Le vieux Bosco a regardé dehors : la forte pluie transforme l’horizon en masse grise. L’air manque de volonté pour faire vraiment chanter les voiles. Reste au quai, moussaillon, car le large ne mérite aucun pari aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la côte disparaît par moments sous une pluie très serrée. Les coques auront peu de force à tirer de l’air. Reste près du Tourbillon, bonhomme, la sortie serait bien peu récompensée.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Dehors, l’eau tombe dru et raccourcit la visibilité, tandis que l’air manque de volonté pour faire vraiment chanter les voiles. Mieux vaut reporter, matelot, car le large ne propose rien d’assez propre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Le souffle reste trop mince pour réveiller franchement les coques ; au large, la vitre ruisselle sous une pluie qui ne fait pas semblant. Bosco vote pour le comptoir, bonhomme, et rarement sans une bonne raison.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Pose ton ciré une seconde, moussaillon, le large se devine à peine derrière les paquets de pluie. Les voiles risquent de pendre sans trouver de quoi travailler. Laisse passer ce créneau, moussaillon, il ne mérite pas de mouiller le ciré.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "La forte pluie transforme l’horizon en masse grise. Côté vent, le vent ne pousse presque rien, pas même l’impatience. Tu pourrais insister, bonhomme, mais Bosco te conseille franchement le quai.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, des trombes de pluie écrasent les couleurs de la Manche. Le vent reste dans sa bannette et laisse les voiles molles. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "La fenêtre reçoit toute la colère d’une pluie dense ; pour les voiles, le vent paresse et la toile ne trouvera guère de coffre. Je ne t’enverrais pas dehors, matelot, même avec un café dans le ventre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:poor:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "poor",
+    "text": "Je garde un œil sur la fenêtre, bonhomme : le rideau d’eau épaissit entre la côte et le large. Le vent se fait oublier et la navigation sera bien molle. Laisse les coques au repos, moussaillon, ce créneau ne vaut pas l’effort.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, le large se devine à peine derrière les paquets de pluie. Le vent paresse et la toile ne trouvera guère de coffre. Avance avec mesure, bonhomme, et garde toujours une solution simple pour rentrer.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "La forte pluie transforme l’horizon en masse grise, tandis que le vent se fait oublier et la navigation sera bien molle. Si tu pars, matelot, fais court et surveille ce qui change autour de toi.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "L’air bouge à peine, juste assez pour faire frémir une écoute ; au large, des trombes de pluie écrasent les couleurs de la Manche. Tu peux sortir, bonhomme, en gardant assez de marge pour rentrer tôt.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Écoute-moi bien, matelot, la fenêtre reçoit toute la colère d’une pluie dense. L’air somnole encore au-dessus de l’eau. La sortie mérite un oui prudent, moussaillon, pas un départ les yeux fermés.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Le rideau d’eau épaissit entre la côte et le large. Côté vent, le peu d’air promet surtout une glisse très lente. La sortie reste possible, bonhomme, à condition de garder une vraie marge.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la pluie lourde gomme les détails bien avant l’horizon. Le souffle est si discret qu’il faudra savourer chaque risée. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue ; pour les voiles, les voiles auront davantage envie de dormir que de porter. Tu peux tenter le large proche, matelot, sans chercher à prolonger le plaisir.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:mixed:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "mixed",
+    "text": "Avant de toucher aux amarres, écoute : la Manche disparaît par pans derrière une pluie puissante. Le vent reste couché et les voiles auront du mal à prendre forme. Tu peux mettre à l’eau prudemment, moussaillon, sans t’éloigner ni fanfaronner.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la fenêtre reçoit toute la colère d’une pluie dense. Les voiles auront davantage envie de dormir que de porter. Va faire chanter les voiles, bonhomme, le moment s’y prête joliment.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le rideau d’eau épaissit entre la côte et le large, tandis que le vent reste couché et les voiles auront du mal à prendre forme. Tu peux prendre le large, matelot, avec le sourire et l’œil ouvert.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Le souffle manque et les coques avanceront avec patience ; au large, la pluie lourde gomme les détails bien avant l’horizon. Les coques peuvent sortir, bonhomme, avec une belle promenade en perspective.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Jette donc un œil vers le large, dehors, les averses serrées bouchent presque toute la vue. Les voiles chercheront longtemps le moindre souffle utile. Le quai peut te laisser filer, moussaillon, cette fenêtre est favorable.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "La Manche disparaît par pans derrière une pluie puissante. Côté vent, les coques auront peu de force à tirer de l’air. Bosco te donne son feu vert, bonhomme, pour une navigation bien menée.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, la visibilité se réduit nettement sous les nappes de pluie. L’air manque de volonté pour faire vraiment chanter les voiles. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "La vitre peine à montrer le large sous tant d’eau ; pour les voiles, le souffle reste trop mince pour réveiller franchement les coques. Tu as de bonnes raisons de partir, matelot, garde seulement tes habitudes prudentes.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:good:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "good",
+    "text": "Nom d’une pipe : un rideau de forte pluie mange une partie de l’horizon. Les voiles risquent de pendre sans trouver de quoi travailler. Mets les coques à l’eau, moussaillon, et profite sans oublier ta marge.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, dehors, les averses serrées bouchent presque toute la vue. Le souffle reste trop mince pour réveiller franchement les coques. Prends la barre avec le sourire, bonhomme, la Manche te fait un beau cadeau.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "La Manche disparaît par pans derrière une pluie puissante, tandis que les voiles risquent de pendre sans trouver de quoi travailler. Va profiter de la Manche, matelot, une fenêtre pareille ne se refuse pas.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le vent ne pousse presque rien, pas même l’impatience ; au large, la visibilité se réduit nettement sous les nappes de pluie. File gréer les coques, bonhomme, la Manche t’offre l’un de ses beaux jours.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Je te le dis sans détour, bonhomme, la vitre peine à montrer le large sous tant d’eau. Le vent reste dans sa bannette et laisse les voiles molles. Les voiles peuvent chanter, moussaillon, car le moment est vraiment excellent.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Un rideau de forte pluie mange une partie de l’horizon. Côté vent, le vent paresse et la toile ne trouvera guère de coffre. Les coques ont rendez-vous avec le large, bonhomme, et Bosco approuve sans réserve.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la pluie battante brouille sérieusement la vue du large. Le vent se fait oublier et la navigation sera bien molle. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Des nappes de pluie ferment presque la fenêtre ; pour les voiles, l’air bouge à peine, juste assez pour faire frémir une écoute. Cette sortie promet du plaisir, matelot, va donc réveiller proprement les coques.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:calm:excellent:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "calm",
+    "scoreBand": "excellent",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : la côte disparaît par moments sous une pluie très serrée. L’air somnole encore au-dessus de l’eau. Largue les amarres, moussaillon, ce jour mérite de faire chanter les voiles.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, des nappes de pluie ferment presque la fenêtre. Les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. Reste au quai, moussaillon, car le large ne mérite aucun pari aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "La côte disparaît par moments sous une pluie très serrée, tandis que les coques avanceront proprement dans un souffle modeste. Les amarres restent tournées, bonhomme, sans discussion de comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "La toile recevra un souffle régulier mais sans grand coffre ; au large, l’eau tombe dru et raccourcit la visibilité. Le quai gagne aujourd’hui, moussaillon, laisse ton orgueil au vestiaire.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Pose ton ciré une seconde, moussaillon, la vitre ruisselle sous une pluie qui ne fait pas semblant. Un petit souffle remplit la toile sans lui donner beaucoup de nerf. Les coques restent au sec, matelot, et cette décision ne se discute pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Le large se devine à peine derrière les paquets de pluie. Côté vent, les voiles prendront forme, sans promettre une grande cavalcade. Aujourd’hui, tu restes à terre et tu laisses la Manche tranquille.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la forte pluie transforme l’horizon en masse grise. La toile travaillera doucement dans un air plutôt sage. La voile ne sort pas de son sac, matelot, et c’est très bien ainsi.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Des trombes de pluie écrasent les couleurs de la Manche ; pour les voiles, le vent se montre poli, presque trop pour les amateurs de vitesse. Garde les amarres en place, bonhomme, Bosco ne joue pas avec ce tableau.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:critical:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "critical",
+    "text": "Je garde un œil sur la fenêtre, bonhomme : la fenêtre reçoit toute la colère d’une pluie dense. Le vent reste léger et demandera de soigner chaque réglage. Range la voile, moussaillon, cette sortie n’a pas assez de marge.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la vitre ruisselle sous une pluie qui ne fait pas semblant. Le vent se montre poli, presque trop pour les amateurs de vitesse. Laisse les coques au repos, moussaillon, ce créneau ne vaut pas l’effort.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Le large se devine à peine derrière les paquets de pluie, tandis que le vent reste léger et demandera de soigner chaque réglage. Le quai reste le choix raisonnable, matelot, malgré ton envie de naviguer.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Les voiles respireront doucement sans tirer fort sur les écoutes ; au large, la forte pluie transforme l’horizon en masse grise. Les amarres peuvent rester tranquilles, bonhomme, le large n’offre pas assez.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Écoute-moi bien, matelot, des trombes de pluie écrasent les couleurs de la Manche. L’air suffit pour avancer doucement sans réveiller toute l’écume. Je te déconseille la mise à l’eau, matelot, le plaisir serait trop maigre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "La fenêtre reçoit toute la colère d’une pluie dense. Côté vent, le vent accompagne les coques sans chercher à les lancer. Reste au sec, bonhomme, cette sortie promet davantage d’ennuis que de sourires.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, le rideau d’eau épaissit entre la côte et le large. Le petit air offre une navigation douce et peu physique. Garde ton énergie pour un meilleur jour, moussaillon, celui-ci manque d’intérêt.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "La pluie lourde gomme les détails bien avant l’horizon ; pour les voiles, l’air donne juste assez de vie aux voiles pour une sortie calme. Mieux vaut regarder la Manche d’ici, matelot, puis revenir quand elle sera plus aimable.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:poor:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "poor",
+    "text": "Avant de toucher aux amarres, écoute : dehors, les averses serrées bouchent presque toute la vue. Le petit vent promet davantage de finesse que de spectacle. Je garderais la voile pliée, moussaillon, sans regret et sans bravade.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, des trombes de pluie écrasent les couleurs de la Manche. L’air donne juste assez de vie aux voiles pour une sortie calme. Tu peux mettre à l’eau prudemment, moussaillon, sans t’éloigner ni fanfaronner.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "La fenêtre reçoit toute la colère d’une pluie dense, tandis que le petit vent promet davantage de finesse que de spectacle. La porte n’est pas fermée, matelot, mais ne quitte pas la côte des yeux.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Le vent pousse gentiment, mais la glisse restera tranquille ; au large, le rideau d’eau épaissit entre la côte et le large. La navigation est envisageable, bonhomme, pour qui sait renoncer au moindre doute.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Jette donc un œil vers le large, la pluie lourde gomme les détails bien avant l’horizon. Le souffle est propre mais encore un peu maigre. Ça peut se tenter avec réserve, matelot, mais garde le retour facile.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue. Côté vent, les voiles trouveront de quoi porter, mais pas de quoi fanfaronner. Tu peux naviguer doucement, bonhomme, sans transformer l’essai en expédition.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la Manche disparaît par pans derrière une pluie puissante. Les coques avanceront proprement dans un souffle modeste. Mets à l’eau seulement si tu te sens prêt, moussaillon, et reste modeste.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "La visibilité se réduit nettement sous les nappes de pluie ; pour les voiles, la toile recevra un souffle régulier mais sans grand coffre. Bosco accorde un départ prudent, matelot, tant que tu respectes tes limites.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:mixed:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "mixed",
+    "text": "Regarde dehors, moussaillon : la vitre peine à montrer le large sous tant d’eau. Un petit souffle remplit la toile sans lui donner beaucoup de nerf. Bosco te laisse essayer, moussaillon, mais la prudence tient la barre.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la pluie lourde gomme les détails bien avant l’horizon. La toile recevra un souffle régulier mais sans grand coffre. Mets les coques à l’eau, moussaillon, et profite sans oublier ta marge.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue, tandis que un petit souffle remplit la toile sans lui donner beaucoup de nerf. Va saluer le large, matelot, tout en restant le marin attentif que j’attends.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Les voiles prendront forme, sans promettre une grande cavalcade ; au large, la Manche disparaît par pans derrière une pluie puissante. La navigation s’annonce plaisante, bonhomme, profite de ce que le large offre.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Je te le dis sans détour, bonhomme, la visibilité se réduit nettement sous les nappes de pluie. La toile travaillera doucement dans un air plutôt sage. Tu peux larguer les amarres, matelot, cette sortie se présente bien.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "La vitre peine à montrer le large sous tant d’eau. Côté vent, le vent se montre poli, presque trop pour les amateurs de vitesse. La sortie est favorable, bonhomme, alors navigue proprement et profite.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, un rideau de forte pluie mange une partie de l’horizon. Le vent reste léger et demandera de soigner chaque réglage. Mets à l’eau sereinement, moussaillon, sans confondre confiance et négligence.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "La pluie battante brouille sérieusement la vue du large ; pour les voiles, les voiles respireront doucement sans tirer fort sur les écoutes. Tu peux pousser la porte, matelot, le large t’accueille correctement.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:good:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "good",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : des nappes de pluie ferment presque la fenêtre. L’air suffit pour avancer doucement sans réveiller toute l’écume. Prépare la voile, moussaillon, la Manche devrait être de bonne compagnie.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, la visibilité se réduit nettement sous les nappes de pluie. Les voiles respireront doucement sans tirer fort sur les écoutes. Largue les amarres, moussaillon, ce jour mérite de faire chanter les voiles.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "La vitre peine à montrer le large sous tant d’eau, tandis que l’air suffit pour avancer doucement sans réveiller toute l’écume. Mets à l’eau avec confiance, matelot, cette occasion est franchement remarquable.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Le vent accompagne les coques sans chercher à les lancer ; au large, un rideau de forte pluie mange une partie de l’horizon. Bosco n’a aucune raison de te garder ici, bonhomme, profite pleinement.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Je connais cette mine-là, matelot, la pluie battante brouille sérieusement la vue du large. Le petit air offre une navigation douce et peu physique. C’est une très belle occasion de naviguer, matelot, alors ne traîne pas au quai.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Des nappes de pluie ferment presque la fenêtre. Côté vent, l’air donne juste assez de vie aux voiles pour une sortie calme. Bosco ouvre grand la porte, bonhomme, car le large est généreux aujourd’hui.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la côte disparaît par moments sous une pluie très serrée. Le petit vent promet davantage de finesse que de spectacle. Le large te tend les bras, moussaillon, alors navigue et savoure chaque bord.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Dehors, l’eau tombe dru et raccourcit la visibilité ; pour les voiles, le vent pousse gentiment, mais la glisse restera tranquille. Au large, matelot, cette occasion mérite mieux qu’une hésitation au comptoir.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:light:excellent:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "light",
+    "scoreBand": "excellent",
+    "text": "Voyons ce que raconte la Manche : la vitre ruisselle sous une pluie qui ne fait pas semblant. Le souffle est propre mais encore un peu maigre. Prépare tout, moussaillon, la navigation promet un vrai beau moment.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, dehors, l’eau tombe dru et raccourcit la visibilité. Le vent donne du répondant tout en gardant de bonnes manières. Range la voile, moussaillon, cette sortie n’a pas assez de marge.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "La vitre ruisselle sous une pluie qui ne fait pas semblant, tandis que le vent paraît taillé pour une glisse vive mais propre. Pas question de prendre le large, bonhomme, la prudence a tranché.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Le vent offre de la puissance sans prendre le commandement ; au large, le large se devine à peine derrière les paquets de pluie. La sortie est refusée, moussaillon, va plutôt surveiller l’horizon du comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Écoute-moi bien, matelot, la forte pluie transforme l’horizon en masse grise. Le vent tient sa ligne et remplit les voiles comme il faut. Pas de mise à l’eau, matelot, Bosco préfère te revoir entier.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Des trombes de pluie écrasent les couleurs de la Manche. Côté vent, le souffle est établi et devrait faire filer les coques proprement. Tu reportes la sortie, moussaillon, même si l’envie te démange.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la fenêtre reçoit toute la colère d’une pluie dense. Les coques devraient accélérer sans mauvaise surprise dans les écoutes. Aucun départ, matelot, le large attendra un jour plus honnête.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Le rideau d’eau épaissit entre la côte et le large ; pour les voiles, l’air pousse franchement et laisse encore une belle marge. Tu ne largues rien, bonhomme, et tu gardes tout l’équipage à terre.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:critical:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "critical",
+    "text": "Avant de toucher aux amarres, écoute : la pluie lourde gomme les détails bien avant l’horizon. Les coques recevront un souffle utile, régulier et agréable. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la forte pluie transforme l’horizon en masse grise. L’air pousse franchement et laisse encore une belle marge. Je garderais la voile pliée, moussaillon, sans regret et sans bravade.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Des trombes de pluie écrasent les couleurs de la Manche, tandis que les coques recevront un souffle utile, régulier et agréable. La sortie peut attendre, matelot, tu trouveras une fenêtre plus généreuse.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Les voiles trouveront un équilibre plaisant entre force et contrôle ; au large, la fenêtre reçoit toute la colère d’une pluie dense. Reste près du Tourbillon, bonhomme, la sortie serait bien peu récompensée.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Jette donc un œil vers le large, le rideau d’eau épaissit entre la côte et le large. Les voiles seront bien nourries sans arracher la barre. Mieux vaut reporter, matelot, car le large ne propose rien d’assez propre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "La pluie lourde gomme les détails bien avant l’horizon. Côté vent, la toile trouvera une poussée franche et encore maîtrisable. Bosco vote pour le comptoir, bonhomme, et rarement sans une bonne raison.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, les averses serrées bouchent presque toute la vue. Les voiles auront de quoi porter sans te demander les gros bras. Laisse passer ce créneau, moussaillon, il ne mérite pas de mouiller le ciré.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "La Manche disparaît par pans derrière une pluie puissante ; pour les voiles, la toile devrait chanter sans transformer la barre en combat. Tu pourrais insister, bonhomme, mais Bosco te conseille franchement le quai.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:poor:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "poor",
+    "text": "Regarde dehors, moussaillon : la visibilité se réduit nettement sous les nappes de pluie. L’air est assez présent pour réveiller l’écume sans brutalité. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, le rideau d’eau épaissit entre la côte et le large. La toile devrait chanter sans transformer la barre en combat. Bosco te laisse essayer, moussaillon, mais la prudence tient la barre.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "La pluie lourde gomme les détails bien avant l’horizon, tandis que l’air est assez présent pour réveiller l’écume sans brutalité. Je n’interdis pas la sortie, matelot, mais je veux te savoir raisonnable.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "L’air a juste assez de coffre pour faire chanter la toile ; au large, les averses serrées bouchent presque toute la vue. Avance avec mesure, bonhomme, et garde toujours une solution simple pour rentrer.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Je te le dis sans détour, bonhomme, la Manche disparaît par pans derrière une pluie puissante. Le vent travaille avec régularité sans chercher la bagarre. Si tu pars, matelot, fais court et surveille ce qui change autour de toi.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "La visibilité se réduit nettement sous les nappes de pluie. Côté vent, le vent donne du répondant tout en gardant de bonnes manières. Tu peux sortir, bonhomme, en gardant assez de marge pour rentrer tôt.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la vitre peine à montrer le large sous tant d’eau. Le vent paraît taillé pour une glisse vive mais propre. La sortie mérite un oui prudent, moussaillon, pas un départ les yeux fermés.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Un rideau de forte pluie mange une partie de l’horizon ; pour les voiles, le vent offre de la puissance sans prendre le commandement. La sortie reste possible, bonhomme, à condition de garder une vraie marge.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:mixed:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "mixed",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : la pluie battante brouille sérieusement la vue du large. Le vent tient sa ligne et remplit les voiles comme il faut. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la Manche disparaît par pans derrière une pluie puissante. Le vent offre de la puissance sans prendre le commandement. Prépare la voile, moussaillon, la Manche devrait être de bonne compagnie.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La visibilité se réduit nettement sous les nappes de pluie, tandis que le vent tient sa ligne et remplit les voiles comme il faut. Bosco ne te retient pas au quai, matelot, alors grée sans traîner.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Le souffle est établi et devrait faire filer les coques proprement ; au large, la vitre peine à montrer le large sous tant d’eau. Va faire chanter les voiles, bonhomme, le moment s’y prête joliment.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Je connais cette mine-là, matelot, un rideau de forte pluie mange une partie de l’horizon. Les coques devraient accélérer sans mauvaise surprise dans les écoutes. Tu peux prendre le large, matelot, avec le sourire et l’œil ouvert.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La pluie battante brouille sérieusement la vue du large. Côté vent, l’air pousse franchement et laisse encore une belle marge. Les coques peuvent sortir, bonhomme, avec une belle promenade en perspective.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, des nappes de pluie ferment presque la fenêtre. Les coques recevront un souffle utile, régulier et agréable. Le quai peut te laisser filer, moussaillon, cette fenêtre est favorable.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "La côte disparaît par moments sous une pluie très serrée ; pour les voiles, les voiles trouveront un équilibre plaisant entre force et contrôle. Bosco te donne son feu vert, bonhomme, pour une navigation bien menée.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:good:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "good",
+    "text": "Voyons ce que raconte la Manche : dehors, l’eau tombe dru et raccourcit la visibilité. Les voiles seront bien nourries sans arracher la barre. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, un rideau de forte pluie mange une partie de l’horizon. Les voiles trouveront un équilibre plaisant entre force et contrôle. Prépare tout, moussaillon, la navigation promet un vrai beau moment.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "La pluie battante brouille sérieusement la vue du large, tandis que les voiles seront bien nourries sans arracher la barre. Tu peux partir le cœur léger, matelot, tout se prête à une belle sortie.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "La toile trouvera une poussée franche et encore maîtrisable ; au large, des nappes de pluie ferment presque la fenêtre. Prends la barre avec le sourire, bonhomme, la Manche te fait un beau cadeau.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Approche un peu, matelot, la côte disparaît par moments sous une pluie très serrée. Les voiles auront de quoi porter sans te demander les gros bras. Va profiter de la Manche, matelot, une fenêtre pareille ne se refuse pas.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Dehors, l’eau tombe dru et raccourcit la visibilité. Côté vent, la toile devrait chanter sans transformer la barre en combat. File gréer les coques, bonhomme, la Manche t’offre l’un de ses beaux jours.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la vitre ruisselle sous une pluie qui ne fait pas semblant. L’air est assez présent pour réveiller l’écume sans brutalité. Les voiles peuvent chanter, moussaillon, car le moment est vraiment excellent.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Le large se devine à peine derrière les paquets de pluie ; pour les voiles, l’air a juste assez de coffre pour faire chanter la toile. Les coques ont rendez-vous avec le large, bonhomme, et Bosco approuve sans réserve.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:favorable:excellent:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "favorable",
+    "scoreBand": "excellent",
+    "text": "Laisse parler le vieux marin une seconde : la forte pluie transforme l’horizon en masse grise. Le vent travaille avec régularité sans chercher la bagarre. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, le large se devine à peine derrière les paquets de pluie. La puissance est là, avec des coups de rein à surveiller. Garde les coques loin du bord, matelot, le refus est net.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "La forte pluie transforme l’horizon en masse grise, tandis que le vent donne une vraie navigation sportive sans offrir beaucoup de repos. Tu restes au sec, bonhomme, car une mauvaise marge ne se négocie pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Le vent commence à hausser le ton autour des voiles ; au large, des trombes de pluie écrasent les couleurs de la Manche. Reste au quai, moussaillon, car le large ne mérite aucun pari aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Jette donc un œil vers le large, la fenêtre reçoit toute la colère d’une pluie dense. Le vent bombe le torse et réclamera des mains bien réveillées. Les amarres restent tournées, bonhomme, sans discussion de comptoir.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Le rideau d’eau épaissit entre la côte et le large. Côté vent, le vent pousse franchement, alors les écoutes devront rester vivantes. Le quai gagne aujourd’hui, moussaillon, laisse ton orgueil au vestiaire.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la pluie lourde gomme les détails bien avant l’horizon. Le vent se fait physique et ne pardonnera pas une écoute oubliée. Les coques restent au sec, matelot, et cette décision ne se discute pas.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue ; pour les voiles, le souffle devient musclé, assez pour fatiguer un équipage distrait. Aujourd’hui, tu restes à terre et tu laisses la Manche tranquille.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:critical:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "critical",
+    "text": "Regarde dehors, moussaillon : la Manche disparaît par pans derrière une pluie puissante. Les coques trouveront de la vitesse, au prix d’une vigilance constante. La voile ne sort pas de son sac, matelot, et c’est très bien ainsi.",
+    "decision": "refuse",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la fenêtre reçoit toute la colère d’une pluie dense. Le souffle devient musclé, assez pour fatiguer un équipage distrait. Ne pousse pas les coques à l’eau, moussaillon, le jeu n’en vaut guère la chandelle.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le rideau d’eau épaissit entre la côte et le large, tandis que les coques trouveront de la vitesse, au prix d’une vigilance constante. Je ne t’enverrais pas dehors, matelot, même avec un café dans le ventre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes ; au large, la pluie lourde gomme les détails bien avant l’horizon. Laisse les coques au repos, moussaillon, ce créneau ne vaut pas l’effort.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Je te le dis sans détour, bonhomme, dehors, les averses serrées bouchent presque toute la vue. L’air a du coffre et la barre ne tolérera pas la distraction. Le quai reste le choix raisonnable, matelot, malgré ton envie de naviguer.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "La Manche disparaît par pans derrière une pluie puissante. Côté vent, les coques peuvent filer vite, mais le souffle impose de la maîtrise. Les amarres peuvent rester tranquilles, bonhomme, le large n’offre pas assez.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, la visibilité se réduit nettement sous les nappes de pluie. Les voiles auront du travail et le barreur davantage encore. Je te déconseille la mise à l’eau, matelot, le plaisir serait trop maigre.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "La vitre peine à montrer le large sous tant d’eau ; pour les voiles, la toile va charger et chaque virement devra rester propre. Reste au sec, bonhomme, cette sortie promet davantage d’ennuis que de sourires.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:poor:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "poor",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : un rideau de forte pluie mange une partie de l’horizon. L’air pousse avec caractère et réclame une marge généreuse. Garde ton énergie pour un meilleur jour, moussaillon, celui-ci manque d’intérêt.",
+    "decision": "discouraged",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, dehors, les averses serrées bouchent presque toute la vue. La toile va charger et chaque virement devra rester propre. Ça se tente proprement, moussaillon, avec un équipage attentif et sans bravade.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "La Manche disparaît par pans derrière une pluie puissante, tandis que l’air pousse avec caractère et réclame une marge généreuse. Tu peux tenter le large proche, matelot, sans chercher à prolonger le plaisir.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Les voiles vont tirer fort, avec des reprises qui demandent du métier ; au large, la visibilité se réduit nettement sous les nappes de pluie. Tu peux mettre à l’eau prudemment, moussaillon, sans t’éloigner ni fanfaronner.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Je connais cette mine-là, matelot, la vitre peine à montrer le large sous tant d’eau. La toile sera puissante et chaque manœuvre demandera de l’anticipation. La porte n’est pas fermée, matelot, mais ne quitte pas la côte des yeux.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Un rideau de forte pluie mange une partie de l’horizon. Côté vent, la puissance est là, avec des coups de rein à surveiller. La navigation est envisageable, bonhomme, pour qui sait renoncer au moindre doute.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la pluie battante brouille sérieusement la vue du large. Le vent donne une vraie navigation sportive sans offrir beaucoup de repos. Ça peut se tenter avec réserve, matelot, mais garde le retour facile.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Des nappes de pluie ferment presque la fenêtre ; pour les voiles, le vent commence à hausser le ton autour des voiles. Tu peux naviguer doucement, bonhomme, sans transformer l’essai en expédition.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:mixed:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "mixed",
+    "text": "Voyons ce que raconte la Manche : la côte disparaît par moments sous une pluie très serrée. Le vent bombe le torse et réclamera des mains bien réveillées. Mets à l’eau seulement si tu te sens prêt, moussaillon, et reste modeste.",
+    "decision": "cautious",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la vitre peine à montrer le large sous tant d’eau. Le vent commence à hausser le ton autour des voiles. Tu peux embarquer, moussaillon, le créneau mérite franchement d’être saisi.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Un rideau de forte pluie mange une partie de l’horizon, tandis que le vent bombe le torse et réclamera des mains bien réveillées. Tu as de bonnes raisons de partir, matelot, garde seulement tes habitudes prudentes.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Le vent pousse franchement, alors les écoutes devront rester vivantes ; au large, la pluie battante brouille sérieusement la vue du large. Mets les coques à l’eau, moussaillon, et profite sans oublier ta marge.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Approche un peu, matelot, des nappes de pluie ferment presque la fenêtre. Le vent se fait physique et ne pardonnera pas une écoute oubliée. Va saluer le large, matelot, tout en restant le marin attentif que j’attends.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "La côte disparaît par moments sous une pluie très serrée. Côté vent, le souffle devient musclé, assez pour fatiguer un équipage distrait. La navigation s’annonce plaisante, bonhomme, profite de ce que le large offre.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, l’eau tombe dru et raccourcit la visibilité. Les coques trouveront de la vitesse, au prix d’une vigilance constante. Tu peux larguer les amarres, matelot, cette sortie se présente bien.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "La vitre ruisselle sous une pluie qui ne fait pas semblant ; pour les voiles, les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. La sortie est favorable, bonhomme, alors navigue proprement et profite.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:good:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "good",
+    "text": "Laisse parler le vieux marin une seconde : le large se devine à peine derrière les paquets de pluie. L’air a du coffre et la barre ne tolérera pas la distraction. Mets à l’eau sereinement, moussaillon, sans confondre confiance et négligence.",
+    "decision": "favorable",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, des nappes de pluie ferment presque la fenêtre. Les voiles vont tracter fort, alors garde la barre et les écoutes prêtes. Laisse le comptoir derrière toi, moussaillon, les voiles ont mieux à faire.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "La côte disparaît par moments sous une pluie très serrée, tandis que l’air a du coffre et la barre ne tolérera pas la distraction. Cette sortie promet du plaisir, matelot, va donc réveiller proprement les coques.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Les coques peuvent filer vite, mais le souffle impose de la maîtrise ; au large, l’eau tombe dru et raccourcit la visibilité. Largue les amarres, moussaillon, ce jour mérite de faire chanter les voiles.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Pas si vite, moussaillon, la vitre ruisselle sous une pluie qui ne fait pas semblant. Les voiles auront du travail et le barreur davantage encore. Mets à l’eau avec confiance, matelot, cette occasion est franchement remarquable.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Le large se devine à peine derrière les paquets de pluie. Côté vent, la toile va charger et chaque virement devra rester propre. Bosco n’a aucune raison de te garder ici, bonhomme, profite pleinement.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la forte pluie transforme l’horizon en masse grise. L’air pousse avec caractère et réclame une marge généreuse. C’est une très belle occasion de naviguer, matelot, alors ne traîne pas au quai.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Des trombes de pluie écrasent les couleurs de la Manche ; pour les voiles, les voiles vont tirer fort, avec des reprises qui demandent du métier. Bosco ouvre grand la porte, bonhomme, car le large est généreux aujourd’hui.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:sporty:excellent:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "sporty",
+    "scoreBand": "excellent",
+    "text": "Garde une main sur ton enthousiasme : la fenêtre reçoit toute la colère d’une pluie dense. La toile sera puissante et chaque manœuvre demandera de l’anticipation. Le large te tend les bras, moussaillon, alors navigue et savoure chaque bord.",
+    "decision": "excellent",
+    "safetyPriority": false
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Derrière la vitre, des trombes de pluie écrasent les couleurs de la Manche. Les coques seraient livrées à un souffle bien trop violent. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "La fenêtre reçoit toute la colère d’une pluie dense, tandis que la puissance du vent ne laisse plus la marge nécessaire. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Les rafales commandent désormais plus fort que le barreur ; au large, le rideau d’eau épaissit entre la côte et le large. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Je te le dis sans détour, bonhomme, la pluie lourde gomme les détails bien avant l’horizon. Les rafales veulent arracher la barre et vider toute marge de sécurité. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue. Côté vent, les rafales dépassent ce qu’une sortie prudente peut accepter. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Depuis le Tourbillon, la Manche disparaît par pans derrière une pluie puissante. Les coups de vent arrivent avec trop de force pour sortir proprement. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "La visibilité se réduit nettement sous les nappes de pluie ; pour les voiles, les rafales peuvent coucher la toile avant même de laisser réagir. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:critical:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "critical",
+    "text": "Le Tourbillon a sa fenêtre sur la Manche : la vitre peine à montrer le large sous tant d’eau. Le souffle est devenu assez violent pour imposer le quai. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Derrière la vitre, la pluie lourde gomme les détails bien avant l’horizon. Les rafales peuvent coucher la toile avant même de laisser réagir. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Dehors, les averses serrées bouchent presque toute la vue, tandis que le souffle est devenu assez violent pour imposer le quai. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "La toile serait ingérable au moindre coup de travers ; au large, la Manche disparaît par pans derrière une pluie puissante. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Je connais cette mine-là, matelot, la visibilité se réduit nettement sous les nappes de pluie. Les voiles recevraient une puissance brutale et difficile à contenir. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "La vitre peine à montrer le large sous tant d’eau. Côté vent, la toile serait chargée au point de rendre chaque manœuvre risquée. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Depuis le Tourbillon, un rideau de forte pluie mange une partie de l’horizon. Le vent a franchi la limite où l’expérience remplace la prudence. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "La pluie battante brouille sérieusement la vue du large ; pour les voiles, les voiles prendraient des claques que personne ne doit minimiser. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:poor:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "poor",
+    "text": "Voyons ce que raconte la Manche : des nappes de pluie ferment presque la fenêtre. Le vent mettrait l’équipage en lutte dès la mise à l’eau. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Derrière la vitre, la visibilité se réduit nettement sous les nappes de pluie. Les voiles prendraient des claques que personne ne doit minimiser. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "La vitre peine à montrer le large sous tant d’eau, tandis que le vent mettrait l’équipage en lutte dès la mise à l’eau. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Le vent frappe trop fort pour confier les coques au large ; au large, un rideau de forte pluie mange une partie de l’horizon. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Approche un peu, matelot, la pluie battante brouille sérieusement la vue du large. Le vent cherche la bagarre et la barre n’a rien à y gagner. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Des nappes de pluie ferment presque la fenêtre. Côté vent, les coques seraient livrées à un souffle bien trop violent. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Depuis le Tourbillon, la côte disparaît par moments sous une pluie très serrée. La puissance du vent ne laisse plus la marge nécessaire. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Dehors, l’eau tombe dru et raccourcit la visibilité ; pour les voiles, les rafales commandent désormais plus fort que le barreur. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:mixed:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "mixed",
+    "text": "Laisse parler le vieux marin une seconde : la vitre ruisselle sous une pluie qui ne fait pas semblant. Les rafales veulent arracher la barre et vider toute marge de sécurité. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Derrière la vitre, la pluie battante brouille sérieusement la vue du large. Les rafales commandent désormais plus fort que le barreur. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Des nappes de pluie ferment presque la fenêtre, tandis que les rafales veulent arracher la barre et vider toute marge de sécurité. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Les rafales dépassent ce qu’une sortie prudente peut accepter ; au large, la côte disparaît par moments sous une pluie très serrée. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Pas si vite, moussaillon, dehors, l’eau tombe dru et raccourcit la visibilité. Les coups de vent arrivent avec trop de force pour sortir proprement. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "La vitre ruisselle sous une pluie qui ne fait pas semblant. Côté vent, les rafales peuvent coucher la toile avant même de laisser réagir. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Depuis le Tourbillon, le large se devine à peine derrière les paquets de pluie. Le souffle est devenu assez violent pour imposer le quai. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "La forte pluie transforme l’horizon en masse grise ; pour les voiles, la toile serait ingérable au moindre coup de travers. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:good:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "good",
+    "text": "Garde une main sur ton enthousiasme : des trombes de pluie écrasent les couleurs de la Manche. Les voiles recevraient une puissance brutale et difficile à contenir. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:01",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Derrière la vitre, dehors, l’eau tombe dru et raccourcit la visibilité. La toile serait ingérable au moindre coup de travers. Pas de bravoure, moussaillon, tu reportes et tu rentres boire quelque chose de chaud.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:02",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "La vitre ruisselle sous une pluie qui ne fait pas semblant, tandis que les voiles recevraient une puissance brutale et difficile à contenir. Tu restes à terre, matelot, même avec toute l’expérience du port.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:03",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "La toile serait chargée au point de rendre chaque manœuvre risquée ; au large, le large se devine à peine derrière les paquets de pluie. Les amarres restent tournées, moussaillon, même si le reste semblait séduisant.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:04",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Le vieux Bosco a regardé dehors, la forte pluie transforme l’horizon en masse grise. Le vent a franchi la limite où l’expérience remplace la prudence. Reste loin de la mise à l’eau, matelot, ce risque écrase tout le reste.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:05",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Des trombes de pluie écrasent les couleurs de la Manche. Côté vent, les voiles prendraient des claques que personne ne doit minimiser. Garde le gréement rangé, bonhomme, la prudence ne laisse aucune petite porte.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:06",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Depuis le Tourbillon, la fenêtre reçoit toute la colère d’une pluie dense. Le vent mettrait l’équipage en lutte dès la mise à l’eau. Pas une coque à l’eau, matelot, la sécurité commande le quai.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:07",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Le rideau d’eau épaissit entre la côte et le large ; pour les voiles, le vent frappe trop fort pour confier les coques au large. Bosco ferme la porte au départ, bonhomme, et ne la rouvrira pas aujourd’hui.",
+    "decision": "refuse",
+    "safetyPriority": true
+  },
+  {
+    "id": "heavy-rain:dangerous:excellent:08",
+    "weatherFamily": "heavy-rain",
+    "windBand": "dangerous",
+    "scoreBand": "excellent",
+    "text": "Viens voir l’horizon avec moi : la pluie lourde gomme les détails bien avant l’horizon. Le vent cherche la bagarre et la barre n’a rien à y gagner. La sortie est refusée, moussaillon, et Bosco veut être parfaitement compris.",
+    "decision": "refuse",
+    "safetyPriority": true
+  }
+]

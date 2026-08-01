@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "5.0.0",
+  "auditDate": "2026-07-26",
+  "targetDevices": [
+    {
+      "name": "iPhone SE class",
+      "viewportCssPx": "375x667",
+      "status": "covered-by-compact-rules"
+    },
+    {
+      "name": "iPhone standard class",
+      "viewportCssPx": "390x844",
+      "status": "covered-by-compact-rules"
+    },
+    {
+      "name": "iPhone Pro Max class",
+      "viewportCssPx": "430x932",
+      "status": "covered-by-mobile-rules"
+    },
+    {
+      "name": "iPad portrait",
+      "viewportCssPx": "768x1024",
+      "status": "covered-by-tablet-rules"
+    },
+    {
+      "name": "Desktop",
+      "viewportCssPx": "1440x900",
+      "status": "covered-by-wide-layout"
+    }
+  ],
+  "issuesDetectedBeforeStep5": [
+    {
+      "id": "RSP-001",
+      "severity": "high",
+      "selector": ".weather-cards",
+      "finding": "Three equal columns below 640 px forced 7-9 px labels and truncated secondary values.",
+      "correction": "Use two columns below 640 px and one column below 390 px; let the third card span both columns."
+    },
+    {
+      "id": "RSP-002",
+      "severity": "high",
+      "selector": ".speech-card",
+      "finding": "Wrapping combined with a calculated flex-basis could leave insufficient width for dialogue.",
+      "correction": "Switch to a stable single-column compact layout and make the listen button full width."
+    },
+    {
+      "id": "RSP-003",
+      "severity": "medium",
+      "selector": ".bottom-nav",
+      "finding": "Fixed bottom offset ignored the iPhone home-indicator safe area.",
+      "correction": "Apply env(safe-area-inset-bottom) to offset and app-shell padding."
+    },
+    {
+      "id": "RSP-004",
+      "severity": "medium",
+      "selector": "button",
+      "finding": "Several controls measured or could render below the 44 px touch target.",
+      "correction": "Enforce 44 px minimum block size on every interactive control."
+    },
+    {
+      "id": "RSP-005",
+      "severity": "medium",
+      "selector": ".profile-card",
+      "finding": "100vh can be unstable with the iOS browser chrome and virtual keyboard.",
+      "correction": "Use 100dvh with a 100vh fallback and safe-area padding."
+    },
+    {
+      "id": "RSP-006",
+      "severity": "medium",
+      "selector": ".lab-heading",
+      "finding": "Long engine metadata and action buttons could compete on narrow screens.",
+      "correction": "Allow wrapping and stack actions under 640 px."
+    }
+  ],
+  "acceptance": {
+    "horizontalPageOverflow": false,
+    "minimumTouchTargetPx": 44,
+    "minimumBodyTextPx": 14,
+    "minimumLabelTextPx": 11,
+    "safeAreaAware": true,
+    "dynamicViewportUnits": true,
+    "reducedMotionSupported": true,
+    "landscapeSupported": true
+  },
+  "verification": {
+    "sourceInspection": "passed",
+    "productionBuild": "pending-final-gate",
+    "cloudVisualPreview": "unavailable-during-audit",
+    "deviceMatrix": "specified-for-post-deployment-manual-check"
+  }
+}

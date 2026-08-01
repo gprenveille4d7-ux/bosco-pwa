@@ -1,0 +1,634 @@
+{
+  "schemaVersion": "4.0.0",
+  "evaluation": {
+    "order": "priority-desc",
+    "mode": "first-terminal-plus-advisories",
+    "operators": [
+      "eq",
+      "neq",
+      "gt",
+      "gte",
+      "lt",
+      "lte",
+      "in",
+      "notIn",
+      "exists",
+      "missing"
+    ]
+  },
+  "safetyGates": [
+    {
+      "id": "data-unavailable",
+      "priority": 1000,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "data.status",
+            "op": "in",
+            "value": [
+              "unavailable",
+              "invalid"
+            ]
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-unavailable",
+        "emotion": "perplexe",
+        "dialogue": "aucune-donnee",
+        "confidenceCap": 0
+      },
+      "explanation": "Aucune conclusion fiable n'est possible sans données exploitables."
+    },
+    {
+      "id": "offline-no-cache",
+      "priority": 990,
+      "when": {
+        "all": [
+          {
+            "field": "connection.online",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "data.cached",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-unavailable",
+        "emotion": "contrarie",
+        "dialogue": "connexion-perdue",
+        "confidenceCap": 0
+      },
+      "explanation": "La connexion est perdue et aucune observation récente n'est disponible."
+    },
+    {
+      "id": "thunderstorm",
+      "priority": 980,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "weather.code",
+            "op": "eq",
+            "value": "storm"
+          },
+          {
+            "field": "weather.thunderstormRisk",
+            "op": "gte",
+            "value": 0.35
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-discouraged",
+        "emotion": "protecteur",
+        "dialogue": "orage",
+        "scoreCap": 2
+      },
+      "explanation": "Le risque orageux rend la sortie incompatible avec une recommandation favorable."
+    },
+    {
+      "id": "violent-wind",
+      "priority": 970,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "wind.meanKt",
+            "op": "gte",
+            "value": 25
+          },
+          {
+            "field": "wind.gustKt",
+            "op": "gte",
+            "value": 32
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-discouraged",
+        "emotion": "protecteur",
+        "dialogue": "vent-fort",
+        "scoreCap": 2.5
+      },
+      "explanation": "Le vent ou les rafales dépassent la limite de sécurité générale."
+    },
+    {
+      "id": "very-rough-sea",
+      "priority": 960,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "sea.waveHeightM",
+            "op": "gte",
+            "value": 2
+          },
+          {
+            "field": "sea.swellHeightM",
+            "op": "gte",
+            "value": 1.8
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-discouraged",
+        "emotion": "inquiet",
+        "dialogue": "mer-agitee",
+        "scoreCap": 2.5
+      },
+      "explanation": "La hauteur de mer ou de houle impose de déconseiller la sortie."
+    },
+    {
+      "id": "dense-fog",
+      "priority": 950,
+      "when": {
+        "all": [
+          {
+            "field": "weather.visibilityM",
+            "op": "lt",
+            "value": 800
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-discouraged",
+        "emotion": "protecteur",
+        "dialogue": "brouillard",
+        "scoreCap": 2
+      },
+      "explanation": "La visibilité est insuffisante pour une recommandation sûre."
+    },
+    {
+      "id": "unsafe-cold",
+      "priority": 940,
+      "when": {
+        "all": [
+          {
+            "field": "weather.temperatureC",
+            "op": "lt",
+            "value": 2
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "terminal": true,
+        "decision": "decision-discouraged",
+        "emotion": "protecteur",
+        "dialogue": "grand-froid",
+        "scoreCap": 3
+      },
+      "explanation": "Le froid augmente fortement les conséquences d'une chute à l'eau."
+    }
+  ],
+  "decisionRules": [
+    {
+      "id": "strong-gusty-wind",
+      "priority": 850,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "wind.meanKt",
+            "op": "gte",
+            "value": 20
+          },
+          {
+            "field": "wind.gustKt",
+            "op": "gte",
+            "value": 26
+          },
+          {
+            "field": "derived.gustFactor",
+            "op": "gte",
+            "value": 1.6
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "mefiant",
+        "dialogue": "prudence",
+        "scoreCap": 5.5
+      },
+      "explanation": "Le créneau reste envisageable seulement avec prudence à cause des rafales."
+    },
+    {
+      "id": "rough-sea",
+      "priority": 840,
+      "when": {
+        "all": [],
+        "any": [
+          {
+            "field": "sea.waveHeightM",
+            "op": "gte",
+            "value": 1.2
+          },
+          {
+            "field": "sea.swellHeightM",
+            "op": "gte",
+            "value": 1.1
+          }
+        ],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "concentre",
+        "dialogue": "mer-agitee",
+        "scoreCap": 6
+      },
+      "explanation": "La mer demande une marge technique et physique supérieure."
+    },
+    {
+      "id": "crossed-swell",
+      "priority": 830,
+      "when": {
+        "all": [
+          {
+            "field": "derived.crossSeaAngleDeg",
+            "op": "gte",
+            "value": 55
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "mefiant",
+        "dialogue": "houle",
+        "scoreDelta": -1.4
+      },
+      "explanation": "La différence de direction entre vagues et houle peut rendre le plan d'eau désordonné."
+    },
+    {
+      "id": "low-visibility",
+      "priority": 820,
+      "when": {
+        "all": [
+          {
+            "field": "weather.visibilityM",
+            "op": "lt",
+            "value": 3000
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "concentre",
+        "dialogue": "brouillard",
+        "scoreCap": 5.5
+      },
+      "explanation": "La visibilité réduite impose un itinéraire conservateur."
+    },
+    {
+      "id": "heavy-rain",
+      "priority": 810,
+      "when": {
+        "all": [
+          {
+            "field": "weather.precipitationMmH",
+            "op": "gte",
+            "value": 5
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "contrarie",
+        "dialogue": "pluie",
+        "scoreDelta": -1.2
+      },
+      "explanation": "La pluie forte réduit le confort, la visibilité et la qualité du briefing."
+    },
+    {
+      "id": "heat",
+      "priority": 800,
+      "when": {
+        "all": [
+          {
+            "field": "weather.temperatureC",
+            "op": "gte",
+            "value": 32
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-cautious",
+        "emotion": "protecteur",
+        "dialogue": "canicule",
+        "scoreDelta": -0.8
+      },
+      "explanation": "La chaleur impose hydratation, protection solaire et créneau plus court."
+    },
+    {
+      "id": "weak-wind",
+      "priority": 760,
+      "when": {
+        "all": [
+          {
+            "field": "wind.meanKt",
+            "op": "lt",
+            "value": 7
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-low-sport",
+        "emotion": "amuse",
+        "dialogue": "vent-faible",
+        "scoreBand": [
+          4.5,
+          7.2
+        ]
+      },
+      "explanation": "Les conditions peuvent être sûres, mais le vent est trop faible pour une navigation sportive."
+    },
+    {
+      "id": "ideal-window",
+      "priority": 700,
+      "when": {
+        "all": [
+          {
+            "field": "wind.meanKt",
+            "op": "gte",
+            "value": 10
+          },
+          {
+            "field": "wind.meanKt",
+            "op": "lte",
+            "value": 17
+          },
+          {
+            "field": "derived.gustFactor",
+            "op": "lte",
+            "value": 1.35
+          },
+          {
+            "field": "sea.waveHeightM",
+            "op": "lte",
+            "value": 0.7
+          },
+          {
+            "field": "weather.visibilityM",
+            "op": "gte",
+            "value": 8000
+          },
+          {
+            "field": "weather.precipitationMmH",
+            "op": "lt",
+            "value": 1
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-ideal",
+        "emotion": "enthousiaste",
+        "dialogue": "navigation-ideale",
+        "scoreFloor": 8
+      },
+      "explanation": "Le vent, la mer et la visibilité composent un créneau sportif, régulier et sûr."
+    },
+    {
+      "id": "pleasant-window",
+      "priority": 650,
+      "when": {
+        "all": [
+          {
+            "field": "wind.meanKt",
+            "op": "gte",
+            "value": 7
+          },
+          {
+            "field": "wind.meanKt",
+            "op": "lt",
+            "value": 20
+          },
+          {
+            "field": "sea.waveHeightM",
+            "op": "lt",
+            "value": 1.2
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "decision": "decision-pleasant",
+        "emotion": "satisfait",
+        "dialogue": "navigation-agreable",
+        "scoreFloor": 6
+      },
+      "explanation": "Le créneau est globalement favorable sans réunir toutes les conditions idéales."
+    }
+  ],
+  "advisoryRules": [
+    {
+      "id": "falling-pressure",
+      "priority": 500,
+      "when": {
+        "all": [
+          {
+            "field": "weather.pressureTrendHPa3h",
+            "op": "lte",
+            "value": -3
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "pressure-falling",
+        "dialogueHint": "attente",
+        "scoreDelta": -0.5
+      },
+      "explanation": "La pression baisse rapidement : une dégradation est possible."
+    },
+    {
+      "id": "rising-wind",
+      "priority": 490,
+      "when": {
+        "all": [
+          {
+            "field": "trend.windKt3h",
+            "op": "gte",
+            "value": 5
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "wind-rising",
+        "dialogueHint": "attente",
+        "scoreDelta": -0.6
+      },
+      "explanation": "Le vent se renforce pendant la fenêtre."
+    },
+    {
+      "id": "falling-tide",
+      "priority": 480,
+      "when": {
+        "all": [
+          {
+            "field": "tide.trend",
+            "op": "eq",
+            "value": "falling"
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "tide-falling",
+        "dialogueHint": "maree",
+        "scoreDelta": -0.2
+      },
+      "explanation": "La marée descendante doit être intégrée au retour et à la mise à l'eau."
+    },
+    {
+      "id": "rising-tide",
+      "priority": 470,
+      "when": {
+        "all": [
+          {
+            "field": "tide.trend",
+            "op": "eq",
+            "value": "rising"
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "tide-rising",
+        "dialogueHint": "maree",
+        "scoreDelta": 0.1
+      },
+      "explanation": "La marée montante peut améliorer la marge d'eau selon le spot."
+    },
+    {
+      "id": "stale-data",
+      "priority": 460,
+      "when": {
+        "all": [
+          {
+            "field": "data.ageMinutes",
+            "op": "gt",
+            "value": 90
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "stale-data",
+        "dialogueHint": "calcul",
+        "confidenceCap": 0.48,
+        "scoreDelta": -0.7
+      },
+      "explanation": "Les observations sont anciennes et réduisent la confiance."
+    },
+    {
+      "id": "beginner-adjustment",
+      "priority": 450,
+      "when": {
+        "all": [
+          {
+            "field": "user.level",
+            "op": "eq",
+            "value": "debutant"
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "beginner",
+        "dialogueHint": "prudence",
+        "scoreDelta": -0.8
+      },
+      "explanation": "Le niveau débutant demande davantage de marge."
+    },
+    {
+      "id": "expert-adjustment",
+      "priority": 440,
+      "when": {
+        "all": [
+          {
+            "field": "user.level",
+            "op": "eq",
+            "value": "expert"
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "expert",
+        "scoreDelta": 0.2
+      },
+      "explanation": "L'expérience améliore l'aisance mais ne relève jamais les limites de sécurité."
+    },
+    {
+      "id": "offshore-direction",
+      "priority": 430,
+      "when": {
+        "all": [
+          {
+            "field": "derived.windRelation",
+            "op": "eq",
+            "value": "offshore"
+          }
+        ],
+        "any": [],
+        "none": []
+      },
+      "output": {
+        "tag": "offshore-wind",
+        "dialogueHint": "prudence",
+        "scoreDelta": -0.8
+      },
+      "explanation": "Un vent de terre peut compliquer le retour et exige une marge supplémentaire."
+    }
+  ],
+  "fallback": {
+    "decision": "decision-cautious",
+    "emotion": "concentre",
+    "dialogue": "prudence",
+    "explanation": "Le tableau est mixte : Bosco retient une recommandation prudente et explicable."
+  }
+}

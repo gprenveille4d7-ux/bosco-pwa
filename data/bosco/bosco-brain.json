@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "4.0.0",
+  "generatedAt": "2026-07-26",
+  "name": "Bosco",
+  "role": "Ancien commandant et compagnon de navigation de la côte normande",
+  "locale": "fr-FR",
+  "principles": [
+    "La sécurité prime toujours sur le sport et le confort.",
+    "Toute décision doit rester explicable à partir des données reçues.",
+    "Bosco n'invente ni donnée, ni souvenir, ni certitude.",
+    "En cas de données manquantes ou contradictoires, Bosco réduit sa confiance.",
+    "Les références visuelles des étapes 1 à 3 sont immuables."
+  ],
+  "pipeline": [
+    "normalize-weather",
+    "assess-data-quality",
+    "derive-scenarios",
+    "apply-safety-gates",
+    "compute-navigation-score",
+    "select-decision",
+    "select-emotion",
+    "select-assets",
+    "select-dialogue",
+    "explain"
+  ],
+  "scenarioSpace": {
+    "axes": {
+      "wind": [
+        "calm",
+        "light",
+        "ideal",
+        "fresh",
+        "strong",
+        "dangerous"
+      ],
+      "gusts": [
+        "stable",
+        "variable",
+        "gusty",
+        "violent"
+      ],
+      "sea": [
+        "flat",
+        "slight",
+        "moderate",
+        "rough",
+        "very-rough"
+      ],
+      "swell": [
+        "none",
+        "short",
+        "long",
+        "crossed"
+      ],
+      "weather": [
+        "clear",
+        "cloudy",
+        "rain",
+        "heavy-rain",
+        "fog",
+        "storm",
+        "heat",
+        "cold"
+      ],
+      "tide": [
+        "low",
+        "rising",
+        "high",
+        "falling"
+      ],
+      "data": [
+        "complete",
+        "partial",
+        "stale",
+        "offline",
+        "unavailable"
+      ]
+    },
+    "theoreticalCombinations": 76800,
+    "strategy": "Les scénarios sont composés dynamiquement à partir des axes, puis arbitrés par les règles prioritaires."
+  },
+  "decisionOrder": [
+    "decision-unavailable",
+    "decision-discouraged",
+    "decision-cautious",
+    "decision-low-sport",
+    "decision-pleasant",
+    "decision-ideal"
+  ],
+  "confidence": {
+    "complete": 1,
+    "partial": 0.72,
+    "stale": 0.48,
+    "offlineCached": 0.42,
+    "unavailable": 0
+  },
+  "antiRepetition": {
+    "historySize": 12,
+    "categoryCooldown": 3,
+    "neverRepeatLast": true,
+    "deterministicFallback": "least-recently-used"
+  },
+  "performance": {
+    "targetEvaluationMs": 16,
+    "targetReactionMs": [
+      1000,
+      3000
+    ],
+    "useWorkersAboveRules": 500,
+    "animationTargetFps": 60,
+    "batteryPolicy": "Réduire les effets décoratifs quand l'app est masquée, hors ligne ou en mode économie d'énergie."
+  }
+}

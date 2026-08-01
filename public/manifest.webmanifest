@@ -1,0 +1,20 @@
+{
+  "name": "Bosco — Le Tourbillon",
+  "short_name": "Bosco",
+  "description": "Le vieux marin météo de Jullouville.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr-FR",
+  "background_color": "#070b10",
+  "theme_color": "#101720",
+  "icons": [
+    {
+      "src": "/assets/bosco/master.webp",
+      "sizes": "1536x1536",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

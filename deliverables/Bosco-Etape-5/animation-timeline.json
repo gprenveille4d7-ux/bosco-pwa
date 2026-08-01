@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "5.0.0",
+  "global": {
+    "targetFps": 60,
+    "maxSimultaneousDecorativeLayers": 5,
+    "reactionDurationMs": {
+      "min": 1000,
+      "max": 3000
+    },
+    "reducedMotion": "Disable all decorative loops and retain state-image changes."
+  },
+  "permanentLife": [
+    {
+      "id": "breathing",
+      "durationMs": 7200,
+      "loop": true,
+      "amplitude": 0.009,
+      "layer": "scene-image"
+    },
+    {
+      "id": "blink",
+      "durationMs": 13700,
+      "loop": true,
+      "activeWindowMs": 180,
+      "varianceMs": 4200,
+      "layer": "eyes"
+    },
+    {
+      "id": "steam",
+      "durationMs": 4800,
+      "loop": true,
+      "varianceMs": 1600,
+      "layer": "cup"
+    },
+    {
+      "id": "lantern-flicker",
+      "durationMs": 2700,
+      "loop": true,
+      "varianceMs": 1100,
+      "layer": "decor"
+    }
+  ],
+  "idleSequence": {
+    "scheduler": "stochastic-no-immediate-repeat",
+    "intervalMs": {
+      "min": 11000,
+      "max": 24000
+    },
+    "actions": [
+      {
+        "pose": "sea",
+        "durationMs": 2400,
+        "weight": 3
+      },
+      {
+        "pose": "barometer",
+        "durationMs": 2100,
+        "weight": 2
+      },
+      {
+        "pose": "chart",
+        "durationMs": 2200,
+        "weight": 2
+      },
+      {
+        "pose": "listening",
+        "durationMs": 1700,
+        "weight": 1
+      },
+      {
+        "pose": "resting",
+        "durationMs": 2000,
+        "weight": 2
+      }
+    ]
+  },
+  "events": {
+    "app-open": [
+      {
+        "atMs": 0,
+        "pose": "resting"
+      },
+      {
+        "atMs": 350,
+        "pose": "listening"
+      }
+    ],
+    "weather-loading": [
+      {
+        "atMs": 0,
+        "pose": "preparing"
+      },
+      {
+        "atMs": 800,
+        "pose": "barometer"
+      }
+    ],
+    "briefing-ready": [
+      {
+        "atMs": 0,
+        "pose": "preparing"
+      },
+      {
+        "atMs": 1400,
+        "pose": "$decisionPose"
+      }
+    ],
+    "speech": [
+      {
+        "atMs": 0,
+        "pose": "speaking",
+        "cup": "rested"
+      },
+      {
+        "atMs": 120,
+        "lipSync": "start"
+      },
+      {
+        "atMs": "$speechEnd",
+        "lipSync": "stop",
+        "pose": "$decisionPose"
+      }
+    ],
+    "offline": [
+      {
+        "atMs": 0,
+        "pose": "annoyed",
+        "radio": "tap"
+      },
+      {
+        "atMs": 1500,
+        "pose": "protective"
+      }
+    ],
+    "online-restored": [
+      {
+        "atMs": 0,
+        "pose": "listening",
+        "radio": "pulse"
+      },
+      {
+        "atMs": 1400,
+        "pose": "barometer"
+      }
+    ],
+    "danger": [
+      {
+        "atMs": 0,
+        "pose": "worried"
+      },
+      {
+        "atMs": 900,
+        "pose": "protective"
+      }
+    ]
+  },
+  "contextMapping": {
+    "rain": {
+      "weatherLayer": "rain",
+      "pose": "sea"
+    },
+    "storm": {
+      "weatherLayer": "lightning",
+      "pose": "protective"
+    },
+    "fog": {
+      "weatherLayer": "fog",
+      "pose": "worried"
+    },
+    "sunrise": {
+      "timeLayer": "morning",
+      "pose": "sea"
+    },
+    "sunset": {
+      "timeLayer": "evening",
+      "pose": "sea"
+    },
+    "tide-turn": {
+      "instrument": "chart",
+      "pose": "chart"
+    }
+  }
+}

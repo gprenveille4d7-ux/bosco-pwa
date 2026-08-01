@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "5.0.0",
+  "profileId": "bosco-commandant-normand-original",
+  "language": "fr-FR",
+  "identity": {
+    "agePerception": "65-75",
+    "genderPresentation": "masculine",
+    "character": [
+      "grave",
+      "chaleureuse",
+      "légèrement rocailleuse",
+      "lente",
+      "rassurante",
+      "protectrice"
+    ],
+    "accent": "Français naturel avec une couleur maritime et normande très légère, jamais caricaturale.",
+    "exclusions": [
+      "Aucune imitation d'une personne ou d'un personnage existant",
+      "Aucun accent de pirate",
+      "Aucun jeu théâtral burlesque",
+      "Aucune voix publicitaire ou radiophonique brillante"
+    ]
+  },
+  "prosody": {
+    "wordsPerMinuteTarget": 132,
+    "browserSpeechRate": 0.82,
+    "browserPitch": 0.72,
+    "browserVolume": 0.96,
+    "sentenceFinalFallSemitones": -2,
+    "breathEverySentences": 2,
+    "pauseMs": {
+      "comma": 180,
+      "period": 420,
+      "safetyWarningBefore": 280,
+      "safetyWarningAfter": 520,
+      "scoreBefore": 220
+    }
+  },
+  "emotionPresets": {
+    "calme": {
+      "rateMultiplier": 0.98,
+      "pitchSemitones": 0,
+      "intensity": 0.42
+    },
+    "satisfait": {
+      "rateMultiplier": 1.02,
+      "pitchSemitones": 0.4,
+      "intensity": 0.52
+    },
+    "enthousiaste": {
+      "rateMultiplier": 1.06,
+      "pitchSemitones": 0.7,
+      "intensity": 0.65
+    },
+    "protecteur": {
+      "rateMultiplier": 0.92,
+      "pitchSemitones": -0.6,
+      "intensity": 0.72
+    },
+    "inquiet": {
+      "rateMultiplier": 0.9,
+      "pitchSemitones": -0.3,
+      "intensity": 0.66
+    },
+    "contrarié": {
+      "rateMultiplier": 0.94,
+      "pitchSemitones": -0.8,
+      "intensity": 0.62
+    }
+  },
+  "providerAdapters": {
+    "browserSpeechSynthesis": {
+      "status": "implemented",
+      "voiceSelection": "Prefer fr-FR masculine voices; otherwise use the most natural fr-FR voice.",
+      "boundaryEvents": "Drive discrete mouth motion when supported; use a low-amplitude timed fallback otherwise."
+    },
+    "openai": {
+      "status": "adapter-ready",
+      "instructions": "Voix française grave, chaleureuse, légèrement rocailleuse et lente. Ancien commandant normand, protecteur, jamais caricatural et sans imitation.",
+      "responseFormat": "opus"
+    },
+    "elevenlabs": {
+      "status": "adapter-ready",
+      "stability": 0.68,
+      "similarityBoost": 0.62,
+      "style": 0.22,
+      "speakerBoost": true
+    },
+    "azureSpeech": {
+      "status": "adapter-ready",
+      "locale": "fr-FR",
+      "rate": "-12%",
+      "pitch": "-8%",
+      "styleDegree": 0.72
+    }
+  },
+  "textPreparation": {
+    "expandUnits": {
+      "nds": "nœuds",
+      "m": "mètres",
+      "h": "heures"
+    },
+    "safetyRule": "Read safety warnings as a separate sentence with slower delivery.",
+    "maximumContinuousSeconds": 28
+  }
+}

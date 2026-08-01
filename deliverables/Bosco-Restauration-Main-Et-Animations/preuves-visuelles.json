@@ -1,0 +1,47 @@
+{
+  "publishedBeforeCommit": "cf122c4cdecbc7639e03c221c1d6afbc7026eb80",
+  "lastAnimatedCommit": "e6d8e848bfc50756c9ffe259f7adccca65c411d1",
+  "assetVersion": "bosco-step9-v4",
+  "cacheVersion": "bosco-pwa-v13-hand-animation-restored",
+  "anchor": [
+    768,
+    1252
+  ],
+  "maxAnchorDeltaPx": 0,
+  "difference": {
+    "fullDifferenceBoundingBox": [
+      989,
+      1126,
+      1393,
+      1385
+    ],
+    "inspectionRegion": [
+      890,
+      1000,
+      1450,
+      1536
+    ],
+    "handDifferenceBoundingBox": [
+      99,
+      126,
+      503,
+      385
+    ]
+  },
+  "seaAnimationDurationMs": 5750,
+  "seaObservationMs": 2000,
+  "decorsChecked": 40,
+  "responsiveFormats": [
+    "320 × 568",
+    "375 × 667",
+    "390 × 844",
+    "393 × 852",
+    "402 × 874",
+    "430 × 932",
+    "768 × 1024",
+    "1024 × 1366",
+    "1440 × 900"
+  ],
+  "realIPhoneTested": false,
+  "homeScreenPwaTested": false
+}

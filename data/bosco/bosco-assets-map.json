@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "4.0.0",
+  "immutableReference": "/assets/bosco/master.webp",
+  "decisions": {
+    "decision-ideal": {
+      "image": "/assets/bosco/cutouts/decision-ideal.webp",
+      "pose": "satisfied",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "enthousiaste"
+    },
+    "decision-pleasant": {
+      "image": "/assets/bosco/cutouts/decision-pleasant.webp",
+      "pose": "satisfied",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "satisfait"
+    },
+    "decision-low-sport": {
+      "image": "/assets/bosco/cutouts/decision-low-sport.webp",
+      "pose": "resting",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "amuse"
+    },
+    "decision-cautious": {
+      "image": "/assets/bosco/cutouts/decision-cautious.webp",
+      "pose": "protective",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "concentre"
+    },
+    "decision-discouraged": {
+      "image": "/assets/bosco/cutouts/decision-discouraged.webp",
+      "pose": "protective",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "protecteur"
+    },
+    "decision-unavailable": {
+      "image": "/assets/bosco/cutouts/decision-unavailable.webp",
+      "pose": "chart",
+      "animation": "instant-cut",
+      "effect": "none",
+      "emotion": "perplexe"
+    }
+  },
+  "poses": {
+    "resting": "/assets/bosco/cutouts/pose-00.webp",
+    "listening": "/assets/bosco/cutouts/pose-01.webp",
+    "thinking": "/assets/bosco/cutouts/pose-02.webp",
+    "sea": "/assets/bosco/cutouts/pose-03.webp",
+    "barometer": "/assets/bosco/cutouts/pose-04.webp",
+    "chart": "/assets/bosco/cutouts/pose-05.webp",
+    "preparing": "/assets/bosco/cutouts/pose-06.webp",
+    "speaking": "/assets/bosco/cutouts/pose-07.webp",
+    "satisfied": "/assets/bosco/cutouts/pose-08.webp",
+    "worried": "/assets/bosco/cutouts/pose-09.webp",
+    "annoyed": "/assets/bosco/cutouts/pose-10.webp",
+    "protective": "/assets/bosco/cutouts/pose-11.webp"
+  },
+  "effects": {},
+  "exampleMapping": {
+    "if": [
+      "wind.meanKt>25",
+      "sea.waveHeightM>2"
+    ],
+    "then": [
+      "decision-discouraged",
+      "protective",
+      "none",
+      "none"
+    ]
+  }
+}
