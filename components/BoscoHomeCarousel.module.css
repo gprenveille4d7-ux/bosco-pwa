@@ -84,6 +84,7 @@
 
 .boscoSlide {
   --bosco-message-height: clamp(104px, 16dvh, 136px);
+  --bosco-scene-height: calc(100% - var(--bosco-message-height) - clamp(6px, 1.4vh, 12px));
   display: grid;
   grid-template-rows: minmax(0, 1fr) var(--bosco-message-height);
   gap: clamp(6px, 1.4vh, 12px);
@@ -93,7 +94,19 @@
 }
 
 .boscoSlide[data-narrative="true"] {
-  --bosco-message-height: clamp(224px, 38dvh, 360px);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  scrollbar-color: rgba(181, 132, 67, .55) transparent;
+}
+
+.boscoSlide[data-narrative="true"] .sceneFrame {
+  width: 100%;
+  min-height: var(--bosco-scene-height);
+  flex: 0 0 var(--bosco-scene-height);
 }
 
 .mapSlide {
@@ -167,41 +180,76 @@
   animation: none;
 }
 
-.narrativeMessage {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+.storyCard {
+  display: grid;
+  width: min(1040px, 100%);
+  margin: 0 auto 12px;
+  padding: clamp(14px, 2.4vw, 24px);
+  grid-template-columns: minmax(0, 2.2fr) minmax(220px, .8fr);
+  gap: clamp(16px, 3vw, 30px);
+  border: 1px solid rgba(181, 132, 67, .28);
+  border-radius: 16px;
+  background: rgba(7, 14, 20, .94);
+  color: #f0dfbf;
 }
 
-.narrativeScroll {
-  min-height: 0;
-  margin-top: 6px;
+.storyMain,
+.storyAside {
+  min-width: 0;
+}
+
+.storyHeader,
+.storyHeader > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.storyHeader > div {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.storyHeader strong {
+  color: #e8c98f;
+  font-size: 13px;
+}
+
+.storyMain h1 {
+  margin: 14px 0 10px;
+  color: #f5ddb2;
+  font: 700 clamp(22px, 3.5vw, 34px)/1.12 Georgia, serif;
+}
+
+.storyText {
+  max-height: min(42vh, 360px);
+  padding-right: 8px;
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-color: rgba(181, 132, 67, .55) transparent;
 }
 
-.narrativeScroll h1 {
-  margin: 2px 0 8px;
-  color: #f5ddb2;
-  font: 700 clamp(19px, 3.4vw, 27px)/1.12 Georgia, serif;
-}
-
-.narrativeMessage .narrativeScroll blockquote {
-  display: block;
-  overflow: visible;
+.storyText p,
+.storyAside p {
   margin: 0;
-  color: #f0dfbf;
-  font: clamp(13px, 1.9vw, 16px)/1.52 Georgia, serif;
-  -webkit-line-clamp: initial;
+  font: clamp(15px, 1.8vw, 18px)/1.65 Georgia, serif;
 }
 
-.emileInvitation {
-  margin: 14px 0 0;
-  padding-top: 12px;
-  border-top: 1px solid rgba(181, 132, 67, .2);
+.storyAside {
+  align-self: start;
+  padding: 15px;
+  border: 1px solid rgba(181, 132, 67, .2);
+  border-radius: 13px;
+  background: rgba(181, 132, 67, .07);
+}
+
+.storyAside p {
+  margin-top: 9px;
   color: #c7b693;
-  font: italic clamp(12px, 1.8vw, 15px)/1.45 Georgia, serif;
+  font-size: clamp(13px, 1.5vw, 15px);
+  font-style: italic;
 }
 
 .emileButton {
@@ -214,6 +262,30 @@
   color: #fff0cd;
   cursor: pointer;
   font-weight: 780;
+}
+
+.emileShortcut,
+.storyReturnButton {
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid rgba(225, 177, 100, .38);
+  border-radius: 11px;
+  background: rgba(225, 177, 100, .08);
+  color: #f5ddb2;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.storyReturnButton {
+  width: 100%;
+  margin-top: 9px;
+}
+
+.emileButton:focus-visible,
+.emileShortcut:focus-visible,
+.storyReturnButton:focus-visible {
+  outline: 3px solid #fff0cd;
+  outline-offset: 2px;
 }
 
 .contentPanel {
@@ -635,6 +707,24 @@
     padding: 9px;
   }
 
+  .storyCard {
+    grid-template-columns: 1fr;
+  }
+
+  .storyHeader {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .emileShortcut {
+    width: 100%;
+  }
+
+  .storyText {
+    max-height: none;
+    overflow: visible;
+  }
+
   .routeNav.routeNav {
     min-height: 58px;
     border-right: 1px solid rgba(181, 132, 67, .18);
@@ -683,10 +773,6 @@
     --bosco-message-height: 104px;
     gap: 4px;
     padding-top: 4px;
-  }
-
-  .boscoSlide[data-narrative="true"] {
-    --bosco-message-height: clamp(196px, 42dvh, 276px);
   }
 
   .boscoMessage {
