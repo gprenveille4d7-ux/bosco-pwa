@@ -147,7 +147,7 @@ test("all 40 existing decors remain present and untouched in count", () => {
 });
 
 test("the new service worker precaches restored assets without obsolete resources", () => {
-  assert.match(sw, /bosco-pwa-v28-official-manche-map/);
+  assert.match(sw, /bosco-pwa-v27-mont-saint-michel/);
   assert.doesNotMatch(sw, /step7b-v2|step8-v3/);
   assert.match(sw, /sea-step9-v4/);
   assert.match(sw, /hands-behind\/resting-step9-v4/);
