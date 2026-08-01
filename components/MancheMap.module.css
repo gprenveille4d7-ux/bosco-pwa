@@ -255,7 +255,7 @@
 
 .chooseButton {
   width: 100%;
-  min-height: 34px;
+  min-height: 48px;
   padding: 5px 8px;
   border: 1px solid rgba(225, 177, 100, .45);
   border-radius: 9px;
@@ -264,6 +264,34 @@
   cursor: pointer;
   font-size: 10px;
   font-weight: 780;
+}
+
+.portActions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.chooseButton strong,
+.chooseButton span {
+  display: block;
+}
+
+.chooseButton span {
+  margin-top: 2px;
+  font-size: 8px;
+  font-weight: 520;
+  line-height: 1.25;
+  opacity: .78;
+}
+
+.storyButton {
+  background: linear-gradient(180deg, #375d66, #213d45);
+}
+
+.chooseButton:focus-visible {
+  outline: 3px solid #fff0cd;
+  outline-offset: 2px;
 }
 
 .chooseButton:disabled {
@@ -296,6 +324,10 @@
   .portCard dl {
     gap: 5px 7px;
   }
+
+  .portActions {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-height: 700px) {
@@ -317,7 +349,7 @@
   }
 
   .chooseButton {
-    min-height: 30px;
+    min-height: 44px;
   }
 }
 

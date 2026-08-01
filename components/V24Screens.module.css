@@ -94,6 +94,12 @@
 .sourceList a { color: #e1be82; }
 .empty { color: #aab3b5; font: 17px/1.6 Georgia, serif; }
 .nextButton { width: 100%; margin-top: 18px; }
+.dualProgress { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dualProgress > div { padding: 12px 14px; border: 1px solid rgba(181,132,67,.22); border-radius: 14px; background: rgba(6,12,18,.72); }
+.dualProgress > div > span { color: #a8b1b3; font-size: 9px; font-weight: 800; letter-spacing: .11em; }
+.dualProgress strong { float: right; color: #f0c77d; font: 700 14px Georgia, serif; }
+.dualProgress .progressTrack { clear: both; margin: 9px 0 0; }
+.dualProgress > div:last-child .progressTrack span { background: linear-gradient(90deg,#486b78,#9dc2c8); }
 .carnetStack { display: grid; gap: 12px; }
 .progressTrack { height: 7px; margin: 2px 0 18px; overflow: hidden; border-radius: 999px; background: #070c11; box-shadow: inset 0 0 0 1px rgba(255,255,255,.06); }
 .progressTrack span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg,#8d632f,#e0aa56); }
@@ -128,6 +134,7 @@
   .mapWrap { height: calc(100dvh - 100px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); min-height: 0; }
   .chapterLine { flex-wrap: wrap; gap: 5px 9px; }
   .libraryRibbon { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .dualProgress { grid-template-columns: 1fr; }
   .tabBar button { font-size: 8px; }
   .carnetGrid { grid-template-columns: 1fr; }
   .contentCard { min-height: 0; padding: 20px 17px; border-radius: 18px; }

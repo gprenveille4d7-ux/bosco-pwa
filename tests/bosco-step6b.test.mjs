@@ -120,7 +120,7 @@ test("time, weather, and decision remain independent axes", () => {
 });
 
 test("the service worker versions the restored animation assets independently", () => {
-  assert.match(sw, /bosco-pwa-v28-official-manche-map/);
+  assert.match(sw, /bosco-pwa-v27-mont-saint-michel/);
   assert.match(sw, /resting-step9-v4\.png/);
   assert.match(sw, /sea-step9-v4\.png/);
   assert.match(sw, /hands-behind\/resting-step9-v4\.png/);

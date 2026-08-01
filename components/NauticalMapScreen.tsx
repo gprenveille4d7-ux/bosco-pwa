@@ -9,10 +9,11 @@ import styles from "./V24Screens.module.css";
 type Props = {
   context: NauticalContext;
   marineData: MarineDashboardData | null;
-  onSelectPort: (port: ManchePort, data: MarineDashboardData | null) => void;
+  onChoosePort: (port: ManchePort, data: MarineDashboardData | null) => void;
+  onListenToBosco: (port: ManchePort, data: MarineDashboardData | null) => void;
 };
 
-export function NauticalMapScreen({ context, marineData, onSelectPort }: Props) {
+export function NauticalMapScreen({ context, marineData, onChoosePort, onListenToBosco }: Props) {
   return (
     <section className={styles.screen} aria-label="Carte de la Manche">
       <div className={styles.scroll}>
@@ -21,7 +22,8 @@ export function NauticalMapScreen({ context, marineData, onSelectPort }: Props) 
             selectedPort={context.activePort}
             homePort={context.homePort}
             selectedData={marineData}
-            onSelectPort={onSelectPort}
+            onChoosePort={onChoosePort}
+            onListenToBosco={onListenToBosco}
           />
         </div>
       </div>

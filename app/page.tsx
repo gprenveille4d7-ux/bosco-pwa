@@ -22,6 +22,7 @@ import {
   type V26PortVisit,
 } from "@/data/narrative-v26";
 import { useNauticalContext } from "@/hooks/useNauticalContext";
+import { recordNarrativeReading } from "@/lib/v24/carnet";
 import shellStyles from "@/components/BoscoShellExtensions.module.css";
 import { useMarineNavigation } from "@/lib/marine-navigation";
 import {
@@ -67,6 +68,8 @@ import {
   boscoIntroStateAt,
   canAdvanceBoscoIntro,
 } from "@/lib/bosco-intro-machine";
+
+type BoscoMode = "navigation" | "story";
 import {
   BoscoAmbientSoundscape,
   maybeNotifyBosco,
@@ -356,6 +359,7 @@ export default function Home() {
   } = useNauticalContext();
   const [marineData, setMarineData] = useState<MarineDashboardData | null>(null);
   const [narrativeVisit, setNarrativeVisit] = useState<V26PortVisit | null>(null);
+  const [boscoMode, setBoscoMode] = useState<BoscoMode>("navigation");
   const [homeResetToken, setHomeResetToken] = useState(0);
   const [radioHit, setRadioHit] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -508,7 +512,7 @@ export default function Home() {
     [applyMarineData],
   );
 
-  const handleSelectPort = useCallback(
+  const activatePortContext = useCallback(
     (port: ManchePort, data: MarineDashboardData | null) => {
       setActivePort(port);
       setProfile((current) => ({ ...current, favoriteSpot: port.name }));
@@ -524,13 +528,32 @@ export default function Home() {
         setMarineData(data);
         applyMarineData(data);
       }
-      setNarrativeVisit(
-        createV26PortVisit(port.id, port.name, nextBoscoVisitOrdinal(port.id)),
-      );
+    },
+    [applyMarineData, setActivePort],
+  );
+
+  const handleChoosePort = useCallback(
+    (port: ManchePort, data: MarineDashboardData | null) => {
+      activatePortContext(port, data);
+      setBoscoMode("navigation");
+      setNarrativeVisit(null);
       setHomeResetToken((value) => value + 1);
       navigateMarine(null);
     },
-    [applyMarineData, navigateMarine, setActivePort],
+    [activatePortContext, navigateMarine],
+  );
+
+  const handleListenToBosco = useCallback(
+    (port: ManchePort, data: MarineDashboardData | null) => {
+      activatePortContext(port, data);
+      const narrative = createV26PortVisit(port.id, port.name, nextBoscoVisitOrdinal(port.id));
+      setNarrativeVisit(narrative);
+      setBoscoMode("story");
+      if (narrative.story) void recordNarrativeReading(narrative.story, narrative.storyIndex);
+      setHomeResetToken((value) => value + 1);
+      navigateMarine(null);
+    },
+    [activatePortContext, navigateMarine],
   );
 
   const openEmileNotebook = useCallback(() => {
@@ -539,18 +562,26 @@ export default function Home() {
   }, [navigateMarine]);
 
   const closeEmileNotebook = useCallback(() => {
-    setNarrativeVisit((current) => current ? moveV26Visit(current, "closing") : current);
+    setNarrativeVisit((current) => current ? moveV26Visit(current, "story") : current);
+    setBoscoMode("story");
     setHomeResetToken((value) => value + 1);
     navigateMarine(null);
   }, [navigateMarine]);
 
+  const exitBoscoStory = useCallback(() => {
+    setBoscoMode("navigation");
+    setHomeResetToken((value) => value + 1);
+  }, []);
+
+  const returnToStoryPort = useCallback(() => {
+    setBoscoMode("navigation");
+    navigateMarine("map");
+  }, [navigateMarine]);
+
   const selectBoscoTab = useCallback(() => {
-    if (narrativeVisit?.phase === "emile") {
-      closeEmileNotebook();
-      return;
-    }
+    setBoscoMode("navigation");
     selectPrimary(null, () => setHomeResetToken((value) => value + 1));
-  }, [closeEmileNotebook, narrativeVisit?.phase, selectPrimary]);
+  }, [selectPrimary]);
 
   useEffect(() => {
     if (!selectedPortReady) return;
@@ -1332,8 +1363,10 @@ export default function Home() {
         result={displayedResult}
         input={input}
         onRecordOuting={recordOuting}
-        narrative={narrativeVisit}
+        narrative={boscoMode === "story" ? narrativeVisit : null}
         onOpenEmile={openEmileNotebook}
+        onExitStory={exitBoscoStory}
+        onBackToPort={returnToStoryPort}
         resetToken={homeResetToken}
         scene={
           <BoscoCompositor
@@ -1823,7 +1856,12 @@ export default function Home() {
       />
 
       {marineScreen === "map" && (
-        <NauticalMapScreen context={nauticalContext} marineData={marineData} onSelectPort={handleSelectPort} />
+        <NauticalMapScreen
+          context={nauticalContext}
+          marineData={marineData}
+          onChoosePort={handleChoosePort}
+          onListenToBosco={handleListenToBosco}
+        />
       )}
 
       {marineScreen === "square" && (
@@ -1832,6 +1870,8 @@ export default function Home() {
           context={nauticalContext}
           onChangePort={() => navigateMarine("map")}
           initialTab={narrativeVisit?.phase === "emile" ? "emile" : undefined}
+          initialContentId={narrativeVisit?.phase === "emile" ? narrativeVisit.emileStory?.contentId : undefined}
+          narrativeSourceTitle={narrativeVisit?.phase === "emile" ? narrativeVisit.story?.title : undefined}
           narrativeMode={narrativeVisit?.phase === "emile"}
           onCloseNarrative={closeEmileNotebook}
         />

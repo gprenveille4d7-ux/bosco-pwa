@@ -34,6 +34,8 @@ type Props = {
   onRecordOuting: () => void;
   narrative: V26PortVisit | null;
   onOpenEmile: () => void;
+  onExitStory: () => void;
+  onBackToPort: () => void;
   resetToken: number;
 };
 
@@ -92,6 +94,8 @@ export function BoscoHomeCarousel({
   onRecordOuting,
   narrative,
   onOpenEmile,
+  onExitStory,
+  onBackToPort,
   resetToken,
 }: Props) {
   const viewportRef = useRef<HTMLDivElement>(null);
@@ -328,38 +332,47 @@ export function BoscoHomeCarousel({
             <div className={styles.sceneSurface}>{scene}</div>
           </div>
           {narrative?.phase === "story" ? (
-            <div className={`${styles.boscoMessage} ${styles.narrativeMessage}`}>
-              <div>
-                <span className={styles.eyebrow}>LES VOIX DU LARGE · {narrative.portName.toUpperCase()}</span>
-                <strong>{narrative.story ? "BOSCO RACONTE" : "CHAPITRE EN ATTENTE"}</strong>
-              </div>
+            <section className={styles.storyCard} aria-label={`Histoire de Bosco à ${narrative.portName}`}>
               {narrative.story ? (
-                <div className={styles.narrativeScroll}>
-                  <h1>{narrative.story.title}</h1>
-                  <blockquote>« {narrative.story.text} »</blockquote>
-                  <p className={styles.emileInvitation}>{narrative.invitation}</p>
-                  <button type="button" className={styles.emileButton} onClick={onOpenEmile}>
-                    📖 Voir le carnet d’Émile
-                  </button>
-                </div>
+                <>
+                  <div className={styles.storyMain}>
+                    <header className={styles.storyHeader}>
+                      <div>
+                        <span className={styles.eyebrow}>LES VOIX DU LARGE · {narrative.portName.toUpperCase()}</span>
+                        <strong>Légende {narrative.storyIndex + 1} sur {narrative.storyCount}</strong>
+                      </div>
+                      <button type="button" className={styles.emileShortcut} onClick={onOpenEmile}>
+                        📖 Carnet d’Émile
+                      </button>
+                    </header>
+                    <h1>{narrative.story.title}</h1>
+                    <div className={styles.storyText}>
+                      <p>{narrative.story.text}</p>
+                    </div>
+                  </div>
+                  <aside className={styles.storyAside}>
+                    <span className={styles.eyebrow}>BOSCO AJOUTE</span>
+                    <p>{narrative.invitation}</p>
+                    <button type="button" className={styles.emileButton} onClick={onOpenEmile}>
+                      📖 Ouvrir le carnet d’Émile
+                    </button>
+                    <button type="button" className={styles.storyReturnButton} onClick={onExitStory}>
+                      Retour à l’avis de navigabilité
+                    </button>
+                    <button type="button" className={styles.storyReturnButton} onClick={onBackToPort}>
+                      Retour à la fiche du port
+                    </button>
+                  </aside>
+                </>
               ) : (
-                <div className={styles.narrativeScroll}>
+                <div className={styles.storyMain}>
+                  <span className={styles.eyebrow}>LES VOIX DU LARGE · {narrative.portName.toUpperCase()}</span>
                   <h1>Le récit n’est pas encore arrivé au comptoir</h1>
-                  <blockquote>
-                    « Doucement, matelot. Les dix places sont prêtes pour ce port, mais je ne vais pas
-                    t’inventer une histoire à la va-vite. Reviens quand elle aura trouvé sa voix. »
-                  </blockquote>
+                  <p>Doucement, matelot. Les places sont prêtes pour ce port, mais je ne vais pas t’inventer une histoire à la va-vite.</p>
+                  <button type="button" className={styles.storyReturnButton} onClick={onExitStory}>Retour à l’avis de navigabilité</button>
                 </div>
               )}
-            </div>
-          ) : narrative?.phase === "closing" ? (
-            <div className={styles.boscoMessage}>
-              <div>
-                <span className={styles.eyebrow}>APRÈS LE CARNET</span>
-                <strong>{narrative.portName}</strong>
-              </div>
-              <blockquote>« {narrative.closingLine} »</blockquote>
-            </div>
+            </section>
           ) : (
             <div className={styles.boscoMessage}>
               <div>
