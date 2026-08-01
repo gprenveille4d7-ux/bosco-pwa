@@ -1,4 +1,7 @@
+import { MONT_SAINT_MICHEL_V27_CONTENTS } from "@/data/mont-saint-michel-v27";
+
 export type SquareAuthor = "bosco" | "emile" | "sailorCorner" | "carnetSystem";
+export type NarrativeCategory = "fiction" | "real";
 export type SquareContentType =
   | "boscoStory"
   | "emileHistory"
@@ -31,6 +34,7 @@ export type SquareContent = {
   publicationStatus: "published" | "hidden" | "archived";
   priority: number;
   offlineAvailable: true;
+  narrativeCategory?: NarrativeCategory;
   version: number;
 };
 
@@ -43,6 +47,7 @@ const OPEN_METEO_SOURCE: EditorialSource = {
 };
 
 export const SQUARE_CONTENTS: readonly SquareContent[] = [
+  ...MONT_SAINT_MICHEL_V27_CONTENTS,
   {
     contentId: "jullouville-bosco-depart-01",
     portId: "jullouville",
@@ -120,9 +125,10 @@ export const SQUARE_CONTENTS: readonly SquareContent[] = [
     sources: [{ sourceId: "ot-mont-musee-maritime", title: "Musée Maritime", organisation: "Destination Mont Saint-Michel – Normandie", url: "https://www.ot-montsaintmichel.com/patrimoine-culturel/musee-maritime/", accessedAt: "2026-08-01" }],
     verifiedAt: "2026-08-01",
     reliability: "documented",
-    publicationStatus: "published",
+    publicationStatus: "archived",
     priority: 10,
     offlineAvailable: true,
+    narrativeCategory: "real",
     version: 1,
   },
 ] as const;
@@ -130,5 +136,25 @@ export const SQUARE_CONTENTS: readonly SquareContent[] = [
 export function selectSquareContents(portId: string, authorType: SquareAuthor): SquareContent[] {
   return SQUARE_CONTENTS.filter(
     (content) => content.portId === portId && content.authorType === authorType && content.publicationStatus === "published",
+  ).sort((a, b) => b.priority - a.priority || a.contentId.localeCompare(b.contentId));
+}
+
+export function narrativeCategoryForContent(content: SquareContent): NarrativeCategory | null {
+  if (content.narrativeCategory) return content.narrativeCategory;
+  if (content.authorType === "bosco") return "fiction";
+  if (content.authorType === "emile") return "real";
+  return null;
+}
+
+export function selectNarrativeContents(
+  portId: string,
+  category: NarrativeCategory,
+): SquareContent[] {
+  return SQUARE_CONTENTS.filter(
+    (content) =>
+      content.portId === portId &&
+      content.publicationStatus === "published" &&
+      narrativeCategoryForContent(content) === category &&
+      (category === "fiction" ? content.authorType === "bosco" : content.authorType === "emile"),
   ).sort((a, b) => b.priority - a.priority || a.contentId.localeCompare(b.contentId));
 }
