@@ -28,15 +28,30 @@ test("le parcours garde le même port de Bosco à Émile puis au retour", () => 
   assert.ok(closing.closingLine.length > 10);
 });
 
-test("la sélection Carte revient chez Bosco et le carnet s’ouvre sur Émile", () => {
+test("la carte sépare le choix de port du lancement volontaire et le carnet revient au récit", () => {
   const page = read("app/page.tsx");
   const carousel = read("components/BoscoHomeCarousel.tsx");
   const square = read("components/SquareScreen.tsx");
   const navigation = read("lib/marine-navigation.ts");
-  assert.match(page, /handleSelectPort[\s\S]*createV26PortVisit[\s\S]*navigateMarine\(null\)/);
+  assert.match(page, /type BoscoMode = "navigation" \| "story"/);
+  assert.match(page, /handleChoosePort[\s\S]*setBoscoMode\("navigation"\)[\s\S]*navigateMarine\(null\)/);
+  assert.match(page, /handleListenToBosco[\s\S]*createV26PortVisit[\s\S]*setBoscoMode\("story"\)/);
   assert.match(page, /initialTab=\{narrativeVisit\?\.phase === "emile" \? "emile"/);
-  assert.match(carousel, /📖 Voir le carnet d’Émile/);
-  assert.match(square, /Refermer le carnet et retrouver Bosco/);
+  assert.match(carousel, /📖 Ouvrir le carnet d’Émile/);
+  assert.match(square, /Retour aux histoires de Bosco/);
   assert.match(navigation, /selectPrimary/);
-  assert.match(page, /selectPrimary\(null, \(\) => setHomeResetToken/);
+  assert.match(page, /selectBoscoTab[\s\S]*setBoscoMode\("navigation"\)[\s\S]*selectPrimary\(null/);
+});
+
+test("le récit conserve la taille normale de la scène et propose tous les retours", () => {
+  const carousel = read("components/BoscoHomeCarousel.tsx");
+  const css = read("components/BoscoHomeCarousel.module.css");
+  assert.match(carousel, /Légende \{narrative\.storyIndex \+ 1\} sur \{narrative\.storyCount\}/);
+  assert.match(carousel, /BOSCO AJOUTE/);
+  assert.match(carousel, /Retour à l’avis de navigabilité/);
+  assert.match(carousel, /Retour à la fiche du port/);
+  assert.match(css, /--bosco-scene-height/);
+  assert.match(css, /\.boscoSlide\[data-narrative="true"\] \.sceneFrame[\s\S]*flex:\s*0 0 var\(--bosco-scene-height\)/);
+  assert.doesNotMatch(css, /\.boscoSlide\[data-narrative="true"\]\s*\{[^}]*--bosco-message-height/);
+  assert.match(css, /\.storyCard[\s\S]*grid-template-columns:\s*minmax\(0, 2\.2fr\)/);
 });
