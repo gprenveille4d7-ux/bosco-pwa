@@ -1,17 +1,19 @@
 # Bosco — Le Tourbillon
 
-Copie autonome de la version publiée **v26** de **Bosco vivant**, préparée le 1er août 2026 depuis le site ChatGPT Sites.
+Version **v27** de Bosco vivant, adaptée à GitHub Pages et consultable sur iPhone.
 
-Le dépôt contient la page HTML, les styles, les scripts, les polices, l’image principale, le manifeste PWA et le service worker nécessaires au fonctionnement de la version publiée.
+Cette publication conserve l’application optimisée v26 et réintègre les ressources manquantes de l’archive source complète v22 : poses, calques de mains et de doigts, métadonnées, manifeste des 40 décors, références et livrables.
+
+Adresse publique : <https://gprenveille4d7-ux.github.io/bosco-pwa/>
 
 ## Lancer localement
 
-Servez le dossier avec un serveur HTTP statique, par exemple :
+Servez le dossier parent afin de conserver le préfixe `/bosco-pwa/` :
 
 ```bash
 python -m http.server 8080
 ```
 
-Puis ouvrez `http://localhost:8080`.
+Puis ouvrez `http://localhost:8080/bosco-pwa/`.
 
-> Le fichier `index.html` et les ressources de `assets/` correspondent aux artefacts optimisés du déploiement Sites, et non aux sources React originales.
+Les fichiers HTML, CSS et JavaScript sont les artefacts optimisés de l’application publiée. Le détail du pont de ressources se trouve dans `V27-BRIDGE.md`.

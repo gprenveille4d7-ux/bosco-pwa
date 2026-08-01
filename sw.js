@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v26-github-pages-2";
+const CACHE_NAME = "bosco-pwa-v27-github-pages-1";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
