@@ -1,0 +1,261 @@
+{
+  "version": "bosco-step6b-v1",
+  "matrix": {
+    "times": [
+      "morning",
+      "day",
+      "evening",
+      "night"
+    ],
+    "weatherFamilies": [
+      "clear",
+      "mainly-clear",
+      "partly-cloudy",
+      "overcast",
+      "fog",
+      "drizzle",
+      "rain",
+      "heavy-rain",
+      "snow",
+      "storm"
+    ],
+    "count": 40
+  },
+  "wmo": {
+    "0": "clear",
+    "1": "mainly-clear",
+    "2": "partly-cloudy",
+    "3": "overcast",
+    "45": "fog",
+    "48": "fog",
+    "51": "drizzle",
+    "53": "drizzle",
+    "56": "drizzle",
+    "55": "rain",
+    "57": "rain",
+    "61": "rain",
+    "63": "rain",
+    "66": "rain",
+    "80": "rain",
+    "81": "rain",
+    "65": "heavy-rain",
+    "67": "heavy-rain",
+    "82": "heavy-rain",
+    "71": "snow",
+    "73": "snow",
+    "75": "snow",
+    "77": "snow",
+    "85": "snow",
+    "86": "snow",
+    "95": "storm",
+    "96": "storm",
+    "99": "storm"
+  },
+  "fallbackPrecipitationMmH": {
+    "drizzle": "> 0 and < 1",
+    "rain": ">= 1 and < 5",
+    "heavy-rain": ">= 5"
+  },
+  "assets": {
+    "morning/clear": {
+      "asset": "/assets/bosco/decors/morning/clear.webp",
+      "bytes": 315010,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/mainly-clear": {
+      "asset": "/assets/bosco/decors/morning/mainly-clear.webp",
+      "bytes": 338684,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/partly-cloudy": {
+      "asset": "/assets/bosco/decors/morning/partly-cloudy.webp",
+      "bytes": 253412,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/overcast": {
+      "asset": "/assets/bosco/decors/morning/overcast.webp",
+      "bytes": 258342,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/fog": {
+      "asset": "/assets/bosco/decors/morning/fog.webp",
+      "bytes": 238510,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/drizzle": {
+      "asset": "/assets/bosco/decors/morning/drizzle.webp",
+      "bytes": 206124,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/rain": {
+      "asset": "/assets/bosco/decors/morning/rain.webp",
+      "bytes": 252128,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/heavy-rain": {
+      "asset": "/assets/bosco/decors/morning/heavy-rain.webp",
+      "bytes": 263758,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/snow": {
+      "asset": "/assets/bosco/decors/morning/snow.webp",
+      "bytes": 229536,
+      "source_dimensions": "1536x1536"
+    },
+    "morning/storm": {
+      "asset": "/assets/bosco/decors/morning/storm.webp",
+      "bytes": 207454,
+      "source_dimensions": "1536x1536"
+    },
+    "day/clear": {
+      "asset": "/assets/bosco/decors/day/clear.webp",
+      "bytes": 224108,
+      "source_dimensions": "1536x1536"
+    },
+    "day/mainly-clear": {
+      "asset": "/assets/bosco/decors/day/mainly-clear.webp",
+      "bytes": 232392,
+      "source_dimensions": "1536x1536"
+    },
+    "day/partly-cloudy": {
+      "asset": "/assets/bosco/decors/day/partly-cloudy.webp",
+      "bytes": 229210,
+      "source_dimensions": "1536x1536"
+    },
+    "day/overcast": {
+      "asset": "/assets/bosco/decors/day/overcast.webp",
+      "bytes": 238888,
+      "source_dimensions": "1536x1536"
+    },
+    "day/fog": {
+      "asset": "/assets/bosco/decors/day/fog.webp",
+      "bytes": 198166,
+      "source_dimensions": "1536x1536"
+    },
+    "day/drizzle": {
+      "asset": "/assets/bosco/decors/day/drizzle.webp",
+      "bytes": 199242,
+      "source_dimensions": "1536x1536"
+    },
+    "day/rain": {
+      "asset": "/assets/bosco/decors/day/rain.webp",
+      "bytes": 226528,
+      "source_dimensions": "1536x1536"
+    },
+    "day/heavy-rain": {
+      "asset": "/assets/bosco/decors/day/heavy-rain.webp",
+      "bytes": 285848,
+      "source_dimensions": "1536x1536"
+    },
+    "day/snow": {
+      "asset": "/assets/bosco/decors/day/snow.webp",
+      "bytes": 237356,
+      "source_dimensions": "1536x1536"
+    },
+    "day/storm": {
+      "asset": "/assets/bosco/decors/day/storm.webp",
+      "bytes": 219286,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/clear": {
+      "asset": "/assets/bosco/decors/evening/clear.webp",
+      "bytes": 251302,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/mainly-clear": {
+      "asset": "/assets/bosco/decors/evening/mainly-clear.webp",
+      "bytes": 232316,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/partly-cloudy": {
+      "asset": "/assets/bosco/decors/evening/partly-cloudy.webp",
+      "bytes": 299998,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/overcast": {
+      "asset": "/assets/bosco/decors/evening/overcast.webp",
+      "bytes": 210898,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/fog": {
+      "asset": "/assets/bosco/decors/evening/fog.webp",
+      "bytes": 174308,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/drizzle": {
+      "asset": "/assets/bosco/decors/evening/drizzle.webp",
+      "bytes": 231690,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/rain": {
+      "asset": "/assets/bosco/decors/evening/rain.webp",
+      "bytes": 248802,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/heavy-rain": {
+      "asset": "/assets/bosco/decors/evening/heavy-rain.webp",
+      "bytes": 287590,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/snow": {
+      "asset": "/assets/bosco/decors/evening/snow.webp",
+      "bytes": 192482,
+      "source_dimensions": "1536x1536"
+    },
+    "evening/storm": {
+      "asset": "/assets/bosco/decors/evening/storm.webp",
+      "bytes": 284752,
+      "source_dimensions": "1536x1536"
+    },
+    "night/clear": {
+      "asset": "/assets/bosco/decors/night/clear.webp",
+      "bytes": 302962,
+      "source_dimensions": "1536x1536"
+    },
+    "night/mainly-clear": {
+      "asset": "/assets/bosco/decors/night/mainly-clear.webp",
+      "bytes": 286342,
+      "source_dimensions": "1536x1536"
+    },
+    "night/partly-cloudy": {
+      "asset": "/assets/bosco/decors/night/partly-cloudy.webp",
+      "bytes": 255540,
+      "source_dimensions": "1536x1536"
+    },
+    "night/overcast": {
+      "asset": "/assets/bosco/decors/night/overcast.webp",
+      "bytes": 182994,
+      "source_dimensions": "1536x1536"
+    },
+    "night/fog": {
+      "asset": "/assets/bosco/decors/night/fog.webp",
+      "bytes": 246000,
+      "source_dimensions": "1536x1536"
+    },
+    "night/drizzle": {
+      "asset": "/assets/bosco/decors/night/drizzle.webp",
+      "bytes": 207034,
+      "source_dimensions": "1536x1536"
+    },
+    "night/rain": {
+      "asset": "/assets/bosco/decors/night/rain.webp",
+      "bytes": 268564,
+      "source_dimensions": "1536x1536"
+    },
+    "night/heavy-rain": {
+      "asset": "/assets/bosco/decors/night/heavy-rain.webp",
+      "bytes": 318342,
+      "source_dimensions": "1536x1536"
+    },
+    "night/snow": {
+      "asset": "/assets/bosco/decors/night/snow.webp",
+      "bytes": 292170,
+      "source_dimensions": "1536x1536"
+    },
+    "night/storm": {
+      "asset": "/assets/bosco/decors/night/storm.webp",
+      "bytes": 317064,
+      "source_dimensions": "1536x1536"
+    }
+  }
+}
