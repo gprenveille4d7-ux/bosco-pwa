@@ -1,6 +1,6 @@
 # Bosco — Le Tourbillon
 
-Copie autonome de la version publiée de **Bosco vivant**, préparée le 1er août 2026 depuis le site ChatGPT Sites.
+Copie autonome de la version publiée **v26** de **Bosco vivant**, préparée le 1er août 2026 depuis le site ChatGPT Sites.
 
 Le dépôt contient la page HTML, les styles, les scripts, les polices, l’image principale, le manifeste PWA et le service worker nécessaires au fonctionnement de la version publiée.
 
