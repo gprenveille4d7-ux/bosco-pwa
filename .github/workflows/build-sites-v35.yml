@@ -1,0 +1,39 @@
+name: Build Bosco Sites v35
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-v35:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out imported v35 source
+        uses: actions/checkout@v4
+        with:
+          ref: sites-v35-source
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build verified v35 application
+        run: npm run build
+
+      - name: Package browser build
+        uses: actions/upload-artifact@v4
+        with:
+          name: bosco-v35-build
+          path: |
+            dist/client
+            dist/server/index.js
+            public
+          if-no-files-found: error
+          retention-days: 1
