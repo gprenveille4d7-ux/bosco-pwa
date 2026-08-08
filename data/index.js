@@ -7,12 +7,20 @@ dans histoiresBoscoParPort et histoiresEmileParPort. Le moteur principal ne doit
 
 import { histoiresBoscoMontSaintMichel } from "./histoires-bosco/mont-saint-michel.js";
 import { histoiresBoscoJullouville } from "./histoires-bosco/jullouville.js";
+
 import { histoiresEmileMontSaintMichel } from "./carnet-emile/mont-saint-michel.js";
 import { histoiresEmileGranville } from "./carnet-emile/granville.js";
 import { histoiresEmileCherbourg } from "./carnet-emile/cherbourg.js";
+import { histoiresEmileGenets } from "./carnet-emile/genets.js";
+
 import { conseilsMarinJullouville } from "./coin-du-marin/jullouville.js";
 
-export { accueilBosco, conclusionsHistoiresBosco, dialoguesGenerauxBosco, invitationsCarnetEmile } from "./dialogues-bosco.js";
+export {
+  accueilBosco,
+  conclusionsHistoiresBosco,
+  dialoguesGenerauxBosco,
+  invitationsCarnetEmile,
+} from "./dialogues-bosco.js";
 
 export const histoiresBoscoParPort = Object.freeze({
   "mont-saint-michel": histoiresBoscoMontSaintMichel,
@@ -23,6 +31,7 @@ export const histoiresEmileParPort = Object.freeze({
   "mont-saint-michel": histoiresEmileMontSaintMichel,
   granville: histoiresEmileGranville,
   cherbourg: histoiresEmileCherbourg,
+  genets: histoiresEmileGenets,
 });
 
 export const contenusCoinDuMarinParPort = Object.freeze({
