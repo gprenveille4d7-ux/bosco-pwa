@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-7";
+const CACHE_NAME = "bosco-pwa-v28-stories-8";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -6,9 +6,11 @@ const CORE_ASSETS = [
   "/bosco-pwa/assets/page-B7dK8B51.css",
   "/bosco-pwa/assets/standalone-v27.js",
   "/bosco-pwa/assets/standalone-v28.js",
+  "/bosco-pwa/assets/standalone-v28-8.js",
   "/bosco-pwa/assets/framework-CXnKph_e.js",
   "/bosco-pwa/assets/rolldown-runtime-S-ySWqyJ.js",
   "/bosco-pwa/assets/page-DP0zD7P0.js",
+  "/bosco-pwa/assets/maritime-route-v28.js",
   "/bosco-pwa/assets/stories-v28.js",
   "/bosco-pwa/assets/stories-v28.css",
   "/bosco-pwa/assets/bosco/stories/tourbillon-lamp-v28.mp4",
@@ -37,7 +39,11 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(
+    caches.keys()
+      .then((names) => Promise.all(names.filter((name) => name.startsWith("bosco-pwa-") && name !== CACHE_NAME).map((name) => caches.delete(name))))
+      .then(() => self.clients.claim())
+  );
 });
 
 async function cachedRangeResponse(request) {
@@ -108,4 +114,3 @@ self.addEventListener("fetch", (event) => {
     );
   }
 });
-
