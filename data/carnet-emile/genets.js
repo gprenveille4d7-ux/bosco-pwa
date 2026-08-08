@@ -1,3 +1,16 @@
+/*
+CARNET D’ÉMILE — Genêts
+
+Ce fichier contient uniquement les récits historiques / réels du Carnet d’Émile.
+
+Pour ajouter une histoire :
+1. Copier un bloc existant.
+2. Modifier id et contentId.
+3. Modifier title.
+4. Modifier text.
+5. Ne pas modifier la structure générale.
+*/
+
 export const histoiresEmileGenets = [
   {
     id: "genets-emile-001",
