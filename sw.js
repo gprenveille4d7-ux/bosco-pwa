@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-8";
+const CACHE_NAME = "bosco-pwa-v28-stories-9";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -7,10 +7,19 @@ const CORE_ASSETS = [
   "/bosco-pwa/assets/standalone-v27.js",
   "/bosco-pwa/assets/standalone-v28.js",
   "/bosco-pwa/assets/standalone-v28-8.js",
+  "/bosco-pwa/assets/standalone-v28-9.js",
   "/bosco-pwa/assets/framework-CXnKph_e.js",
   "/bosco-pwa/assets/rolldown-runtime-S-ySWqyJ.js",
   "/bosco-pwa/assets/page-DP0zD7P0.js",
   "/bosco-pwa/assets/maritime-route-v28.js",
+  "/bosco-pwa/data/index.js",
+  "/bosco-pwa/data/dialogues-bosco.js",
+  "/bosco-pwa/data/histoires-bosco/mont-saint-michel.js",
+  "/bosco-pwa/data/histoires-bosco/jullouville.js",
+  "/bosco-pwa/data/carnet-emile/mont-saint-michel.js",
+  "/bosco-pwa/data/carnet-emile/granville.js",
+  "/bosco-pwa/data/carnet-emile/cherbourg.js",
+  "/bosco-pwa/data/coin-du-marin/jullouville.js",
   "/bosco-pwa/assets/stories-v28.js",
   "/bosco-pwa/assets/stories-v28.css",
   "/bosco-pwa/assets/bosco/stories/tourbillon-lamp-v28.mp4",
@@ -105,7 +114,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname.startsWith("/bosco-pwa/assets/") || url.pathname.endsWith(".webmanifest")) {
+  if (url.pathname.startsWith("/bosco-pwa/assets/") || url.pathname.startsWith("/bosco-pwa/data/") || url.pathname.endsWith(".webmanifest")) {
     event.respondWith(
       caches.open(CACHE_NAME).then((cache) => cache.match(request, { ignoreSearch: true })).then((cached) => cached ?? fetch(request).then((response) => {
         if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
