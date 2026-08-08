@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v27-mont-saint-michel-1";
+const CACHE_NAME = "bosco-pwa-v28-stories-5";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -8,6 +8,10 @@ const CORE_ASSETS = [
   "/bosco-pwa/assets/framework-CXnKph_e.js",
   "/bosco-pwa/assets/rolldown-runtime-S-ySWqyJ.js",
   "/bosco-pwa/assets/page-DP0zD7P0.js",
+  "/bosco-pwa/assets/stories-v28.js",
+  "/bosco-pwa/assets/stories-v28.css",
+  "/bosco-pwa/assets/bosco/stories/tourbillon-lamp-v28.mp4",
+  "/bosco-pwa/assets/bosco/stories/tourbillon-lamp-v28-poster.png",
   "/bosco-pwa/assets/bosco/master.webp",
   "/bosco-pwa/assets/bosco/compositing/masks/occlusion-canonical-step9-v4.png",
   "/bosco-pwa/assets/bosco/compositing/objects/polders-cup-step9-v4.png",
@@ -32,12 +36,36 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    caches.keys()
-      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
-      .then(() => self.clients.claim())
-  );
+  event.waitUntil(self.clients.claim());
 });
+
+async function cachedRangeResponse(request) {
+  const cached = await caches.match(request.url, { ignoreSearch: true });
+  if (!cached) return null;
+  const range = request.headers.get("range");
+  if (!range) return cached;
+  const match = /^bytes=(\d+)-(\d*)$/i.exec(range);
+  if (!match) return cached;
+  const bytes = await cached.arrayBuffer();
+  const start = Number(match[1]);
+  const requestedEnd = match[2] ? Number(match[2]) : bytes.byteLength - 1;
+  const end = Math.min(requestedEnd, bytes.byteLength - 1);
+  if (start > end || start >= bytes.byteLength) {
+    return new Response(null, {
+      status: 416,
+      headers: { "Content-Range": `bytes */${bytes.byteLength}` },
+    });
+  }
+  return new Response(bytes.slice(start, end + 1), {
+    status: 206,
+    headers: {
+      "Accept-Ranges": "bytes",
+      "Content-Length": String(end - start + 1),
+      "Content-Range": `bytes ${start}-${end}/${bytes.byteLength}`,
+      "Content-Type": cached.headers.get("Content-Type") || "video/mp4",
+    },
+  });
+}
 
 self.addEventListener("fetch", (event) => {
   const request = event.request;
@@ -57,9 +85,21 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  if (url.pathname.endsWith("tourbillon-lamp-v28.mp4")) {
+    event.respondWith(
+      cachedRangeResponse(request).then((cached) => cached || fetch(request).then((response) => {
+        if (response.ok && response.status === 200) {
+          caches.open(CACHE_NAME).then((cache) => cache.put(request.url, response.clone()));
+        }
+        return response;
+      }))
+    );
+    return;
+  }
+
   if (url.pathname.startsWith("/bosco-pwa/assets/") || url.pathname.endsWith(".webmanifest")) {
     event.respondWith(
-      caches.match(request).then((cached) => cached ?? fetch(request).then((response) => {
+      caches.match(request, { ignoreSearch: true }).then((cached) => cached ?? fetch(request).then((response) => {
         if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
         return response;
       }))
