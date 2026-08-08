@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-9-3";
+const CACHE_NAME = "bosco-pwa-v28-stories-9-4";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -24,6 +24,7 @@ const CORE_ASSETS = [
   "/bosco-pwa/data/carnet-emile/genets.js",
   "/bosco-pwa/data/carnet-emile/carolles.js",
   "/bosco-pwa/data/carnet-emile/jullouville.js",
+  "/bosco-pwa/data/carnet-emile/saint-pair.js",
   "/bosco-pwa/data/coin-du-marin/jullouville.js",
   "/bosco-pwa/assets/stories-v28.js",
   "/bosco-pwa/assets/stories-v28.css",
