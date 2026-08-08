@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-9-4";
+const CACHE_NAME = "bosco-pwa-v28-stories-9-3";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -10,6 +10,7 @@ const CORE_ASSETS = [
   "/bosco-pwa/assets/standalone-v28-9.js",
   "/bosco-pwa/assets/standalone-v28-9-1.js",
   "/bosco-pwa/assets/standalone-v28-9-2.js",
+  "/bosco-pwa/assets/standalone-v28-9-3.js",
   "/bosco-pwa/assets/framework-CXnKph_e.js",
   "/bosco-pwa/assets/rolldown-runtime-S-ySWqyJ.js",
   "/bosco-pwa/assets/page-DP0zD7P0.js",
@@ -21,10 +22,6 @@ const CORE_ASSETS = [
   "/bosco-pwa/data/carnet-emile/mont-saint-michel.js",
   "/bosco-pwa/data/carnet-emile/granville.js",
   "/bosco-pwa/data/carnet-emile/cherbourg.js",
-  "/bosco-pwa/data/carnet-emile/genets.js",
-  "/bosco-pwa/data/carnet-emile/carolles.js",
-  "/bosco-pwa/data/carnet-emile/jullouville.js",
-  "/bosco-pwa/data/carnet-emile/saint-pair.js",
   "/bosco-pwa/data/coin-du-marin/jullouville.js",
   "/bosco-pwa/assets/stories-v28.js",
   "/bosco-pwa/assets/stories-v28.css",
