@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-5";
+const CACHE_NAME = "bosco-pwa-v28-stories-6";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -40,7 +40,8 @@ self.addEventListener("activate", (event) => {
 });
 
 async function cachedRangeResponse(request) {
-  const cached = await caches.match(request.url, { ignoreSearch: true });
+  const cache = await caches.open(CACHE_NAME);
+  const cached = await cache.match(request.url, { ignoreSearch: true });
   if (!cached) return null;
   const range = request.headers.get("range");
   if (!range) return cached;
@@ -80,7 +81,7 @@ self.addEventListener("fetch", (event) => {
           if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put("/bosco-pwa/", response.clone()));
           return response;
         })
-        .catch(() => caches.match("/bosco-pwa/"))
+        .catch(() => caches.open(CACHE_NAME).then((cache) => cache.match("/bosco-pwa/")))
     );
     return;
   }
@@ -99,7 +100,7 @@ self.addEventListener("fetch", (event) => {
 
   if (url.pathname.startsWith("/bosco-pwa/assets/") || url.pathname.endsWith(".webmanifest")) {
     event.respondWith(
-      caches.match(request, { ignoreSearch: true }).then((cached) => cached ?? fetch(request).then((response) => {
+      caches.open(CACHE_NAME).then((cache) => cache.match(request, { ignoreSearch: true })).then((cached) => cached ?? fetch(request).then((response) => {
         if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
         return response;
       }))

@@ -10,7 +10,7 @@ try {
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/bosco-pwa/sw.js?v=28.5");
+      navigator.serviceWorker.register("/bosco-pwa/sw.js?v=28.6");
     });
   }
 } catch (error) {
