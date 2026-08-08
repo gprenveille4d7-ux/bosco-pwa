@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-stories-9-5";
+const CACHE_NAME = "bosco-pwa-v28-stories-9-6";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -23,6 +23,7 @@ const CORE_ASSETS = [
   "/bosco-pwa/data/carnet-emile/granville.js",
   "/bosco-pwa/data/carnet-emile/cherbourg.js",
   "/bosco-pwa/data/coin-du-marin/jullouville.js",
+  "/bosco-pwa/data/carnet-emile/herel.js",
   "/bosco-pwa/assets/stories-v28.js",
   "/bosco-pwa/assets/stories-v28.css",
   "/bosco-pwa/assets/bosco/stories/tourbillon-lamp-v28.mp4",
