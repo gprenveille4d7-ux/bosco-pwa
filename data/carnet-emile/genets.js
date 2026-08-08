@@ -1,4 +1,4 @@
-export const carnetEmileGenets = [
+export const histoiresEmileGenets = [
   {
     id: "genets-emile-001",
     contentId: "genets-real-01",
