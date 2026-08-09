@@ -23,7 +23,7 @@ import { histoiresEmileRegneville } from "./carnet-emile/regneville.js";
 import { histoiresEmileAgonCoutainville } from "./carnet-emile/agon-coutainville.js";
 import { histoiresEmileBlainville } from "./carnet-emile/blainville.js";
 import { histoiresEmileGouville } from "./carnet-emile/gouville.js";
-
+import { histoiresEmilePirou } from "./carnet-emile/pirou.js";
 
 
 import { conseilsMarinJullouville } from "./coin-du-marin/jullouville.js";
@@ -56,6 +56,7 @@ export const histoiresEmileParPort = Object.freeze({
   "agon-coutainville": histoiresEmileAgonCoutainville,
   "blainville": histoiresEmileBlainville,
   "gouville": histoiresEmileGouville,
+  "pirou": histoiresEmilePirou,
 });
 
 export const contenusCoinDuMarinParPort = Object.freeze({
