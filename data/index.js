@@ -34,11 +34,7 @@ import { histoiresEmileBarfleur } from "./carnet-emile/barfleur.js";
 import { histoiresEmileSaintVaast } from "./carnet-emile/saint-vaast.js";
 import { histoiresEmileQuineville } from "./carnet-emile/quineville.js";
 import { histoiresEmileUtahBeach } from "./carnet-emile/utah-beach.js";
-
-
-
-
-
+import { histoiresEmileCarentan } from "./carnet-emile/carentan.js";
 
 import { conseilsMarinJullouville } from "./coin-du-marin/jullouville.js";
 
