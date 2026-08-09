@@ -35,6 +35,6 @@ test("la sous-navigation du CarrÃ© est restaurÃ©e sans duplication", () => {
 test("la nouvelle feuille est chargÃ©e et prÃ©cachÃ©e", () => {
   assert.match(index, /ui-navigation-v28-14\.css\?v=28\.14\.0/);
   assert.match(sw, /ui-navigation-v28-14\.css/);
-  assert.match(sw, /bosco-pwa-v28-gemini-3\.6/);
+  assert.match(sw, /bosco-pwa-v28-gemini-3\.7/);
 });
 
