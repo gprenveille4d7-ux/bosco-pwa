@@ -1,5 +1,5 @@
 const ENDPOINT = "https://bosco-vivant.able-hake-4182.chatgpt.site/api/bosco-dialogue";
-const TIMEOUT_MS = 3800;
+const TIMEOUT_MS = 5500;
 const MAX_RESPONSE_CHARS = 850;
 const cache = new Map();
 const inFlight = new Map();
