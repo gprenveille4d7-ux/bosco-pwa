@@ -79,6 +79,7 @@ export const histoiresEmileParPort = Object.freeze({
   "tatihou": histoiresEmileSaintVaast,
   "quineville": histoiresEmileQuineville,
   "utah-beach": histoiresEmileUtahBeach,
+  "carentan": histoiresEmileCarentan,
 });
 
 export const contenusCoinDuMarinParPort = Object.freeze({
