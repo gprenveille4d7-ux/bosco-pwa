@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-gemini-1";
+const CACHE_NAME = "bosco-pwa-v28-gemini-2";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
