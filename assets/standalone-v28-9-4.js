@@ -25,9 +25,9 @@ try {
     const activeLabel = document.querySelector(
       'nav[aria-label="Navigation principale"] button[aria-current="page"]',
     )?.textContent?.trim();
-    const nextScrollRoot = activeLabel === "Conditions" || activeLabel === "MarÃ©es"
+    const nextScrollRoot = activeLabel === "Conditions" || activeLabel === "Mar\u00e9es"
       ? document.querySelector("._scrollArea_10jw9_19")
-      : activeLabel === "Le CarrÃ©"
+      : activeLabel === "Le Carr\u00e9"
         ? document.querySelector("._scroll_skgo3_12")
         : null;
 
@@ -55,12 +55,12 @@ try {
       const hint = document.createElement("div");
       hint.className = "bosco-scroll-hint";
       hint.setAttribute("aria-hidden", "true");
-      hint.innerHTML = "<span>âŒ„</span>";
+      hint.innerHTML = "<span>&#x2304;</span>";
       primary.before(hint);
     }
 
-    const contextual = document.querySelector('nav[aria-label="Sections du CarrÃ©"]');
-    const library = document.querySelector('[aria-label="Ã‰tat de la bibliothÃ¨que narrative"]');
+    const contextual = document.querySelector('nav[aria-label="Sections du Carr\u00e9"]');
+    const library = document.querySelector('[aria-label="\u00c9tat de la biblioth\u00e8que narrative"]');
     if (contextual && library && contextual.nextElementSibling !== library) {
       library.before(contextual);
     }
