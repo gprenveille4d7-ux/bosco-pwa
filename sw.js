@@ -1,4 +1,4 @@
-const CACHE_NAME = "bosco-pwa-v28-gemini-3.9";
+const CACHE_NAME = "bosco-pwa-v28-gemini-4.0";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
@@ -30,7 +30,7 @@ const CORE_ASSETS = [
   "/bosco-pwa/data/carnet-emile/hauteville.js",
   "/bosco-pwa/data/carnet-emile/regneville.js",
   "/bosco-pwa/data/carnet-emile/agon-coutainville.js",
-
+  "/bosco-pwa/data/carnet-emile/blainville.js",
 
 
 
