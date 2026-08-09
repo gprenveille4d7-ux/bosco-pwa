@@ -39,7 +39,7 @@ const CORE_ASSETS = [
   "/bosco-pwa/data/carnet-emile/dielette.js",
   "/bosco-pwa/data/carnet-emile/goury.js",
   "/bosco-pwa/data/carnet-emile/fermanville.js",
-
+  "/bosco-pwa/data/carnet-emile/barfleur.js",
 
 
 
