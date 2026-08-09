@@ -59,7 +59,7 @@ export function isBoscoGeneratedParagraphValid(text, context) {
   return !refusal.test(value);
 }
 
-export async function requestBoscoGeneratedDialogue(result, input, profile, timeOfDay, safetyPriority) {
+export async function requestBoscoGeneratedDialogue(result, input, profile, timeOfDay, safetyPriority, timeoutMs = TIMEOUT_MS) {
   if (!input.connection.online || input.data.status !== "complete" || navigator.onLine === false) return null;
   const context = buildBoscoGenerativeContext(result, input, profile, timeOfDay, safetyPriority);
   const cached = cache.get(context.fingerprint);
@@ -67,7 +67,7 @@ export async function requestBoscoGeneratedDialogue(result, input, profile, time
   const pending = inFlight.get(context.fingerprint);
   if (pending) return pending;
   const controller = new AbortController();
-  const timeout = window.setTimeout(() => controller.abort(), TIMEOUT_MS);
+  const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
   const request = (async () => {
     try {
       const response = await fetch(ENDPOINT, {
