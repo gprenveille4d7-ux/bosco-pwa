@@ -20,6 +20,6 @@ test("standalone layout keeps the largest available viewport", () => {
 });
 
 test("the new viewport fix refreshes the offline application cache", () => {
-  assert.match(html, /28\.12\.2/);
-  assert.match(sw, /bosco-pwa-v28-gemini-3\.3/);
+  assert.match(html, /28\.12\.3/);
+  assert.match(sw, /bosco-pwa-v28-gemini-3\.4/);
 });

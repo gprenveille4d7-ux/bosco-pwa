@@ -12,6 +12,6 @@ test("la réponse mobile ne recouvre plus la note de navigabilité", () => {
 });
 
 test("le nouveau style est chargé sans reprendre l'ancien cache", () => {
-  assert.match(index, /page-B7dK8B51\.css\?v=28\.12\.2/);
-  assert.match(index, /standalone-v28-9-4\.js\?v=28\.12\.2/);
+  assert.match(index, /page-B7dK8B51\.css\?v=28\.12\.3/);
+  assert.match(index, /standalone-v28-9-4\.js\?v=28\.12\.3/);
 });
