@@ -25,7 +25,7 @@ test("Gemini est tentÃ© au maximum deux fois avec une double vÃ©rification c
 test("le mode hors ligne ne lance aucune requÃªte et le cache publie le nouveau bundle", () => {
   assert.match(page, /if\(!t\.online\)\{await new Promise/);
   assert.match(page, /i\(t\.local\.dialogue,!1\);return/);
-  assert.match(worker, /bosco-pwa-v28-gemini-3\.5/);
+  assert.match(worker, /bosco-pwa-v28-gemini-3\.6/);
   assert.match(worker, /page-GeminiSequence-v29\.js/);
 });
 
