@@ -28,7 +28,7 @@ import { histoiresEmileSaintGermainSurAy } from "./carnet-emile/saint-germain-su
 import { histoiresEmilePortbail } from "./carnet-emile/portbail.js";
 import { histoiresEmileCarteret } from "./carnet-emile/carteret.js";
 import { histoiresEmileDielette } from "./carnet-emile/dielette.js";
-
+import { histoiresEmileGoury } from "./carnet-emile/goury.js";
 
 
 
@@ -75,6 +75,7 @@ export const histoiresEmileParPort = Object.freeze({
   "portbail": histoiresEmilePortbail,
   "carteret": histoiresEmileCarteret,
   "dielette": histoiresEmileDielette,
+  "goury": histoiresEmileGoury,
 });
 
 export const contenusCoinDuMarinParPort = Object.freeze({
