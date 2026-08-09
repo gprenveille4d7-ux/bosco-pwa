@@ -1,9 +1,10 @@
-const CACHE_NAME = "bosco-pwa-v28-gemini-3.4";
+const CACHE_NAME = "bosco-pwa-v28-gemini-3.5";
 const CORE_ASSETS = [
   "/bosco-pwa/",
   "/bosco-pwa/manifest.webmanifest",
   "/bosco-pwa/assets/index-CCACixLy.css",
   "/bosco-pwa/assets/page-B7dK8B51.css",
+  "/bosco-pwa/assets/ui-navigation-v28-13.css",
   "/bosco-pwa/assets/standalone-v27.js",
   "/bosco-pwa/assets/standalone-v28.js",
   "/bosco-pwa/assets/standalone-v28-8.js",
@@ -140,3 +141,4 @@ self.addEventListener("fetch", (event) => {
     );
   }
 });
+
