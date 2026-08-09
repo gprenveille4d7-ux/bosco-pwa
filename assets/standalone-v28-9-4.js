@@ -74,7 +74,7 @@ try {
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/bosco-pwa/sw.js?v=28.14.0");
+      navigator.serviceWorker.register("/bosco-pwa/sw.js?v=28.14.1");
     });
   }
 } catch (error) {
