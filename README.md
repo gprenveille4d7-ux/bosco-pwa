@@ -10,7 +10,7 @@ Adresse publique : <https://gprenveille4d7-ux.github.io/bosco-pwa/>
 
 ## Voix générative de Bosco
 
-La version v28.12 ajoute une reformulation facultative par `gemini-3.6-flash`. Le moteur nautique local reste seul responsable du verdict, du score et de la sécurité. Bosco attend une première réponse Gemini, effectue au maximum une seconde vérification silencieuse, puis affiche une seule réponse finale : Gemini si elle est valide, sinon le dialogue local exact. Hors ligne, aucun appel Gemini n'est tenté. La clé Gemini n'est jamais présente dans cette PWA : elle appartient exclusivement au proxy serveur Sites.
+La version v28.12 ajoute une reformulation facultative par `gemini-3.6-flash`. Le moteur nautique local reste seul responsable du verdict, du score et de la sécurité. Bosco attend une première réponse Gemini, effectue au maximum une seconde vérification silencieuse, puis affiche une seule réponse finale : Gemini si elle est valide, sinon le dialogue local exact. Hors ligne, aucun appel Gemini n'est tenté. La version v28.12.1 réserve davantage de hauteur aux longues réponses sur iPhone et les rend défilables sans recouvrir la note de navigabilité. La clé Gemini n'est jamais présente dans cette PWA : elle appartient exclusivement au proxy serveur Sites.
 
 Les détails de l'architecture et du déploiement se trouvent dans `GEMINI-INTEGRATION.md`.
 
